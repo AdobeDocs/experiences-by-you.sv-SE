@@ -1,0 +1,81 @@
+---
+title: Upplevelser av dig
+description: Lär andra Adobe-kunder om hur de använder Experience Cloud program och funktioner.
+role: User, Developer, Admin, Data Architect
+level: Beginner
+doc-type: overview
+solution: Experience Cloud
+exl-id: a3e976a1-8bf1-4c18-b5b5-831367a7e8a0
+source-git-commit: 10bf432c85cabe2f131aad05da42b5b1c0af467f
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 5%
+
+---
+
+# Experience by You: Resurser per användare, för användare.
+
+Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar? Du. De användare som tar produkterna, fördjupar sig i dem och använder dem på fantastiska, innovativa sätt för att skapa meningsfulla upplevelser och resultat. _Upplevelser av dig_ har innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som har påverkat [!DNL Adobe] DX-lösningar. Denna peer-to-peer-kunskap uppmuntrar till samarbete och upptäckt - vilket gör att du - och andra användare - kan hitta inspiration som behövs för att höja nivån på din produktexpertis.
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
+<div id="staff-picks-section">
+
+## Personalval
+
+<table>
+<tr>
+  <td>
+    <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
+      <img alt="[!DNL Adobe Analytics] Tips och tricks" src="https://video.tv.adobe.com/v/3417736?format=jpeg" />
+    </a>
+    <div>
+      <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
+    <strong>[!DNL Adobe Analytics]</strong>
+    </a>
+    </div>
+    <p>
+    <em>Tips du kan använda i [!DNL Analysis Workspace] för att effektivisera arbetsflödena.</em>
+    <p>
+  </td>
+  <td>
+    <a href="/help/marketo/programs/email-programs.md">
+      <img alt="[!DNL Marketo Engage] E-postprogram" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
+    </a>
+    <div>
+      <a href="/help/marketo/programs/email-programs.md">
+    <strong>[!DNL Marketo Engage]</strong>
+    </a>
+    </div>
+    <p>
+    <em>Stegvis självstudiekurs där du lär dig hur du skapar ett e-postprogram med ett A/B-test.</em>
+    <p>
+  </td>
+  <td>
+    <a href="/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md">
+      <img alt="AEM as a Cloud Service Onboarding-spelbok" src="https://video.tv.adobe.com/v/3419299?format=jpeg" />
+    </a>
+    <div>
+      <a href="/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md">
+    <strong>[!DNL AEM as a Cloud Service]</strong>
+    </a>
+    </div>
+    <p>
+    <em>Med introduktionsspelningsboken kan du ta ansvar som ny administratör och utvecklare för [!DNL AEM as a Cloud Service].</em>
+    <p>
+  </td>
+</tr>
+</table>
+</div>
+
+## Ytterligare resurser
+
+* [Experience League Communities](https://experienceleaguecommunities.adobe.com/)
+* [Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/)
+* [Självstudiekurser om Experience Cloud](https://experienceleague.adobe.com/docs/home-tutorials.html)
+* [business.adobe.com](https://business.adobe.com)
