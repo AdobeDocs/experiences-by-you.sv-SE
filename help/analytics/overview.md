@@ -1,15 +1,15 @@
 ---
 title: Analytics av dig
-description: Kundgenererat innehåll
+description: Analyser av You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar deras kunskaper om Adobe Analytics.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 10%
+source-wordcount: '213'
+ht-degree: 8%
 
 ---
 
