@@ -1,6 +1,6 @@
 ---
 title: Campaign av dig
-description: Campaign by You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar deras kunskaper om Adobe Campaign.
+description: Campaign by You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar med sina kunskaper om Adobe Campaign.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
@@ -9,8 +9,8 @@ thumbnail: null
 exl-id: cb9a03bd-8ce1-4681-929f-68f6ff435f6c
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 25%
 
 ---
 
@@ -63,7 +63,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud lösningar? Du. De använd
     </a>
     <div>
       <a href="/help/campaign/10-best-practices-for-marketers.md">
-    <strong>De tio bästa metoderna för att marknadsförare ska lyckas med Adobe Campaign</strong>
+    <strong>Tio bästa sätten för marknadsförare att lyckas med Adobe Campaign</strong>
     </a>
     </div>
     <p>

@@ -1,6 +1,6 @@
 ---
 title: Analytics av dig
-description: Analyser av You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar deras kunskaper om Adobe Analytics.
+description: Analytics by You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar med sina kunskaper om Adobe Analytics.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
@@ -8,8 +8,8 @@ solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 8%
+source-wordcount: '196'
+ht-degree: 18%
 
 ---
 
@@ -77,6 +77,6 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Experience League Adobe Analytics Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Adobe Analytics-dokumentation](https://experienceleague.adobe.com/docs/analytics.html)
+* [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics.html)
 * [Adobe Analytics självstudiekurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)
 * [Adobe Analytics produktinformation](https://business.adobe.com/products/analytics/adobe-analytics.html)

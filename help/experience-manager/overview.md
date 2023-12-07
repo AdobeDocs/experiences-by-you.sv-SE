@@ -1,6 +1,6 @@
 ---
 title: Experience Manager av dig
-description: Experience Manager by You har användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar deras kunskaper om Adobe Experience Manager.
+description: Experience Manager by You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar med sina kunskaper om Adobe Experience Manager.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
@@ -8,8 +8,8 @@ solution: Experience Manager
 exl-id: f6aa9dbd-fb4f-40fa-b607-174755a1ca9f
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 6%
+source-wordcount: '188'
+ht-degree: 19%
 
 ---
 

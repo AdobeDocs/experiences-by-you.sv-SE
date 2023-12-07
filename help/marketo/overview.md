@@ -1,6 +1,6 @@
 ---
 title: Marketo av dig
-description: Marketo by You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar deras kunskaper om Adobe Marketo.
+description: Marketo by You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar med sina kunskaper om Adobe Marketo.
 role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
 level: Beginner
 doc-type: overview
@@ -8,8 +8,8 @@ solution: Marketo Engage
 exl-id: 5145c189-cc92-4472-bf99-981b43c2c5ba
 source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 5%
+source-wordcount: '205'
+ht-degree: 16%
 
 ---
 
@@ -77,6 +77,6 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Marketo Nation (communities)](https://nation.marketo.com/)
-* [Dokumentation om Adobe Marketo Engage](https://experienceleague.adobe.com/docs/marketo-engage.html)
+* [Adobe Marketo Engage Documentation](https://experienceleague.adobe.com/docs/marketo-engage.html)
 * [Adobe Marketo Engage Tutorials](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)
 * [Adobe Marketo Engage produktinformation](https://business.adobe.com/products/marketo/adobe-marketo.html)
