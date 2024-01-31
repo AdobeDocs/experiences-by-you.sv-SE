@@ -11,9 +11,9 @@ jira: KT-14103
 thumbnail: KT-14103.jpeg
 hide: false
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: 26805f8f9edf3a3a3a38c4cb954e07378f13920d
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ En styrningsguide fungerar som en källa till sanning för instansens konfigurat
 
 ### Steg 2: Identifiera elementen som ska inkluderas i din [!DNL [!DNL Marketo Engage]] Dokumentation &amp; [!DNL Changelogs]
 
-Formatet varierar från en molnbaserad plattform till ett delat dokument. Du kan utforma det format som passar din organisations behov. [Här är en enkel dokumentations- och Exchange-Excel-mall](/help/marketo-tutorial-inherited-instance/_assets/downloads/[!DNL Adobe]_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx) som täcker viktiga element som du kan komma igång med. Bland dessa finns:
+Formatet varierar från en molnbaserad plattform till ett delat dokument. Du kan utforma det format som passar din organisations behov. [Här är en enkel dokumentations- och Exchange-Excel-mall](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx) som täcker de viktiga element som du kan komma igång med. Bland dessa finns:
 
 * Dokumentation
    * Programmallsnamn
@@ -94,7 +94,7 @@ Schemalägg regelbundna granskningar av din dokumentation för att säkerställa
 
 ## Vad händer nu?
 
-Kom igång genom att ladda ned den här [enkel mall](/help/marketo-tutorial-inherited-instance/_assets/downloads/[!DNL Adobe]_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
+Kom igång genom att ladda ned den här [enkel mall](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
 
 Följ stegen ovan för att utveckla din styrningsguide och dokumentation. När du arbetar med processen bör du tänka på följande regler:
 
