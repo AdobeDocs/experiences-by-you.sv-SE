@@ -2,9 +2,9 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: ab1af7dd740f61ba1c7bf8c2ad44826a3a013fc3
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '293'
 ht-degree: 15%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 15%
          + [Frigör kraften i delning med endast visning](/help/analytics/analysis-workspace/curate-and-share-projects/unlocking-the-power-of-view-only-sharing.md)
       + Tips och tricks {#tips-and-tricks}
          + [Högerklicka på tips och tricks för effektivare arbetsflöden](/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
-   + Administrering {#administration}
+   + Administration {#administration}
       + Viktiga administratörsfärdigheter {#key-admin-skills}
          + [Skapa en kraftfull community](/help/analytics/administration/key-admin-skills/empowered-community.md)
          + [Förenkla och lägg mindre tid på utbildning](/help/analytics/administration/key-admin-skills/simplify-training-users.md)
@@ -63,7 +63,7 @@ ht-degree: 15%
    + [!DNL Campaign Standard] {#campaign-standard}
       + [Felsökning för marknadsförare](/help/campaign/acs/troubleshooting-for-marketers.md)
    + Strategi och tankeledarskap{#strategy}
-      + [De tio bästa metoderna för att marknadsförare når framgång med  [!DNL Adobe Campaign] ](/help/campaign/10-best-practices-for-marketers.md)
+      + [Tio bästa sätten för [!DNL Adobe Campaign] framgång för marknadsförare](/help/campaign/10-best-practices-for-marketers.md)
 + Experience Manager av dig {#experience-manager}
    + [Översikt](/help/experience-manager/overview.md)
    + AEM Sites {#sites}
@@ -75,6 +75,8 @@ ht-degree: 15%
       + [[!DNL Cloud Manager] Onboarding Playbook](/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md)
       + [[!DNL Cloud Manager] Miljötyper](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
       + [[!DNL Cloud Manager] UI](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
+      + Bästa praxis {#cloud-manager-best-practices}
+         + [Använda loggar i Cloud Manager](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-using-logs.md)
 + [!DNL Marketo Engage] av dig {#marketo-engage}
    + [Översikt](/help/marketo/overview.md)
    + Grundläggande {#fundamentals}
