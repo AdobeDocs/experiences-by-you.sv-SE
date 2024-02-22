@@ -2,9 +2,9 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: ab1af7dd740f61ba1c7bf8c2ad44826a3a013fc3
+source-git-commit: 90e94736bc5f29829211cb954f6b9d54684c8eb7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '297'
 ht-degree: 15%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 15%
          + [Frigör kraften i delning med endast visning](/help/analytics/analysis-workspace/curate-and-share-projects/unlocking-the-power-of-view-only-sharing.md)
       + Tips och tricks {#tips-and-tricks}
          + [Högerklicka på tips och tricks för effektivare arbetsflöden](/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
+         + [#Tags - din egen assistent](/help/analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
    + Administration {#administration}
       + Viktiga administratörsfärdigheter {#key-admin-skills}
          + [Skapa en kraftfull community](/help/analytics/administration/key-admin-skills/empowered-community.md)
