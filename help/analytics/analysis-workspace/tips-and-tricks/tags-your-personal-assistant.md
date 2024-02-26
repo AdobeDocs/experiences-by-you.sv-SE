@@ -9,9 +9,9 @@ duration: 36000
 last-substantial-update: 2024-02-22T00:00:00Z
 jira: KT-14963
 thumbnail: KT-14963.jpeg
-source-git-commit: ec969f6bf8d8fc3b2d60f9d30685646cc32dab95
+source-git-commit: 718a4fcd0ae06f544d1a78926b0c4d13cda8808a
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -23,29 +23,30 @@ _Upptäck hur #TAGS kan effektivisera er digitala analys och fungera som din ege
 
 Alla kommer ihåg att spela en bra lek med taggar eller till och med gömma och söka, tillbaka när vi var barn, eller hur?
 
-![Barn som spelar](assets/kids-playing.jpeg)
+![Barn som spelar](assets/kids-playing2.jpeg)
 
 Det bästa var när vi var de som antingen gjorde om det till en bas (tagg) eller gömde det längsta (dölj och sök) tills vi hörde någon skrika &quot;Olly Olly oxen free!&quot; (&quot;Alla I skolen vara fria&quot;, härlett från tyska: &quot;alle alle auch sind frei!&quot;).  I slutändan innebar det att alla andra antingen hade kommit till basen, hittats eller någon fick taggen &quot;det&quot;, och vi kunde fortfarande leka en annan runda!
 
 Det viktiga är om spelet var en tagg eller om det var att gömma sig och söka. Vi spelade en rolig aktivitet där alla hittades om och om igen.
 
-När vi övergår till våra dagliga jobb verkar det som om sökandet efter saker blir mycket mindre äventyrligt och mycket mer långsamt. Men det behöver inte vara om vi är villiga att lägga in lite arbete på första sidan.  En fras som min familj känner väl till är: &quot;Den största smärtan är självförvållad&quot;, men en mer känd fras, även om det kan verka lite gammaldags nuförtiden som också är mycket relevant här är: &quot;En stygn i tiden sparar nio.&quot; - Benjamin Franklin
+När vi övergår till våra dagliga jobb verkar det som om sökandet efter saker blir mycket mindre äventyrligt och mycket mer långsamt. Men det behöver inte vara om vi är villiga att lägga in lite arbete på första sidan.  En fras som min familj känner väl till är: &quot;Den största smärtan är självförvållad.&quot; Men även om det kan tyckas lite gammaldags nuförtiden finns det en mer känd fras som också är mycket relevant i den här situationen:&quot;En tidsstygn sparar nio.&quot; - Benjamin Franklin
 
-Nu när jag har er uppmärksamhet vill jag börja med en fråga:
+Låt mig börja med att ställa en fråga nu när jag får er uppmärksamhet:
 
 
-![Handkontur](assets/hand-outline.png) ![Hur många av er](assets/how-many-of-you.png)
+![Hur många av er](assets/how-many-of-you.jpg)
 
-Hur många av er har gjort det här?  Du har börjat söka efter en **dimension**, **datumintervall**, **segment**, eller **beräknat mått** och du blir översvämmad av den här gigantiska listan (se **Figur 1**) av allt du INTE vill ha.  ***Analys ****Arbetsyta*** Jag tror att det är till hjälp, men i själva verket har det bara lyckats med att inte vara till hjälp alls.  Ganska janky, har jag rätt?
+Hur många av er har gjort det här?  Du har börjat söka efter en **dimension**, **datumintervall**, **segment**, eller **beräknat mått** och du blir översvämmad av den här gigantiska listan (se **Figur 1**) av allt du INTE vill ha.  ***Analysis Workspace*** Jag tror att det är till hjälp, men i själva verket har det bara lyckats med att inte vara till hjälp alls.
 
-![bild 1 sökning efter år](assets/figure-1-search-for-year.png)
+![bild 1 sökning efter år](assets/tags-example-year.jpg)
 
 *Bild 1 - Sök efter&quot;år&quot;*
 
 Ännu bättre är att du har gått och skapat några *new* **datumintervall** och **segment**, och eftersom de är&quot;så nya&quot; tycker du att de här objekten bör vara snabba och enkla att hitta nästa gång du kommer till ***Adobe arbetsyta***. Har jag rätt?
 
-Jag avskyr att spränga din bubbla, men försök bara lämna ***Adobe Analytics*** när du just har skapat alla dina senaste små vänner, och när du kommer tillbaka, har de flesta av dem helt enkelt rymt.  Om du har tur, *kanske* en av dem stannade kvar för att vänta på dig, men resten är redan borta och leker gömma och söka.
+Jag avskyr att spränga din bubbla, men försök bara gå ***Adobe Analytics*** när du just har skapat alla dina senaste små vänner, och när du kommer tillbaka, har de flesta av dem helt enkelt rymt.  Om du har tur, *kanske* en av dem stannade kvar för att vänta på dig, men resten är redan borta och leker gömma och söka.
 
+## Skriva om regelboken
 
 Så det har varit spelet sedan första dagen, men tänk om vi kunde ändra reglerna?
 
@@ -66,6 +67,7 @@ Ta det lugnt, folk!  Vi har sett och hört alla ursäkter för varför de hoppas
 
 &quot;Åh, hej, men det är enkelt.  Jag kan alltid komma tillbaka senare och bara uppdatera de där sakerna på några lunchpauser, eller till och med medan jag sitter på en konferens och *få ordning på allt*&quot;, sa alla som ALDRIG GJORDE.
 
+## Vad finns i verktygslådan
 
 **Adobe** har till och med gjort OSS FOLK en tjänst att skapa en uppsättning #TAGS direkt i lådan, eftersom de var tvungna att börja någonstans.  Jag ska ge dig lite extra kavaetter på bara ett ögonblick, men det jag visar först kommer att ge dig den största rabatten för din buk!
 
@@ -75,25 +77,28 @@ Innan du skapar något av dina egna behöver du först veta hur du söker efter 
 
 Vare sig du arbetar i ett nytt eller befintligt projekt behöver du bara gå till komponentens sökfält, skriva in en #hashtag tillsammans med ett av dessa huvudtermer (se videon) och trycka på RETUR. Du kan också börja bläddra tills du hittar en identifierbar term.
 
-FÖRSTA CAVEAT: Något att tänka på är om du håller dig till rätt namnkonventioner när du börjar skapa *egen* taggar, nästan var *kapitaliserad* tagg du ser *bör*, och jag ska vara försiktig med det ordet&quot;borde&quot;, är en **Adobe**, taggat objekt som inte finns i paketet.  Det innebär att alla taggar du skapar ska vara i LOWERCASE.
+FÖRSTA CAVEAT: Något att tänka på är om du håller dig till rätt namnkonventioner när du börjar skapa *egen* taggar, nästan var *kapitaliserad* tagg du ser *bör*, och jag ska vara försiktig med det ordet&quot;borde&quot;, är en **Adobe**, taggat objekt som inte finns i paketet.  Det innebär att du måste se till att alla taggar du skapar finns i **gemener**.
 
+## Skapa en egen personlig assistent
 
 Nu återgår vi till det jag sa om en &quot;personlig assistent&quot; tidigare.  Vad händer om jag säger att du kan börja välja några av dina favoritkomponenter och sedan bara göra dem till de ENDA du ser?
 
-![3 skärmtaggar](assets/3-screens-tags.png)
+![3 skärmtaggar](assets/3-screens-tags.jpg)
 
 
 1. Om du börjar markera flera komponenter (CTRL+LEFT CLICK) visas vissa ikoner högst upp.  En av dem blir TAGG-ikonen.
 1. Klicka på den och sedan öppnas dialogrutan för taggar, där du kan se alla befintliga taggar som är kopplade till de komponenterna.
-1. Den kommer från den här skärmen där du sedan kan tilldela **extra/ny** taggar som du kanske vill använda nu.  (exempel: **test\_v1**)
+1. Den kommer från den här skärmen där du sedan kan tilldela **extra/ny** taggar som du kanske vill använda nu.  (Exempel: **test\_v1**)
 1. Om du vill lägga till en NY tagg i en komponent trycker du bara på **ANGE** på tangentbordet innan du klickar på knappen SPARA.
 1. När du sedan har tilldelat din nya TAGG kan du söka efter den genom att ange hashtag(#) och din nya TAGG.
 
 Ursäkta, men &quot;#tag, du är den!&quot;  Du har just räddat dig mycket mindre ute i framtiden!  Nu får du se var ditt hårda arbete till slut kommer att spela.
 
+## Sätt din personliga assistent i arbete
+
 Säg att vi jobbar i **Resebranschen** och vi sammanställer en rapport för deras **kontorstid**.  Om vi börjar göra en sökning på bara termen&quot;TRAVEL&quot;, kan vi få mycket fler resultat än vi kan behöva.  Faktum är, om vi bara hittade på en **Arbetsyta** Även om de innehåller hälften av de resultat vi behövde skulle komponenterna fortfarande inte vara tillgängliga.
 
-![Korsade taggar](assets/crooked-tags.png)
+![Korsade taggar](assets/tags-example-travel.jpg)
 
 Men om vi har jobbat med att märka **segment**, **mått** och andra relevanta **komponenter** som vi går och kanske skapa några nya samtidigt som vi skapar våra nya **arbetsyta**, har vi verkligen visat hur vi kan skriva om regelboken till vår fördel!
 
@@ -116,9 +121,11 @@ Vill du ha fler exempel från verkligheten? Tänk på följande:
 
 ![Real world 2](assets/real-world-2.png)
 
+## Gå ut och lek nu!
+
 Visst, det var roligt som barn att gömma sig och söka, men nu är vi vuxna.  Vi har inte tid att ständigt leta efter viktiga saker, så se till att göra dig en tjänst och inte slösa mer tid på att slåss mot verktyget.  Skriv om reglerna och få verktyget att fungera åt dig.
 
-## Tagg, du är det!
+### Tagg, du är det!
 
 
 ## Författare
