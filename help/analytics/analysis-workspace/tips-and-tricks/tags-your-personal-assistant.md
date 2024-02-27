@@ -9,7 +9,7 @@ duration: 36000
 last-substantial-update: 2024-02-22T00:00:00Z
 jira: KT-14963
 thumbnail: KT-14963.jpeg
-source-git-commit: 718a4fcd0ae06f544d1a78926b0c4d13cda8808a
+source-git-commit: e63d6cf68e70622ddcdbe92064d84ad72ca483c3
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Jag avskyr att spränga din bubbla, men försök bara gå ***Adobe Analytics*** 
 
 Så det har varit spelet sedan första dagen, men tänk om vi kunde ändra reglerna?
 
-Tänk om vi kunde skapa en egen personlig assistent för att byta roller för gott?
+Tänk om vi kunde skapa en egen personlig assistent för att ändra reglerna för gott?
 
 Allvarligt, det vi pratar om här är TAGS!  Det stämmer!  Det är vår vän till hashtaggen, som tidigare kallades &quot;nummer&quot; och &quot;nummertecken&quot;, precis som vi har sett det på våra telefoner.  Vi musiker kallar det &quot;vass&quot;.
 
