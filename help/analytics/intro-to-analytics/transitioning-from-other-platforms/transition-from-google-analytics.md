@@ -7,10 +7,9 @@ role: User
 level: Beginner
 kt: 9830
 thumbnail: 34749.jpg
-exl-id: b2be6081-a1c0-4435-affb-454ed5a74662
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: c6c9e5b19c601592811151450aecd8dfdd084ff6
 workflow-type: tm+mt
-source-wordcount: '3290'
+source-wordcount: '3323'
 ht-degree: 0%
 
 ---
@@ -25,8 +24,8 @@ Vi bör göra en snabb jämförelse av terminologi:
 
 | **Beskrivning** | **[!DNL Adobe Analytics]** | **Google[!DNL Analytics]** |
 |--------------------------------------------------------------------------------------------------------------------------------|---------------------|----------------------|
-| Ett händelsemått som representerar en sida (eller skärm i ett program) har visats | Sidvisning | Sidvy |
-| Ett mätvärde som representerar en grupp interaktioner på webbplatsen eller appen som äger rum inom samma tidsram | Gå in på | Session |
+| Ett händelsemått som representerar en sida (eller skärm i ett program) har visats | Sidvy | Sidvy |
+| Ett mätvärde som representerar en grupp interaktioner på webbplatsen eller appen som äger rum inom samma tidsram | Besök | Session |
 | Ett mätvärde som definierar en identifierad enhet (baserat på flera kriterier som cookies och andra beteendemönster för att sammanfoga användarinformation) | Unik besökare | Användare |
 
 ## 2. Gränssnitten
@@ -90,19 +89,19 @@ Både panelerna och de visualiseringar som finns inuti dem kan storleksändras o
 Det finns en mängd visualiseringar för användarna:
 
 * Frihandstabell
-* Kohorttabell
+* Kohortabell
 * Utfall
 * Flöde
 * Diagram
    * Område (staplat och Ostaplat)
-   * Linjediagram
+   * Linje
    * Spridning
    * Stolpstreck (staplade och Ostaplade)
    * Punkt
-   * Ringdiagram
+   * Munk
    * Histogram
    * Vågrätt streck (staplat och uppdelat)
-* Mappa
+* Karta
 * Sammanfattningsblock
    * Sammanfattningsändring
    * Sammanfattningstext
