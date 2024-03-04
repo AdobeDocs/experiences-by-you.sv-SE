@@ -2,10 +2,10 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: bd723c4ed43fb4d11ae21cb70bba6202bac94266
+source-git-commit: ba46ad10c20184083076950883f169df09ca7778
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 15%
+source-wordcount: '316'
+ht-degree: 14%
 
 ---
 
@@ -78,7 +78,8 @@ ht-degree: 15%
       + [[!DNL Cloud Manager] UI](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
       + Bästa praxis {#cloud-manager-best-practices}
          + [Använda loggar i Cloud Manager](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-using-logs.md)
-         + [Migrerar till AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration.md)
+         + [Planera en migrering till AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration.md)
+         + [Som hjälp vid migrering till AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration-challenges.md)
 + [!DNL Marketo Engage] av dig {#marketo-engage}
    + [Översikt](/help/marketo/overview.md)
    + Grundläggande {#fundamentals}
