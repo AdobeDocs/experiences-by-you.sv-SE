@@ -10,7 +10,7 @@ doc-type: Article
 last-substantial-update: 2023-05-18T00:00:00Z
 jira: KT-13256
 thumbnail: KT-13256.jpeg
-source-git-commit: a27a5538a7009d00d01227865ced4c5039147496
+source-git-commit: 0fc67f48deb78d5a66d485093d1837cbeee7c4d4
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -22,7 +22,6 @@ ht-degree: 0%
 Efter: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, Senior Consultant, Meijer
 
 Som tekniker och kundexpert på [!DNL Adobe] De fem senaste Experience Cloud-produkterna har jag gjort det möjligt för företagsanvändare på [Meijer](https://www.meijer.com/){target="_blank"}, en amerikansk supercenterkedja som grundades 1934, för att genomföra komplexa marknadsförings- och transaktionskampanjer med ACS. Några projekt som jag har arbetat med är anpassade kampanjer för att lagra erbjudanden och beställa detaljer för personalisering, integrerade med [!DNL Adobe] Audience Manager och kundinsikter om segmentförtäring.
-
 
 Under min tid med ACS har jag råkat ut för fel som kan vara tidskrävande och frustrerande att lösa. Att veta de vanligaste felen kan bidra till snabbare problemlösning och öka produktiviteten. Här nedan hittar jag felsökningstips som hjälper dig att effektivt åtgärda liknande fel som de inträffar.
 
