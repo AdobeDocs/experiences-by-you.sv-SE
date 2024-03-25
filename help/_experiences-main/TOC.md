@@ -2,9 +2,9 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: ba46ad10c20184083076950883f169df09ca7778
+source-git-commit: 1b241ca79816dde59641bbdfc05b35041862d145
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '323'
 ht-degree: 14%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 14%
          + [Bygga kundresesegment - del 2](/help/analytics/analysis-workspace/segmentation/building-customer-journey-segments-part-two.md)
          + [Skillnader mellan segmentbyggaren och snabbsegment](/help/analytics/analysis-workspace/segmentation/differences-between-the-segment-builder-and-quick-segments.md)
          + [Vänta nu bara på ett segment.. Använda segmentering för att hitta nya insikter](/help/analytics/analysis-workspace/segmentation/segmentation-to-discover-new-insights.md)
+         + [Magin bakom draperiet - komplexa segment](/help/analytics/analysis-workspace/segmentation/the-magic-behind-the-curtain-complex-segments.md)
       + Mätvärden {#metrics}
          + [Hej då Excel, hej till beräknade mätvärden](/help/analytics/analysis-workspace/metrics/goodbye-excel-hello-calculated-metrics.md)
          + [Lyft dataanalysen till nästa nivå med beräknade mätvärden](../analytics/analysis-workspace/metrics/take-your-data-analysis-to-the-next-level-with-calculated-metrics.md)
