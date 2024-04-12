@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-25T00:00:00Z
 jira: KT-15200
 thumbnail: KT-15200.jpeg
 exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
-source-git-commit: 1e9e57c00adb37a01e42cbbb82e62918e7543b19
+source-git-commit: 69fa16c1bf38604e4dabc553baee71598be83db3
 workflow-type: tm+mt
 source-wordcount: '4102'
 ht-degree: 1%
@@ -397,3 +397,4 @@ Det här dokumentet har skrivits av:
 Jennifer Dungan, Optimization Manager Analytics på Torstar
 
 Adobe Analytics Champion
+
