@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-25T00:00:00Z
 jira: KT-15200
 thumbnail: KT-15200.jpeg
 exl-id: 1da85e88-64b3-49e5-9bf6-76126ac9f6ad
-source-git-commit: 59dbe503fb179ed24ec8380f0d3e853deec82a7b
+source-git-commit: 1e9e57c00adb37a01e42cbbb82e62918e7543b19
 workflow-type: tm+mt
 source-wordcount: '4102'
 ht-degree: 1%
@@ -202,7 +202,7 @@ Låt oss lägga lite tid på att packa upp det här, eftersom det är mycket som
 
 För det första, i stället för att visa en daglig uppdelning, visar jag en sidbeskrivning, eftersom jag tror att detta kommer att hjälpa till att illustrera de två segmenten bättre.
 
-<table border="0">
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">De första tre kolumnerna (Sidvyer, besök och unika besökare) är osegmenterade och visar därmed alla sidor på webbplatsen. Observera att jag inte tog med order här, eftersom order spåras på en åtgärd och därför inte ingår i siddimensionens omfattning.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail1.png" width="352"
@@ -210,7 +210,7 @@ För det första, i stället för att visa en daglig uppdelning, visar jag en si
     </tr>
 </table>
 
-<table border="0">
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Sedan visar jag resultatet av det enkla segmentet, som bara handlar om <strong>träffar</strong> på de två angivna sidorna. Du kommer att märka att de andra sidorna i uppdelningen blir 0 som förväntat.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail2.png" width="352"
@@ -218,7 +218,7 @@ För det första, i stället för att visa en daglig uppdelning, visar jag en si
     </tr>
 </table>
 
-<table border="0">
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Här är ett litet bonustips, innan jag visar resultatet av det avancerade segmentet använde jag ett annat enkelt segment av"Beställningar finns" (på HIT-nivå-nivå) och parade ihop det med unika besökare. Detta returnerar de totala UV:arna som gjorde beställningar under min rapportperiod, liksom UV:arna som kom till varje sida ... detta bidrar till att illustrera nästa kolumnuppsättning bättre.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail3.png" width="352"
@@ -226,7 +226,7 @@ För det första, i stället för att visa en daglig uppdelning, visar jag en si
     </tr>
 </table>
 
-<table>
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Den sista uppsättningen kolumner staplas med mitt komplexa segment. De övergripande UV:arna med beställningar matchar det enkla"finns beställningar"-segmentet på varje sida, men du kommer att märka att summan är avsevärt annorlunda. Eftersom den här datauppsättningen uttryckligen begränsar datauppsättningen enbart till besökare som har gjort beställningar OCH nått sidorna är jag uttryckligen intresserad av.</td> <td style="border: 0;"><img src="assets/segment-example-3/segment3c-comparison-table-detail4.png" width="352">
         </td>
@@ -333,14 +333,14 @@ Låt oss ändra på saker och ting och börja med att titta på jämförelserna,
 
 ![Segment5A-TableComparison](assets/segment-example-5/segment5a-table-comparison.png)
 
-<table>
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">De första fyra kolumnerna är osegmenterade och bör vara lätta att förstå. Observera att *"Bidrag"* i princip är ett beräknat värde baserat på var besökarna påbörjar sessionen. Jag har lagt till det här för att visa att det inte returnerar den information vi söker, eftersom användare kan komma in på webbplatsen via flera marknadsföringskanaler (genom att titta på sociala medier, göra sökningar, klicka på marknadsföringsmeddelanden, osv. alla inom samma besök/session).</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail1.png" width="352">
         </td>
     </tr>
 </table>
 
-<table>
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Nästa kolumnuppsättning använder ett"Standardträff-segment", som i huvudsak handlar om träffar där marknadsföringskanalen är"betalsökningar". Men detta returnerar ALLA träffar baserat på attribueringen av marknadsföringskanalen, det isolerar inte den faktiska "Betald sökning"-klickningen. Därför returnerar detta inte de data vi behöver.</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail2.png" width="352">
         </td>
@@ -350,7 +350,7 @@ Låt oss ändra på saker och ting och börja med att titta på jämförelserna,
 
 ![Segment5A-PaidSearchHit](assets/segment-example-5/segment5a-paid-search-hit.png)
 
-<table>
+<table style="border: 0;">
     <tr>
         <td width="352" style="border: 0;">Nu ser de två uppsättningarna data identiska ut, och de returnerar faktiskt samma data på två olika sätt. Men nu tittar jag särskilt på <i>instanser</i> där marknadsföringskanalen <strong>set</strong> till "Betald sökning".</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail3.png" width="352">
         </td>
