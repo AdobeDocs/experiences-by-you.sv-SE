@@ -11,7 +11,7 @@ last-substantial-update: 2023-05-15T00:00:00Z
 jira: KT-13216
 thumbnail: KT-13216.jpeg
 exl-id: ea446e58-d9f2-4a21-aa9b-71aa548016e2
-source-git-commit: aff0b385ce3ba9c31245e26f0b14cc201ea57fb9
+source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -83,3 +83,4 @@ Det här dokumentet har skrivits av:
 **Gitai Ben-Ammi**, rektor konsult på Concentrix Catalyst
 
 [!DNL Adobe Analytics] Champion
+
