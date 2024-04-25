@@ -11,9 +11,9 @@ last-substantial-update: 2023-05-15T00:00:00Z
 jira: KT-13216
 thumbnail: KT-13216.jpeg
 exl-id: ea446e58-d9f2-4a21-aa9b-71aa548016e2
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: aff0b385ce3ba9c31245e26f0b14cc201ea57fb9
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Sammanfattningsvis ger de sammanfattande kontrollpanelerna löpande och relevant
 
 Det här dokumentet har skrivits av:
 
-![Gitai Ben-Ammi](assets/gitai-ben-ammi.png)
+![Gitai Ben-Ammi](assets/gitai-headshot-150.jpg)
 
 **Gitai Ben-Ammi**, rektor konsult på Concentrix Catalyst
 

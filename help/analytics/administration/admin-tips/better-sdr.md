@@ -10,9 +10,9 @@ duration: 72000
 last-substantial-update: 2024-04-25T00:00:00Z
 jira: KT-15338
 thumbnail: KT-15338.jpeg
-source-git-commit: 484f93bc2828d2565486eff8ae4801a8d203d280
+source-git-commit: 35d2ea7d88d2c43b79730c700e73e539c5f0d8ac
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **Revolutionera datastrategin och ge teamet möjlighet att skapa ett enhetligt dokument för designreferens (SDR). Eliminera luckor i mätningen och främja en samverkansbaserad datakultur genom stegvisa metoder.**
 
-Det är äntligen dags. Du har samlat en heltäckande SDR (Solution Design Reference). Det här är den guide du använder för att implementera mätvärden och dimensioner, vad de kallas, när de avfyras och dina utvecklare älskade det. Du gick igenom hela driftsättningsprocessen, skrev accepteringskriterier, gick igenom era sprints, QAing the entire, och det är klart! Det var mycket arbete, och nu är det klart. Er instans av Adobe Analytics bör vara att få marknadsföringen och produkterna att komma upp och ner när de fördjupar sig i data, få nya avslöjanden om era kunder och hitta alla områden med framgång och, ja, områden med mindre framgång. Men du hör inte de utsagor du väntade dig.
+Det är äntligen dags. Du har samlat en heltäckande SDR (Solution Design Reference). Det här är guiden som du använder för att implementera mått och mått, vad de kallas, när de avfyras och dina utvecklare älskade det. Du gick igenom hela driftsättningsprocessen, skrev accepteringskriterier, gick igenom era sprints, QAing the entire, och det är klart! Det var mycket arbete, och nu är det klart. Er instans av Adobe Analytics bör vara att få marknadsföringen och produkterna att komma upp och ner när de fördjupar sig i data, få nya avslöjanden om era kunder och hitta alla områden med framgång och, ja, områden med mindre framgång. Men du hör inte de samtal du förväntade dig.
 
 Du hör klagomål från ett läger.
 
@@ -107,7 +107,7 @@ Det här är inte det snabbaste sättet att få ihop en SDR. Det är mycket arbe
 
 Det här dokumentet har skrivits av:
 
-![gitai-headshot](assets/gitai-headshot.png)
+![gitai-headshot](assets/gitai-headshot-150.jpg)
 
 Gitai Ben-Ammi, Business Architecture Associate Manager på Accenture
 
