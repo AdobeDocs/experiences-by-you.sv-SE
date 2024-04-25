@@ -2,9 +2,9 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: 41ca454dc8526d42848033ef30036e200b8adc99
+source-git-commit: d3772a4fd4e5e2d26bc637370c7ba7d29336ccb4
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '350'
 ht-degree: 13%
 
 ---
@@ -18,47 +18,48 @@ ht-degree: 13%
    + [Översikt](/help/analytics/overview.md)
    + Introduktion till [!DNL Analytics] {#intro-to-analytics}
       + Övergång från andra plattformar {#transitioning-from-other-platforms}
-         + [Övergång från [!DNL Google Analytics]](/help/analytics/intro-to-analytics/transitioning-from-other-platforms/transition-from-google-analytics.md)
+         + [Övergång från [!DNL Google Analytics]](../analytics/intro-to-analytics/transitioning-from-other-platforms/transition-from-google-analytics.md)
    + Analysis Workspace {#analysis-workspace}
       + Använda paneler {#using-panels}
-         + [Om attribueringspanelen och backupfönster](/help/analytics/analysis-workspace/using-panels/understanding-adobe-analytics-attribution-panel-and-lookback-windows.md)
+         + [Om attribueringspanelen och backupfönster](../analytics/analysis-workspace/using-panels/understanding-adobe-analytics-attribution-panel-and-lookback-windows.md)
       + Visualiseringar {#visualizations}
-         + [Frigöra insikter med histogram](/help/analytics/analysis-workspace/visualizations/unlocking-insights-with-histograms.md)
-         + [Mer än ord - Använda textvisualiseringar och beskrivningar](/help/analytics/analysis-workspace/visualizations/more-than-words-using-text-visualizations-and-descriptions.md)
-         + [Använd kohortanalys för att förstå kundbeteende](/help/analytics/analysis-workspace/visualizations/use-cohort-analysis-to-understand-customer-behavior.md)
+         + [Frigöra insikter med histogram](../analytics/analysis-workspace/visualizations/unlocking-insights-with-histograms.md)
+         + [Mer än ord - Använda textvisualiseringar och beskrivningar](../analytics/analysis-workspace/visualizations/more-than-words-using-text-visualizations-and-descriptions.md)
+         + [Använd kohortanalys för att förstå kundbeteende](../analytics/analysis-workspace/visualizations/use-cohort-analysis-to-understand-customer-behavior.md)
       + Segmentering {#segmentation}
-         + [Bygga kundsegment](/help/analytics/analysis-workspace/segmentation/building-customer-journey-segments.md)
-         + [Bygga kundresesegment - del 2](/help/analytics/analysis-workspace/segmentation/building-customer-journey-segments-part-two.md)
-         + [Skillnader mellan segmentbyggaren och snabbsegment](/help/analytics/analysis-workspace/segmentation/differences-between-the-segment-builder-and-quick-segments.md)
-         + [Vänta nu bara på ett segment.. Använda segmentering för att hitta nya insikter](/help/analytics/analysis-workspace/segmentation/segmentation-to-discover-new-insights.md)
-         + [Magin bakom draperiet - komplexa segment](/help/analytics/analysis-workspace/segmentation/the-magic-behind-the-curtain-complex-segments.md)
+         + [Bygga kundsegment](../analytics/analysis-workspace/segmentation/building-customer-journey-segments.md)
+         + [Bygga kundresesegment - del 2](../analytics/analysis-workspace/segmentation/building-customer-journey-segments-part-two.md)
+         + [Skillnader mellan segmentbyggaren och snabbsegment](../analytics/analysis-workspace/segmentation/differences-between-the-segment-builder-and-quick-segments.md)
+         + [Vänta nu bara på ett segment.. Använda segmentering för att hitta nya insikter](../analytics/analysis-workspace/segmentation/segmentation-to-discover-new-insights.md)
+         + [Magin bakom draperiet - komplexa segment](../analytics/analysis-workspace/segmentation/the-magic-behind-the-curtain-complex-segments.md)
       + Mätvärden {#metrics}
-         + [Hej då Excel, hej till beräknade mätvärden](/help/analytics/analysis-workspace/metrics/goodbye-excel-hello-calculated-metrics.md)
+         + [Hej då Excel, hej till beräknade mätvärden](../analytics/analysis-workspace/metrics/goodbye-excel-hello-calculated-metrics.md)
          + [Lyft dataanalysen till nästa nivå med beräknade mätvärden](../analytics/analysis-workspace/metrics/take-your-data-analysis-to-the-next-level-with-calculated-metrics.md)
       + Kuratera och dela projekt {#curate-and-share-projects}
-         + [Frigör kraften i delning med endast visning](/help/analytics/analysis-workspace/curate-and-share-projects/unlocking-the-power-of-view-only-sharing.md)
+         + [Frigör kraften i delning med endast visning](../analytics/analysis-workspace/curate-and-share-projects/unlocking-the-power-of-view-only-sharing.md)
          + [Låsa upp analytisk information och utnyttja kommentarerna](../analytics/analysis-workspace/curate-and-share-projects/harnessing-the-power-of-annotations.md)
       + Tips och tricks {#tips-and-tricks}
-         + [Högerklicka på tips och tricks för effektivare arbetsflöden](/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
-         + [#Tags - din egen assistent](/help/analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
+         + [Högerklicka på tips och tricks för effektivare arbetsflöden](../analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
+         + [#Tags - din egen assistent](../analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
    + Administration {#administration}
       + Viktiga administratörsfärdigheter {#key-admin-skills}
-         + [Skapa en kraftfull community](/help/analytics/administration/key-admin-skills/empowered-community.md)
-         + [Förenkla och lägg mindre tid på utbildning](/help/analytics/administration/key-admin-skills/simplify-training-users.md)
-         + [Sätta vid bordet](/help/analytics/administration/key-admin-skills/gaining-a-seat-at-the-table.md)
-         + [Berätta viktiga historier med data](/help/analytics/administration/key-admin-skills/telling-impactful-stories-with-data.md)
-         + [Översätter [!DNL Adobe Analytics] tekniskt språk på ett icke-tekniskt sätt](/help/analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md)
-         + [Arbeta tvärfunktionellt](/help/analytics/administration/key-admin-skills/working-cross-functionally.md)
+         + [Skapa en kraftfull community](../analytics/administration/key-admin-skills/empowered-community.md)
+         + [Förenkla och lägg mindre tid på utbildning](../analytics/administration/key-admin-skills/simplify-training-users.md)
+         + [Sätta vid bordet](../analytics/administration/key-admin-skills/gaining-a-seat-at-the-table.md)
+         + [Berätta viktiga historier med data](../analytics/administration/key-admin-skills/telling-impactful-stories-with-data.md)
+         + [Översätter [!DNL Adobe Analytics] tekniskt språk på ett icke-tekniskt sätt](../analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md)
+         + [Arbeta tvärfunktionellt](../analytics/administration/key-admin-skills/working-cross-functionally.md)
       + Administratörstips och metodtips {#admin-tips}
-         + [Hämta implementeringens spelningsbok](/help/analytics/administration/admin-tips/download-the-adobe-analytics-implementation-playbook.md)
-         + [Skapa standardiserade namnkonventioner](/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md)
-         + [Skapa standardiserade kodmallar](/help/analytics/administration/admin-tips/create-standardized-code-templates.md)
-         + [Skapa grundläggande videor och kurser](/help/analytics/administration/admin-tips/create-basic-videos-and-training.md)
-         + [Skapa en intern [!DNL Adobe Analytics] webbplats](/help/analytics/administration/admin-tips/create-an-internal-adobe-analytics-site.md)
-         + [Använd en global rapportsvit](/help/analytics/administration/admin-tips/use-a-global-report-suite.md)
-         + [Skapa ett nytt projekt](/help/analytics/administration/admin-tips/create-a-news-and-announcements-project.md)
-         + [Skapa framgångsrika statuspaneler med chefssammanfattning](/help/analytics/administration/admin-tips/driving-success-with-executive-summary-dashboards.md)
-         + [Skapa driftinstrumentpaneler](/help/analytics/administration/admin-tips/create-operational-dashboards.md)
+         + [Hämta implementeringens spelningsbok](../analytics/administration/admin-tips/download-the-adobe-analytics-implementation-playbook.md)
+         + [Skapa standardiserade namnkonventioner](../analytics/administration/admin-tips/create-standardized-naming-conventions.md)
+         + [Skapa standardiserade kodmallar](../analytics/administration/admin-tips/create-standardized-code-templates.md)
+         + [Skapa grundläggande videor och kurser](../analytics/administration/admin-tips/create-basic-videos-and-training.md)
+         + [Skapa en intern [!DNL Adobe Analytics] webbplats](../analytics/administration/admin-tips/create-an-internal-adobe-analytics-site.md)
+         + [Använd en global rapportsvit](../analytics/administration/admin-tips/use-a-global-report-suite.md)
+         + [Skapa ett nytt projekt](../analytics/administration/admin-tips/create-a-news-and-announcements-project.md)
+         + [Skapa framgångsrika statuspaneler med chefssammanfattning](../analytics/administration/admin-tips/driving-success-with-executive-summary-dashboards.md)
+         + [Skapa driftinstrumentpaneler](../analytics/administration/admin-tips/create-operational-dashboards.md)
+         + [Bygga upp en datamultur och skapa en bättre referens för lösningar](../analytics/administration/admin-tips/better-sdr.md)
 + [!DNL Campaign] av dig {#campaign}
    + [Översikt](/help/campaign/overview.md)
    + [!DNL Campaign Classic v7] {#campaign-classic-v7}
