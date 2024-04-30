@@ -10,13 +10,13 @@ duration: 72000
 last-substantial-update: 2024-04-25T00:00:00Z
 jira: KT-15338
 thumbnail: KT-15338.jpeg
-source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
+exl-id: 99fcf68f-5698-4270-9055-ab224e6323a1
+source-git-commit: b3b98aee5ee23e323a9bc762c673700b02366f4c
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 0%
 
 ---
-
 
 # Bygga upp en datamultur och skapa en bättre referens för lösningar
 
@@ -61,7 +61,7 @@ Jag börjar med att släppa av dig lite. Det finns *alltid* kommer att bli lite 
 ***Kontrollpanelerna för förhandsgranskning***
 
 1. Använd Funnel Map som guide för att skapa dummies-paneler.
-1. Det ska finnas en övergripande vy, till exempel en instrumentpanel för sammanfattning av den verkställande informationen och instrumentpaneler för varje kanal.
+1. Det ska finnas en övergripande vy, som [Instrumentpanel för sammanfattning](driving-success-with-executive-summary-dashboards.md)och kontrollpaneler för varje kanal.
 1. Det kommer också att finnas mer specifika för din webbplats eller app, till exempel produktprestanda eller innehållsprestanda.
 1. Distribuera dessa till relevanta intressenter och få feedback om designen.
 1. Begär uppdateringar och om nya mått eller mått behövs lägger du till dem i SDR:n.
@@ -112,4 +112,3 @@ Det här dokumentet har skrivits av:
 Gitai Ben-Ammi, Business Architecture Associate Manager på Accenture
 
 Adobe Analytics Champion
-
