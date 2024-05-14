@@ -2,10 +2,10 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: 07b28edade263aa3c85348716bd45df4a053e239
+source-git-commit: 3e7b293813327b3aad362b0e05220a32aa65ea78
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 13%
+source-wordcount: '358'
+ht-degree: 12%
 
 ---
 
@@ -60,6 +60,8 @@ ht-degree: 13%
          + [Skapa framgångsrika statuspaneler med chefssammanfattning](../analytics/administration/admin-tips/driving-success-with-executive-summary-dashboards.md)
          + [Skapa driftinstrumentpaneler](../analytics/administration/admin-tips/create-operational-dashboards.md)
          + [Bygga upp en datamultur och skapa en bättre referens för lösningar](../analytics/administration/admin-tips/better-sdr.md)
+   + Implementering {#implementation}
+      + [En strategisk guide för implementering av Web SDK](../analytics/implementation/strategic-guide-to-implementing-web-sdk.md)
 + [!DNL Campaign] av dig {#campaign}
    + [Översikt](/help/campaign/overview.md)
    + [!DNL Campaign Classic v7] {#campaign-classic-v7}
