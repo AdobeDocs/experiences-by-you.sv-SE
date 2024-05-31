@@ -2,10 +2,10 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: 3e7b293813327b3aad362b0e05220a32aa65ea78
+source-git-commit: bf02792a81f0b3a4e6580cd4156b9dbb92bda79a
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 12%
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 12%
          + [Skillnader mellan segmentbyggaren och snabbsegment](../analytics/analysis-workspace/segmentation/differences-between-the-segment-builder-and-quick-segments.md)
          + [Vänta nu bara på ett segment.. Använda segmentering för att hitta nya insikter](../analytics/analysis-workspace/segmentation/segmentation-to-discover-new-insights.md)
          + [Magin bakom draperiet - komplexa segment](../analytics/analysis-workspace/segmentation/the-magic-behind-the-curtain-complex-segments.md)
-      + Mätvärden {#metrics}
+      + Mått {#metrics}
          + [Hej då Excel, hej till beräknade mätvärden](../analytics/analysis-workspace/metrics/goodbye-excel-hello-calculated-metrics.md)
          + [Lyft dataanalysen till nästa nivå med beräknade mätvärden](../analytics/analysis-workspace/metrics/take-your-data-analysis-to-the-next-level-with-calculated-metrics.md)
       + Kuratera och dela projekt {#curate-and-share-projects}
@@ -40,7 +40,7 @@ ht-degree: 12%
          + [Låsa upp analytisk information och utnyttja kommentarerna](../analytics/analysis-workspace/curate-and-share-projects/harnessing-the-power-of-annotations.md)
       + Tips och tricks {#tips-and-tricks}
          + [Högerklicka på tips och tricks för effektivare arbetsflöden](../analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
-         + [#Tags - din egen assistent](../analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
+         + [Taggar - din egen assistent](../analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
    + Administration {#administration}
       + Viktiga administratörsfärdigheter {#key-admin-skills}
          + [Skapa en kraftfull community](../analytics/administration/key-admin-skills/empowered-community.md)
@@ -65,7 +65,7 @@ ht-degree: 12%
 + [!DNL Campaign] av dig {#campaign}
    + [Översikt](/help/campaign/overview.md)
    + [!DNL Campaign Classic v7] {#campaign-classic-v7}
-      + [God praxis för arbetsflöden](/help/campaign/ac-v7/workflow-best-practices-for-marketers.md)
+      + [Bästa praxis för arbetsflöden](/help/campaign/ac-v7/workflow-best-practices-for-marketers.md)
    + [!DNL Campaign Standard] {#campaign-standard}
       + [Felsökning för marknadsförare](/help/campaign/acs/troubleshooting-for-marketers.md)
    + Strategi och tankeledarskap{#strategy}
