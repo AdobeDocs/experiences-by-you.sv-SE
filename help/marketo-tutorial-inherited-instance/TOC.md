@@ -8,9 +8,9 @@ role: Admin
 level: Beginner
 solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: 5c97b4fa98a54c7891fa0537b9540beb5bbfffdf
+source-git-commit: 3f0c335cc1660e7fbafd46dc372d3bab65eff763
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 0%
 + [Utveckla en instansstyrningsguide](/help/marketo-tutorial-inherited-instance/develop-an-instance-governance-guide.md)
 + [Kartlägg er marknadsföringsgrupp visuellt](/help/marketo-tutorial-inherited-instance/create-a-visual-data-flow-diagram.md)
 + [Kvalitetssäkringsprocess före programstart](/help/marketo-tutorial-inherited-instance/essential-program-pre-launch-qa.md)
-+ [[!DNL Marketo Engage] av dig](/https://experienceleague.adobe.com/en/docs/experiences-by-you/experiences-by-you/marketo-engage/overview)
 + [[!DNL Marketo Engage] Tutorials](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=en)
 
 
