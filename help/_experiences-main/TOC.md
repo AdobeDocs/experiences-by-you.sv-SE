@@ -2,9 +2,9 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: bf02792a81f0b3a4e6580cd4156b9dbb92bda79a
+source-git-commit: fdff1bbb525abf98e8923d6bff327470e09b32a0
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '367'
 ht-degree: 4%
 
 ---
@@ -91,6 +91,7 @@ ht-degree: 4%
    + [Översikt](/help/marketo/overview.md)
    + Grundläggande {#fundamentals}
       + [Navigera i användargränssnittet](/help/marketo/fundamentals/ui-navigation.md)
+      + [Tips och tricks för implementering av en ny instans](https://experienceleague.adobe.com/docs/experiences-by-you/implenting-new-instance/overview.html)
       + [Granska en ärvd instans - självstudiekurs](https://experienceleague.adobe.com/docs/experiences-by-you/auditing-an-inherited-instance/overview.html)
    + Program och kampanjer {#programs-and-campaigns}
       + [E-postprogram](/help/marketo/programs/email-programs.md)
