@@ -6,11 +6,12 @@ breadcrumb-url: /docs/experiences-by-you/experiences-by-you/marketo-tutorial-inh
 index: false
 role: Admin
 level: Beginner
+solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: 7ab38e2b60d34926e55f2ddcc938233a69d41225
+source-git-commit: 5c97b4fa98a54c7891fa0537b9540beb5bbfffdf
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 1%
+source-wordcount: '69'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +24,7 @@ ht-degree: 1%
 + [Utveckla en instansstyrningsguide](/help/marketo-tutorial-inherited-instance/develop-an-instance-governance-guide.md)
 + [Kartlägg er marknadsföringsgrupp visuellt](/help/marketo-tutorial-inherited-instance/create-a-visual-data-flow-diagram.md)
 + [Kvalitetssäkringsprocess före programstart](/help/marketo-tutorial-inherited-instance/essential-program-pre-launch-qa.md)
-+ [[!DNL Marketo Engage] Självstudiekurser](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=en)
++ [[!DNL Marketo Engage] av dig](/https://experienceleague.adobe.com/en/docs/experiences-by-you/experiences-by-you/marketo-engage/overview)
++ [[!DNL Marketo Engage] Tutorials](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=en)
 
 

@@ -2,15 +2,15 @@
 user-guide-title: Självstudiekurs - tips och tricks för att implementera en ny [!DNL Marketo Engage] instance
 user-guide-description: Självstudiekurs - tips och tricks för att implementera en ny [!DNL Marketo Engage] instance
 breadcrumb-title: Självstudiekurs - tips och tricks för att implementera en ny [!DNL Marketo Engage] instance
-breadcrumb-url: /docs/experiences-by-you/experiences-by-you/marketo-tutorial-implementing-new-instance/overview.html
+breadcrumb-url: /docs/experiences-by-you/marketo-engage-by-you/tutorial-tips-and-tricks-for-implementing-a-new-instance/overview.html
 index: true
 role: Admin
 level: Beginner
 solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+source-git-commit: 5c97b4fa98a54c7891fa0537b9540beb5bbfffdf
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -27,3 +27,5 @@ ht-degree: 0%
 + [Organisera en ny instans och upprätta namnkonventioner](./organizing-new-instance.md)
 + [Designa flerkanalsmarknadsföring med Dynamic Chat](./designing-omnichannel-conversational-marketing.md)
 + [Komma igång med instansstyrning och dokumentation](./documenting-your-instance.md)
++ [[!DNL Marketo Engage] av dig](/https://experienceleague.adobe.com/en/docs/experiences-by-you/experiences-by-you/marketo-engage/overview)
++ [[!DNL Marketo Engage] Tutorials](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=en)
