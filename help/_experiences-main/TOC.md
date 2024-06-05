@@ -2,9 +2,9 @@
 user-guide-title: Upplevelser av dig
 user-guide-description: Adobe kundgenererat innehåll
 breadcrumb-title: Upplevelser av dig
-source-git-commit: c4c4ff3c3456ea48fbd144ac8ef5d509a9bb0714
+source-git-commit: b73614be9351943bf89aba7e457edb4b3b456d40
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '367'
 ht-degree: 4%
 
 ---
@@ -99,4 +99,3 @@ ht-degree: 4%
    + Rapportering och analys {#reporting-and-analytics}
       + [Rapportering och analys](/help/marketo/reporting/reporting-and-analytics.md)
 
-experiences-by-you/marketo-engage-by-you/tutorial-tips-and-tricks-for-implementing-a-new-instance/overview.html
