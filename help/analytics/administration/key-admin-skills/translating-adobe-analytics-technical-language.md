@@ -1,6 +1,6 @@
 ---
 title: Översätter [!DNL Adobe Analytics] tekniskt språk på ett icke-tekniskt sätt
-description: Med fler blickar på den digitala världen än någonsin finns det ett växande behov av att förstå, analysera och agera utifrån de omfattande data som finns i [!DNL Adobe Analytics] konfiguration. Denna ökade uppmärksamhet kan leda till en rad intressenter som är helt nya för props- och eVars-världen. Som er organisations [!DNL Adobe Analytics] är ni nyckeln till att hjälpa era intressenter att förstå de tekniska detaljerna och få ut så mycket som möjligt av er [!DNL Adobe Analytics] investering.
+description: Med fler blickar på den digitala världen än någonsin finns det ett växande behov av att förstå, analysera och agera utifrån de omfattande data som finns i [!DNL Adobe Analytics] konfiguration. Denna ökade uppmärksamhet kan leda till en rad intressenter som är helt nya för props- och eVars-världen. Som din organisations [!DNL Adobe Analytics] är ni nyckeln till att hjälpa era intressenter att förstå de tekniska detaljerna och få ut så mycket som möjligt av er [!DNL Adobe Analytics] investering.
 solution: Analytics
 feature-set: Analytics
 feature: Admin Tools
@@ -10,9 +10,9 @@ level: Experienced
 thumbnail: 342066.jpg
 kt: 10128
 exl-id: b26f8b1e-e57d-4684-86c2-7a13f67521e6
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Att tala olika språk
 
-Med fler blickar på den digitala världen än någonsin finns det ett växande behov av att förstå, analysera och agera utifrån de omfattande data som finns i [!DNL Adobe Analytics] konfiguration. Denna ökade uppmärksamhet kan leda till en rad intressenter som är helt nya för props- och eVars-världen. Som er organisations [!DNL Adobe Analytics] är ni nyckeln till att hjälpa era intressenter att förstå de tekniska detaljerna och få ut så mycket som möjligt av er [!DNL Adobe Analytics] investering.
+Med fler blickar på den digitala världen än någonsin finns det ett växande behov av att förstå, analysera och agera utifrån de omfattande data som finns i [!DNL Adobe Analytics] konfiguration. Denna ökade uppmärksamhet kan leda till en rad intressenter som är helt nya för props- och eVars-världen. Som din organisations [!DNL Adobe Analytics] är ni nyckeln till att hjälpa era intressenter att förstå de tekniska detaljerna och få ut så mycket som möjligt av er [!DNL Adobe Analytics] investering.
 
 Här är fyra tips som jag har visat mig vara till hjälp när det gäller att förstå det tekniska språket i [!DNL Adobe Analytics].
 
@@ -60,7 +60,7 @@ At [!DNL The Home Depot], vi var värd för en [!DNL Adobe Analytics] utmaning d
 >[!TIP]
 >
 >**Skapa kommenterade lösningsspecifika arbetsytemallar och riktlinjer**
->Använd företagsrapporter (mallar) och textvisualiseringar i analysarbetsytan för att skapa kontextuella guider som hjälper dina rockstjärnor att hålla sig på rätt spår.
+>Utnyttja företagsrapporter (mallar) och textvisualiseringar i analysarbetsytan för att skapa kontextuella guider som hjälper dina rockstjärnor att hålla sig på rätt spår.
 >
 >Tack vare den flexibla arbetsytan för analyser kan du skapa mallar för snabbare analys och för självbetjäning och självbetjäning. Genom att kombinera funktionerna i t.ex. välstrukturerade mallar, anteckningar och länkar mellan/inom arbetsytor kan du skapa effektiva, tillgängliga och lättanvända guider för icke-tekniska användare inom ramen för [!DNL Adobe Analytics].
 
@@ -68,6 +68,6 @@ At [!DNL The Home Depot], vi var värd för en [!DNL Adobe Analytics] utmaning d
 
 Ge intressenter många möjligheter att få hjälp när de bygger [!DNL Adobe Analytics] instrumentpaneler. Ni kan lägga ut lediga kontorstider där intressenter kan ställa frågor och låta en expert vara med. Eller skapa en hjälpkanal där intressenter kan ställa frågor i en säker utbildningsmiljö.
 
-At [!DNL The Home Depot], våra intressenter älskar våra öppettider och Slack-hjälplinjer. Sedan de här öppna kanalerna lanserades har vi sett en förbättrad noggrannhet när det gäller att skapa rapporter och våra [!DNL Adobe Analytics] användningen har rusat i höjden. Tidigare har vi gjort det till de 5 största procenten av [!DNL Adobe Analytics] publicera material för användning inom detaljhandeln världen över!
+At [!DNL The Home Depot], våra intressenter älskar våra öppettider och Slack-hjälplinjer. Sedan de här öppna kanalerna startades har vi sett en förbättrad noggrannhet när det gäller att skapa rapporter och våra [!DNL Adobe Analytics] användningen har rusat i höjden. Tidigare har vi gjort det till de 5 största procenten av [!DNL Adobe Analytics] publicera material för användning inom detaljhandeln världen över!
 
 Hjälper användarna att förstå den tekniska världen [!DNL Adobe Analytics] är ingen lätt sak. Jag hoppas att de här tipsen och exemplen kan hjälpa era intressenter att dyka djupt, skapa frihandsritningar och bli kära i proffsens och eVars värld.

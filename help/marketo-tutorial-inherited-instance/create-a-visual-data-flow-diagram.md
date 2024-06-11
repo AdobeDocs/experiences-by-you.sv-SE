@@ -11,20 +11,20 @@ jira: KT-13877
 thumbnail: KT-13877.jpeg
 hide: false
 exl-id: 088bdcf1-4e49-44a7-ac78-a03742ff680b
-source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
+source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Skapa ett visuellt dataflödesdiagram för att förstå er marknadsföringsteknologi
 
-Som administratör som tar över en [!DNL [!DNL Marketo Engage]] som har funnits i åratal, är det som ett uppdrag som är omöjligt att granska och åtgärda instansen på ett effektivt sätt. När [!DNL Adobe] [!DNL Marketo Champion] (2019) Kelly Jo Horton gick in i ett långvarigt fall och tog itu med denna utmaning genom att [skapa ett diagram över&quot;lead- och datakällor&quot;](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} för att bekanta sig med datauniversum. I den här självstudiekursen får du lära dig hur du skapar ett eget dataflödesdiagram genom att bygga vidare på de exempel som Kelly Jo Horton har delat. Lär känna ditt MarTech-ekosystem!
+Som administratör som tar över en [!DNL Marketo Engage] som har funnits i åratal, är det som ett uppdrag som är omöjligt att granska och åtgärda instansen på ett effektivt sätt. När [!DNL Adobe] [!DNL Marketo Champion] (2019) Kelly Jo Horton gick in i ett långvarigt fall och tog itu med denna utmaning genom att [skapa ett diagram över&quot;lead- och datakällor&quot;](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} för att bekanta sig med datauniversum. I den här självstudiekursen får du lära dig hur du skapar ett eget dataflödesdiagram genom att bygga vidare på de exempel som Kelly Jo Horton har delat. Lär känna ditt MarTech-ekosystem!
 
 ## Varför skapa ett arkitekturdiagram för den ärvda instansen?
 
-1. **Bekanta dig med den marknadsföringsteknologi du ärvt från en live-instans.** Alla marknadsföringschefer/plattformsansvariga uppmuntras att göra den här övningen när de börjar på ett nytt företag. Detta gör att administratörsanvändare kan se hela bilden av data och aktiviteter som skickas från externa integreringar till [!DNL [!DNL Marketo Engage]] och för att enkelt felsöka API-felen.
+1. **Bekanta dig med den marknadsföringsteknologi du ärvt från en live-instans.** Alla marknadsföringschefer/plattformsansvariga uppmuntras att göra den här övningen när de börjar på ett nytt företag. Detta gör att administratörsanvändare kan se hela bilden av data och aktiviteter som skickas från externa integreringar till [!DNL Marketo Engage] och felsöka API-felen.
 2. **Bekanta dig med viktiga intressenter som hanterar externa integreringar.** Ett tips som Kelly Jo Horton använder för att snabbt identifiera intressenter är att referera till listan med API-användare.
    1. **Gå till fliken Integration>LaunchPoint i avsnittet Admin.** Läs mer om hur du går till fliken &#39;LaunchPoint&#39;: [Skapa en anpassad tjänst för användning med REST API](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api.html){target="_blank"}.
    2. Sök efter API-användningsstatistik efter API-användare på fliken Integrering > Webbtjänster i API Call Information. Genom att klicka på API-anropsnumret kan du visa de specifika enskilda anrop som görs av varje användare.
@@ -46,7 +46,7 @@ Skapa ett diagram för framtidens tillstånd som kan användas när tekniska och
 
 ### Steg 3: Teknisk version
 
-Skapa en teknisk version som visar detaljer som API-användarnamnet för varje integrering, en kort beskrivning av den typ av data som skickas till [!DNL [!DNL Marketo Engage]] eller hämtat från [!DNL [!DNL Marketo Engage]], och ett detaljerat diagram över alla middleware-flöden och -utlösare.  Här är ett exempel:
+Skapa en teknisk version som visar detaljer som API-användarnamnet för varje integrering, en kort beskrivning av den typ av data som skickas till [!DNL Marketo Engage] eller hämtad från [!DNL Marketo Engage]och ett detaljerat diagram över eventuella flöden och utlösare för mellanvara.  Här är ett exempel:
 
 ![Teknisk version](/help/marketo-tutorial-inherited-instance/_assets/data-flow-diagram/Lead-Data-Source-Diagram-KellyJo-Horton.png){align="center"}
 
@@ -120,7 +120,7 @@ Ladda ned ett av exempeldiagrammen för dataflöde för att kartlägga det aktue
 
 Det här är några verktyg du kan använda: draw.io (Google Docs), [!DNL Adobe] XD, Figma, Gliffy (in Confluence)
 
-**Vad händer om det redan finns arkitekturdiagram?** Nya teammedlemmar kan ha olika perspektiv. Det finns ett värde i att ha nya [!DNL [!DNL Marketo Engage]] administratörer gör den här övningen som en del av deras introduktionsprocess och delar den med andra.
+**Vad händer om det redan finns arkitekturdiagram?** Nya teammedlemmar kan ha olika perspektiv. Det finns värde med att ha nya [!DNL Marketo Engage] administratörer gör detta som en del av sin introduktionsprocess och delar det med andra.
 
 ## Författare
 
