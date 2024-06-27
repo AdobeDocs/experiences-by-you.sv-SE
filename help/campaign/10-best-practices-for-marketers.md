@@ -1,19 +1,19 @@
 ---
-title: De tio bästa metoderna för att marknadsförare når framgång med  [!DNL Adobe] [!DNL Campaign]
+title: Tio bästa sätten för [!DNL Adobe] [!DNL Campaign] framgång för marknadsförare
 description: Lär dig de tio bästa sätten att hjälpa [!DNL Adobe] [!DNL Campaign] ger användarna möjlighet att utnyttja och snabba upp omvandlingen av den digitala konsumenten och få en bättre upplevelse för sina kunder.
 doc-type: article
 solution: Campaign
 feature-set: Campaign
-feature: Personalization, [!DNL Campaign]s, Subscriptions, Deliverability
+feature: Personalization, Campaigns, Subscriptions, Deliverability
 role: User
 level: Beginner
 jira: KT-11772
 last-substantial-update: 2023-01-31T00:00:00Z
 exl-id: add6ed84-892d-4901-9dd2-b0cba0c57290
-source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
+source-git-commit: ec621f6e118292a3f8448c0e21abe8a1284cb10e
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 79%
+source-wordcount: '1262'
+ht-degree: 77%
 
 ---
 
@@ -28,7 +28,7 @@ I den här artikeln delar Christian med sig av sina bästa metoder för att hjä
 
 Det första steget för att säkerställa att du lyckas med [!DNL [!DNL Adobe] [!DNL Campaign]] är att förstå era verktyg och kundernas förväntningar - och det gäller alla typer av marknadsföring. Definiera och förstå tydligt vilka kanaler du använder för att kontakta kunderna, veta när dessa kanaler ska användas och varför.
 
-[!DNL Adobe] [!DNL Campaign] är ett flexibelt verktyg med vilket man kan genomföra och samordna kommunikation på många sätt. [Hälften av kunderna interagerar med tre till fem kanaler under varje köpresa](https://www.mckinsey.com/capabilities/operations/our-insights/redefine-the-omnichannel-approach-focus-on-what-truly-matters). Att förstå och ha en plan för hur dessa kanaler ska användas direkt är alltså avgörande för att du ska kunna utnyttja hela plattformens potential och nå dina kunder.
+[!DNL Adobe] [!DNL Campaign] är ett flexibelt verktyg som gör att du kan genomföra och samordna kommunikation på många sätt. [Hälften av kunderna interagerar med tre till fem kanaler under varje köpresa](https://www.mckinsey.com/capabilities/operations/our-insights/redefine-the-omnichannel-approach-focus-on-what-truly-matters). Att förstå och ha en plan för hur dessa kanaler ska användas direkt är alltså avgörande för att du ska kunna utnyttja hela plattformens potential och nå dina kunder.
 
 ## 2. Dokumentera och förstå kunddata
 
