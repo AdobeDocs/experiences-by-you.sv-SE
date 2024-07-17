@@ -1,5 +1,5 @@
 ---
-title: Lås upp insikter med histogram, utöver medelvärdet i [!DNL Analytics]
+title: Låsa upp insikter med histogram, utöver medelvärdet i  [!DNL Analytics]
 description: Upptäck hur histogrammen påverkar analyser för att få insikter utöver medelvärdet.
 feature-set: Analytics
 feature: Visualizations
@@ -12,14 +12,14 @@ thumbnail: KT-13833.jpeg
 exl-id: 46a9dab2-17f8-435e-949c-45d4a60343f0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
 
-# Lås upp insikter med histogram: bortom medelvärden i [!DNL Analytics]
+# Låsa upp insikter med histogram: bortom medelvärden i [!DNL Analytics]
 
-_Upptäck hur histogrammen påverkar analyser för att få insikter utöver medelvärdet. Histogram avslöjar datamönster i kundbeteende, besökarengagemang, tekniska prestanda och formulärfel, vilket ger djupare insikter och välgrundade beslut i [!DNL Adobe] Arbetsyta._
+_Upptäck hur histogram påverkar analyser för att få insikter utöver medelvärdet. Histogram avslöjar datamönster i kundbeteende, besökarengagemang, tekniska prestanda och formulärfel, vilket ger djupare insikter och välgrundade beslut i [!DNL Adobe] Workspace._
 
 Kom så hoppar vi in. Du bör använda [histogram](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html). Jag ska förklara varför, men jag vill svara på din första fråga: Vad i världen är ett histogram? Jag fattar. Oftast när man ser en massa staplar som går upp, tror man att det är ett stolpdiagram. Ja, histogrammen ser likadana ut, men jag försäkrar er att de är annorlunda. I ett stapeldiagram jämförs saker, medan ett histogram visar hur ofta en variabel inträffade. Ta en titt. Här är ett stapeldiagram:
 
@@ -69,14 +69,14 @@ Du kan fråga, hur skiljer det sig från att bara ha ett beräknat mått? Jag se
 
   ![Histogram 4](assets/histogram-4.png)
 
-Som du ser har histogrammen inte bara sina egna användningar, utan de fördjupar också den insikt du får av ett genomsnitt. De är en körklar visualisering i [!DNL Adobe Analytics] och enkelt att skapa. Förhoppningsvis är dessa användningsexempel till hjälp för dig eller inspirerar till något. Glad visualisering!
+Som du ser har histogrammen inte bara sina egna användningar, utan de fördjupar också den insikt du får av ett genomsnitt. De är färdiga att visa i [!DNL Adobe Analytics] och enkla att skapa. Förhoppningsvis är dessa användningsexempel till hjälp för dig eller inspirerar till något. Glad visualisering!
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 
 ![Gitai Ben-Ammi](assets/gitai-headshot.png)
 
-**Gitai Ben-Ammi**, rektor konsult på Concentrix Catalyst
+**Gitai Ben-Ammi**, rektor på Concentrix Catalyst
 
 [!DNL Adobe Analytics] Champion

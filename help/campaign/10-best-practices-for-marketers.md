@@ -1,6 +1,6 @@
 ---
-title: Tio bästa sätten för [!DNL Adobe] [!DNL Campaign] framgång för marknadsförare
-description: Lär dig de tio bästa sätten att hjälpa [!DNL Adobe] [!DNL Campaign] ger användarna möjlighet att utnyttja och snabba upp omvandlingen av den digitala konsumenten och få en bättre upplevelse för sina kunder.
+title: Tio bästa sätten för  [!DNL Adobe] [!DNL Campaign] marknadsförare att lyckas
+description: Lär dig de tio bästa sätten att hjälpa [!DNL Adobe] [!DNL Campaign]-användare att låsa upp och snabba upp den digitala konsumentomvandlingen och få en bättre upplevelse för sina kunder.
 doc-type: article
 solution: Campaign
 feature-set: Campaign
@@ -17,18 +17,18 @@ ht-degree: 77%
 
 ---
 
-# Tio bästa sätten för [!DNL} [!DNL Adobe] [!DNL Campaign]] succé för marknadsförare
+# Tio bästa sätten för [!DNL [!DNL Adobe] [!DNL Campaign]] att lyckas för marknadsförare
 
-Christian Klimczyk är en självbeskriven[!DNL Adobe] Nerd med sju års [!DNL] [!DNL Adobe] Experience Cloud]-expertis, främst inriktad på [!DNL] [!DNL Adobe] [!DNL Campaign]]. Som en [!DNL Adobe] Plattformsägare för ett stort CPG-företag använder Christian och hans team [!DNL [!DNL Campaign]] för all konsumentkommunikation och interaktion. De kan smidigt samordna och hantera höga krav och flerkanaliga marknadsföringskampanjer över direktreklam, e-post och SMS/MMS.
+Christian Klimczyk är en självbeskriven [!DNL Adobe] Nerd med sju års [!DNL [!DNL Adobe] Experience Cloud]-expertis, huvudsakligen inriktad på [!DNL [!DNL Adobe] [!DNL Campaign]]. Som [!DNL Adobe]-plattformsägare för ett stort CPG-företag använder Christian och hans team [!DNL [!DNL Campaign]] för all konsumentkommunikation och interaktion. De kan smidigt samordna och hantera höga krav och flerkanaliga marknadsföringskampanjer över direktreklam, e-post och SMS/MMS.
 
-I den här artikeln delar Christian med sig av sina bästa metoder för att hjälpa [!DNL Adobe] [!DNL Campaign] ger användarna möjlighet att utnyttja och snabba upp omvandlingen av den digitala konsumenten och få en bättre upplevelse för sina kunder.
+I den här artikeln delar Christian med sig av sina bästa metoder för att hjälpa [!DNL Adobe] [!DNL Campaign]-utövare att låsa upp och snabba upp den digitala konsumentomvandlingen och skapa en bättre upplevelse för sina kunder.
 
 
 ## 1. Bilda en övergripande sammanhängande plan för marknadsföring och leverans
 
-Det första steget för att säkerställa att du lyckas med [!DNL [!DNL Adobe] [!DNL Campaign]] är att förstå era verktyg och kundernas förväntningar - och det gäller alla typer av marknadsföring. Definiera och förstå tydligt vilka kanaler du använder för att kontakta kunderna, veta när dessa kanaler ska användas och varför.
+Det första steget för att se till att du lyckas med [!DNL [!DNL Adobe] [!DNL Campaign]] är att förstå dina verktyg och kundernas förväntningar - och det är sant i alla typer av marknadsföring. Definiera och förstå tydligt vilka kanaler du använder för att kontakta kunderna, veta när dessa kanaler ska användas och varför.
 
-[!DNL Adobe] [!DNL Campaign] är ett flexibelt verktyg som gör att du kan genomföra och samordna kommunikation på många sätt. [Hälften av kunderna interagerar med tre till fem kanaler under varje köpresa](https://www.mckinsey.com/capabilities/operations/our-insights/redefine-the-omnichannel-approach-focus-on-what-truly-matters). Att förstå och ha en plan för hur dessa kanaler ska användas direkt är alltså avgörande för att du ska kunna utnyttja hela plattformens potential och nå dina kunder.
+[!DNL Adobe] [!DNL Campaign] är ett flexibelt verktyg som gör att du kan köra och samordna kommunikation på många sätt. [Hälften av kunderna interagerar med tre till fem kanaler under varje köpresa](https://www.mckinsey.com/capabilities/operations/our-insights/redefine-the-omnichannel-approach-focus-on-what-truly-matters). Att förstå och ha en plan för hur dessa kanaler ska användas direkt är alltså avgörande för att du ska kunna utnyttja hela plattformens potential och nå dina kunder.
 
 ## 2. Dokumentera och förstå kunddata
 
@@ -42,7 +42,7 @@ I added that second paragraph about 760% revenue and broke up the rest of the se
 
 Enligt en [Hubspot-studie](https://www.linkedin.com/pulse/customer-segmentation-effective-b2b-business-industry-sabreen) hade segmenterade kampanjer 14,31 % högre öppningsfrekvens och 101 % fler klick än icke-segmenterade kampanjer. E-postmarknadsförare som segmenterade målgruppen före kampanjen uppgav att intäkterna ökade med upp till 760 %.
 
-I [!DNL Adobe] [!DNL Campaign]kan du skapa segmentering snabbt och enkelt. För att effektivisera och underlätta denna process måste dock kampanjansvariga och marknadsförare ha en dokumenterad förståelse för underliggande data när de utformar och begär uppbyggnaden och genomförandet av en kampanj. Det är viktigt att du förstår dina aktuella data och förutse vilka data du kan behöva när du samarbetar med administratörer och utvecklare som stöder din [!DNL [!DNL Campaign]]-instans.
+I [!DNL Adobe] [!DNL Campaign] kan du ordna segmenteringen snabbt och enkelt. För att effektivisera och underlätta denna process måste dock kampanjansvariga och marknadsförare ha en dokumenterad förståelse för underliggande data när de utformar och begär uppbyggnaden och genomförandet av en kampanj. Det är viktigt att du förstår dina aktuella data och hur du kan förutse vilka data du kan behöva när du samarbetar med administratörer och utvecklare som stöder din [!DNL [!DNL Campaign]]-instans.
 
 Dina kampanjer är bara så bra som de underliggande datastrukturer som stöder dem. Det underlättar också att känna till och dokumentera denna datastruktur om det uppstår problem när du integrerar plattformar eller tar steget till en konsumentdataplattform
 
@@ -50,7 +50,7 @@ Dina kampanjer är bara så bra som de underliggande datastrukturer som stöder 
 
 Precis som dina kunder har du en daglig rutin. Sändningen och orkestreringen av kampanjerna bör motsvara denna rytm. Annars kanske du inte når dina kunder eftersom [85 % av skickade e-postmeddelanden öppnas inte och 98 % av skickade e-postmeddelanden klickas inte igenom](https://www.validity.com/resource-center/state-of-email-2021/).
 
-Om dina kunder till exempel tittar på telefonen på morgonen för att få de bästa erbjudandena bör du överväga att skicka en kampanj till dem. Om de är på jakt efter nästa heta trend kan du skicka ett uppföljningsmejl med en kampanjkod för fri frakt. Det är också viktigt att använda värmekartverktyget i [!DNL] [!DNL Campaign]] för att spåra när arbetsflödena och sändningarna körs. Det kan vara en utmaning att samordna och underlätta kommunikation mellan olika varumärken. [Håll ett öga på rytmen, cadence och timing för dina e-postmeddelanden](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/predictive-send-time-optimization-with-adobe-campaign/ba-p/561554) är ovärderliga för den övergripande stabiliteten och styrkan i ert budskap och [!DNL Campaign] -instans.
+Om dina kunder till exempel tittar på telefonen på morgonen för att få de bästa erbjudandena bör du överväga att skicka en kampanj till dem. Om de är på jakt efter nästa heta trend kan du skicka ett uppföljningsmejl med en kampanjkod för fri frakt. Det är också viktigt att du använder värmekartverktyget i [!DNL [!DNL Campaign]] för att spåra när arbetsflödena och sändningarna körs. Det kan vara en utmaning att samordna och underlätta kommunikation mellan olika varumärken. [Att hålla ett öga på och känna till rytmen, cadence och timing för dina e-postmeddelanden](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/predictive-send-time-optimization-with-adobe-campaign/ba-p/561554) är ovärderligt för den övergripande stabiliteten och styrkan i ditt meddelande och [!DNL Campaign]-instansen.
 
 ## 4. Använd personalisering där det är viktigt
 
@@ -60,13 +60,13 @@ Idag förväntar sig konsumenterna en viss nivå av personanpassning i de meddel
 
 Kreativa resurser är bränslet som kan ge drivkraft åt dina effektiva och välstrukturerade kampanjleveransmotorer. Ju bättre du når konsumenterna och ju mer du justerar och utvecklar marknadsföringsprocesserna, desto mer kreativt innehåll behöver du. Konsumenterna förväntar sig detta.
 
-Du är bara så snabb som nästa leverans teamet kan konfigurera. Detta kräver ofta nytt och spännande innehåll. [!DNL [!DNL Adobe] [!DNL Campaign]] gör det enkelt att konfigurera mallar och ta emot och förbereda dessa leveranser. Det är dock avgörande att ha en sund och kreativ pipeline eftersom 58 % av marknadsförarna noterade att det tar två veckor eller längre att skapa en enda e-postkampanj, enligt en [Litmus-rapport](https://www.litmus.com/resources/state-of-email/).
+Du är bara så snabb som nästa leverans teamet kan konfigurera. Detta kräver ofta nytt och spännande innehåll. [!DNL [!DNL Adobe] [!DNL Campaign]] gör det enkelt att konfigurera mallar och ta emot och förbereda leveranser. Det är dock avgörande att ha en sund och kreativ pipeline eftersom 58 % av marknadsförarna noterade att det tar två veckor eller längre att skapa en enda e-postkampanj, enligt en [Litmus-rapport](https://www.litmus.com/resources/state-of-email/).
 
 ## 6. Förstå och hantera prenumerationer och preferenser
 
 Det kan snabbt bli förvirrande att hantera och underhålla prenumerationspreferenser vilket kan orsaka risker på flera nivåer. Precis som att skicka fel budskap till kunden via en kanal som de inte svarar på, uppger nio av tio konsumenter att det är mindre troligt att de kommer att handla med ett varumärke i framtiden om de har en negativ upplevelse. I ett större perspektiv så kan du utsätta dig själv för regulatoriska- och efterlevnadsrisker och böter.
 
-En strategi för hantering av deltagande och utveckling av detta ständigt föränderliga ekosystem genom expertanvändning av [!DNL] [!DNL Adobe] [!DNL Campaign]] och andra verktyg för marknadsföringsteknologi. Detta är ofta en av de största mätvärdena för kampanjframgångar, så noggrann planering ger ovärderliga utdelningar när kampanjstrategin växer och mognar.
+Ha en strategi i förväg för att hantera avanmälningar och odla detta ständigt föränderliga ekosystem genom expertanvändning av [!DNL [!DNL Adobe] [!DNL Campaign]] och andra marknadsföringsteknologiverktyg. Detta är ofta en av de största mätvärdena för kampanjframgångar, så noggrann planering ger ovärderliga utdelningar när kampanjstrategin växer och mognar.
 
 ## 7. Förstå och planera för leverans
 
@@ -88,4 +88,4 @@ När du testar nya saker blir det inte alltid rätt första gången. Därför ä
 
 Marknaden fortsätter att förändras och röra sig i en allt högre takt. Det är viktigt att uppmuntra dina kampanjteam att hålla sig så lätta och flexibla som möjligt för att kunna konkurrera och fortsätta uppfylla växande kundförväntningar.
 
-[35 % av ledarna inom digital marknadsföring anser att de största utmaningarna kommer inifrån organisationen](https://www.gartner.com/en/newsroom/press-releases/gartner-says-35--of-digital-marketing-leaders-believe-the-bigges). För att uppnå detta, gå över tåget på några plattformar, öka din förståelse för dataflöden och datastruktur eller andra [!DNL Adobe] och skapa beredskapsplaner för kampanjer. Detta tankesätt kan uppnås på många sätt, men ett övergripande engagemang för flexibilitet och planering är avgörande för att lyckas på kort och lång sikt.
+[35 % av ledarna inom digital marknadsföring anser att de största utmaningarna kommer inifrån organisationen](https://www.gartner.com/en/newsroom/press-releases/gartner-says-35--of-digital-marketing-leaders-believe-the-bigges). För att uppnå detta måste du träna över några plattformar, få en bättre förståelse för dataflöden och struktur eller andra [!DNL Adobe]-lösningar och skapa beredskapsplaner för kampanjer. Detta tankesätt kan uppnås på många sätt, men ett övergripande engagemang för flexibilitet och planering är avgörande för att lyckas på kort och lång sikt.

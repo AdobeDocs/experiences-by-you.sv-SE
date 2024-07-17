@@ -44,7 +44,7 @@ När du gör en undersökande analys och vill testa olika typer av segment för 
 
 Du kommer åt segmentbyggaren genom att klicka på symbolen + ovanför listan med segment på komponentmenyn till vänster, eller genom att klicka på komponentlistrutan och välja Skapa segment.. till skillnad från snabbsegmenten, har detta alla alternativ som är tillgängliga för dig. Om du vill lägga till flera villkor kan du skapa sekventiella segment med hjälp av operatorn&quot;then&quot;. Med sekventiella segment kan du även använda&quot;logikgrupp&quot; som din nivå (i stället för träffad, besök eller besökare). Med segmentbyggaren kan du också lägga till en beskrivning till segmenten, som kan lägga till kontext om vem som skapade segmentet eller vilken typ av data som det har skapats för att filtrera, eller lägga till taggar till segmentet för organisatoriska syften som inte är möjliga i snabbsegmentsbyggaren.
 
-Det är viktigt att du använder segmentbyggaren när segmentet ska ha fler än tre villkor, om du behöver använda behållare eller vill ha sekventiella segment. Den kompletta segmentbyggaren har många fler alternativ för att göra mer komplicerade segment, vilket kan hjälpa er att dela upp olika kundtyper, kategorier, kundresor osv. När dessa segment har skapats och sparats läggs de till i huvudlistan med segment, vilket innebär att de kan taggas, godkännas, delas, användas i flera rapporter och publiceras på Experience Cloud. Genom att publicera i Experience Cloud kan du använda segmentet i andra [!DNL Adobe] produkter, som i [!DNL Adobe] Rikta er för personalisering. Segment som har byggts i segmentbyggaren kan inte redigeras på snabbsegmentpanelen. Du måste öppna segmentbyggaren för att kunna göra ändringar i dem. Som tur är ger förhandsvisningen till höger en mer detaljerad analys av den trafik som segmentet skulle ha fört in de senaste 90 dagarna, vilket innebär att det är lättare att vara säker på att segmentet kommer med det du vill ha innan du sparar.
+Det är viktigt att du använder segmentbyggaren när segmentet ska ha fler än tre villkor, om du behöver använda behållare eller vill ha sekventiella segment. Den kompletta segmentbyggaren har många fler alternativ för att göra mer komplicerade segment, vilket kan hjälpa er att dela upp olika kundtyper, kategorier, kundresor osv. När dessa segment har skapats och sparats läggs de till i huvudlistan med segment, vilket innebär att de kan taggas, godkännas, delas, användas i flera rapporter och publiceras på Experience Cloud. Med publicering i Experience Cloud kan du använda segmentet i andra [!DNL Adobe]-produkter, till exempel i [!DNL Adobe] Target för personalisering. Segment som har byggts i segmentbyggaren kan inte redigeras på snabbsegmentpanelen. Du måste öppna segmentbyggaren för att kunna göra ändringar i dem. Som tur är ger förhandsvisningen till höger en mer detaljerad analys av den trafik som segmentet skulle ha fört in de senaste 90 dagarna, vilket innebär att det är lättare att vara säker på att segmentet kommer med det du vill ha innan du sparar.
 
 ![Segment Builder](assets/segment-builder-quick.png)
 
@@ -56,16 +56,16 @@ Det finns också tillfällen då segmentbyggaren har varit min tur. Alla kunder 
 
 Generellt sett är både snabbsegmenten och segmentbyggaren utmärkta verktyg som du kan använda i din analys. De har sina syften, fördelar och nackdelar. Se till att du tar en titt på våra praktiska tips och tricks nedan.
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 
 ![Mandy George](assets/mandy-george-2.png)
 
-**Mandy George**, Digital Analyst III at Best Buy Canada
+**Mandy George**, Digital Analyst III på Best Buy Canada
 
 Adobe Analytics Champion
 
 ## Ladda ned
 
-[![Ladda ned snabbsegment](assets/quick-segments-download-small.jpg)](assets/[!DNL Adobe]_[!DNL Analytics]_Segments_vs_Segment_Builder_Reference_Guide.pdf)
+[![Hämta snabbsegment](assets/quick-segments-download-small.jpg)](resurser/[!DNL Adobe]_[!DNL Analytics]_Segments_Vs_Segment_Builder_Reference_Guide.pdf)

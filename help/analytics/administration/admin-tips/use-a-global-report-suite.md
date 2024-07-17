@@ -13,16 +13,16 @@ kt: 10536
 exl-id: f133d049-9a24-4153-88c5-40ec480d1e4e
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
 
 # Använd en global rapportsvit
 
-**VAD:** Det är frestande att skapa rapportsviter för var och en av era webbplatser, men detta kan snabbt bli den värsta mardrömmen - både när det gäller att komplicera er rapportering och implementeringen. Ett enda globalt rapportpaket kan hjälpa dig på många sätt och förenkla implementeringen.
+**VAD:** Det är frestande att skapa rapportsviter för var och en av dina webbplatser, men detta kan snabbt bli din värsta mardröm - både när det gäller att komplicera både din rapportering och implementeringen. Ett enda globalt rapportpaket kan hjälpa dig på många sätt och förenkla implementeringen.
 
-**VARFÖR:** Att skapa en global rapportserie är det enda alternativet för att få en enhetlig bild av era digitala resurser och användarnas resor över alla egenskaper. Om ni har en mobilapp och en webbplats bör ni alltid kombinera appdata och webbdata i en enda rapportserie för att dra nytta av enhetsövergripande resor och spåra dem som besöker båda egenskaperna som en enskild besökare jämfört med separata rapportsviter, där ni har en osammanhängande datauppsättning som visar 2 besökare - 1 till varje egendom - utan att kunna känna till förskjutningen.
+**VARFÖR:** Det enda alternativet att skapa en global rapportsvit är att ha en enhetlig vy över dina digitala egenskaper och användarnas resor för varje egenskap. Om ni har en mobilapp och en webbplats bör ni alltid kombinera appdata och webbdata i en enda rapportserie för att dra nytta av enhetsövergripande resor och spåra dem som besöker båda egenskaperna som en enskild besökare jämfört med separata rapportsviter, där ni har en osammanhängande datauppsättning som visar 2 besökare - 1 till varje egendom - utan att kunna känna till förskjutningen.
 
 Nedan följer några fördelar och nackdelar med att ha ett och samma rapportpaket som hjälper dig att väga olika alternativ:
 
@@ -36,7 +36,7 @@ Nedan följer några fördelar och nackdelar med att ha ett och samma rapportpak
 * KONS:
    * Om du har väldigt olika egenskaper där användarna inte klipper över från den ena till den andra och aldrig förväntas göra det, kanske du vill ha separata rapportsviter.
    * Om dina egenskaper har mycket olika taggnings- och rapporteringsbehov kan det vara bra att skapa separata rapportsviter för variabel effektivitet. Separata rapportsviter ger större flexibilitet när det gäller att använda anpassade variabler (fler eVars).
-   * Uniques överskreds: [!DNL Adobe Analytics] -gränssnittet gör att du bara kan se 500 000 unika värden inom en enda dimension under en viss tidsperiod. När du har överskridit detta grupperas värdena som &#39;uniques beyond&#39; eller &#39;low Trafiken&#39; i gränssnittet. Dessa värden är fortfarande tillgängliga för dig på backend-sidan (dvs. Data Warehouse, dataflöden), men kan inte visas i gränssnittet. Om du har mycket detaljerade data (som användar-ID, PSN osv.) är det enkelt att nå den här nivån. Separata rapportsviter kan vara till hjälp i det här problemet.
+   * Uniques har överskridits: Gränssnittet [!DNL Adobe Analytics] tillåter bara att du ser 500 000 unika värden inom en dimension under en given tidsperiod. När du har överskridit detta grupperas värdena som &#39;uniques beyond&#39; eller &#39;low Trafiken&#39; i gränssnittet. Dessa värden är fortfarande tillgängliga för dig på backend-sidan (dvs. Data Warehouse, dataflöden), men kan inte visas i gränssnittet. Om du har mycket detaljerade data (som användar-ID, PSN osv.) är det enkelt att nå den här nivån. Separata rapportsviter kan vara till hjälp i det här problemet.
 
 **HUR:** Det är enkelt och enkelt att börja med en ny AA-implementering och att använda en global rapportserie. Du behöver bara skapa den globala rapportsviten (en för Dev och en för Prod) i användargränssnittet för AA-administratörer och använda samma värden för rapportsvitens-ID (RSID) för alla dina egenskaper.
 
@@ -53,7 +53,7 @@ Det här dokumentet skrevs tillsammans av:
 
 ![Christel Guidon](assets/Christel-Headshot-150.png)
 
-Christel Guidon, digital [!DNL Analytics] Platform Manager på NortonLifeLock
+Christel Guidon, Digital [!DNL Analytics] Platform Manager på NortonLifeLock
 [!DNL Adobe Analytics] Champion
 
 ![Rachel Fenwick](assets/Rachel-Fenwick-150.png)

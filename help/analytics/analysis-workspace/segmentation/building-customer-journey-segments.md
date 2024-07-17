@@ -1,6 +1,6 @@
 ---
 title: Bygga kundresesegment
-description: Lär dig skapa beteendebaserade kundsegment i [!DNL Adobe Analytics] och förbättra kundernas upplevelse med [!DNL Adobe] Experience Cloud genom att följa den här steg-för-steg-guiden.
+description: Lär dig hur du skapar beteendebaserade kundsegment i  [!DNL Adobe Analytics] och förbättrar dina kunders upplevelse med  [!DNL Adobe] Experience Cloud genom att följa den här steg-för-steg-guiden.
 feature-set: Analytics
 feature: Segmentation
 role: User
@@ -12,20 +12,20 @@ thumbnail: KT-13180.jpeg
 exl-id: 34f42d7e-e849-420e-9b3d-f3dcc1882b23
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
 
 # Bygga kundresesegment
 
-Lär dig skapa beteendebaserade kundsegment i [!DNL Adobe Analytics] och förbättra kundernas upplevelse med [!DNL Adobe] Experience Cloud genom att följa den här steg-för-steg-guiden.
+Lär dig hur du skapar beteendebaserade kundresesegment i [!DNL Adobe Analytics] och förbättrar dina kunders upplevelse med [!DNL Adobe] Experience Cloud genom att följa den här steg-för-steg-guiden.
 
-Låt oss skapa bättre kundsegment! I den här serien använder vi [!DNL Adobe Analytics] för att definiera beteendebaserade segment, beräkna målgruppsstorlekar och spåra användarnas rörelser. Till slut kan ni personalisera media och förbättra kundernas upplevelse med [!DNL Adobe] Experience Cloud. Tänk på att dessa segment lever och bör uppdateras när ni lär er mer om era kunder. Även om rapportering kan medföra vissa utmaningar, oroa dig inte, jag hjälper dig igenom det! Vi börjar med att skapa vår första uppsättning kundresesegment, med början i segmentet&quot;One Hit Wonders&quot;.
+Låt oss skapa bättre kundsegment! I den här serien använder vi [!DNL Adobe Analytics] för att definiera beteendebaserade segment, beräkna målgruppsstorlekar och spåra användarrörelser. Till slut kan du anpassa media och förbättra dina kunders upplevelse med [!DNL Adobe] Experience Cloud. Tänk på att dessa segment lever och bör uppdateras när ni lär er mer om era kunder. Även om rapportering kan medföra vissa utmaningar, oroa dig inte, jag hjälper dig igenom det! Vi börjar med att skapa vår första uppsättning kundresesegment, med början i segmentet&quot;One Hit Wonders&quot;.
 
-Idag ska vi skapa platshållare för vår första uppsättning kundtjänstsegment, bygga en [!DNL Adobe Analytics] Arbetsyta som hjälper oss att definiera våra segment och definiera vårt första segment,&quot;One Hit Wonders&quot;.
+I dag ska vi skapa platshållare för vår första uppsättning kundtjänstsegment, bygga en [!DNL Adobe Analytics]-Workspace för att hjälpa oss att definiera våra segment och definiera vårt första segment,&quot;One Hit Wonders&quot;.
 
-I slutet av den här serien kan ni skapa kundsegment i [!DNL Adobe Analytics] baserat på beteendesignaler. Ni kommer att kunna uppskatta storleken på varje målgrupp i varje skede av resan och förstå i vilken utsträckning användarna rör sig mellan dessa steg. Och ni kommer att kunna exportera dessa målgrupper för kundresan till [!DNL Adobe] Experience Cloud för att möjliggöra personalisering och medieanpassning.
+I slutet av den här serien kan du skapa kundsegment i [!DNL Adobe Analytics] baserat på beteendesignaler. Ni kommer att kunna uppskatta storleken på varje målgrupp i varje skede av resan och förstå i vilken utsträckning användarna rör sig mellan dessa steg. Och du kommer att kunna exportera dessa målgrupper inom kundresan till [!DNL Adobe] Experience Cloud för att möjliggöra personalisering och medieanpassning.
 
 Varje företag är annorlunda, och det innebär att kundens kundfärdssegment ser annorlunda ut än mitt. I stället för att förskriva specifika formler för dina segment kan du föreslå några saker att titta på och en övergripande process för att skapa dem.
 
@@ -41,21 +41,21 @@ Min första uppsättning av besöksavsiktssegment inkluderade:
 
 * One Hit Wonders
 * Medvetenhet
-* Villkor
+* Övervägande
 * Bokning (inköp)
 * Kvarhållning (hantera bokning/inköp)
 
 För att göra mina besöksintent-segment enkla att använda lade jag till&quot;Intent:&quot; som prefix för mina segmentnamn, gav dem ett nummer för att möjliggöra sortering och taggade dem&quot;intent&quot;. Mina segment såg ut som bilden nedan.
 
-![avsiktliga segment](assets/intent-segments.png)
+![intent segments](assets/intent-segments.png)
 
 **Skapa dina besöksåtergivningssegment med hjälp av besöksbehållaren med en platshållardefinition av sidvyer >= 1.**
 
 Som vi kommer att se är byggandet av dessa segment en iterativ och sammankopplad process. Jag kommer att beskriva processen att bygga dessa segment i en framtida post.
 
-## Arbetsytan Datakvalitet för besöksavsiktssegment
+## Workspace, Data Quality för besökssegment
 
-![besök arbetsytan för återgivning](assets/visit-intent-workspace.png)
+![gå till arbetsytan Återgivning](assets/visit-intent-workspace.png)
 
 Jag använde en enkel arbetsyta för att säkerställa att jag definierade mina besöksintent-segment väl. Kom ihåg att varje besök måste tillhöra ett, och bara ett, besökssegment. Den arbetsyta som jag konfigurerar ser till att alla besök tas med och att det inte finns någon överlappning mellan segmenten.
 
@@ -71,7 +71,7 @@ I det övre högra hörnet har jag lagt till ytterligare mätvärden till vart o
 
 Kom ihåg att vi just skapade platshållarsegment. Till att börja med ser arbetsytan fantastisk ut. Alla besöksavsiktssegment överlappar 100 % eftersom de har samma definition. Detta är korrekt och exakt vad du vill se nu i processen. När vi bygger upp segmentdefinitionerna börjar vi se hur dessa segment börjar få form.
 
-![Besök segmentdefinitioner för avsikt](assets/visit-intent-segment-defs.png)
+![Besök segmentdefinitionerna för återgivning](assets/visit-intent-segment-defs.png)
 
 ## Bygger ditt första besökssegment
 
@@ -93,13 +93,13 @@ Mitt första segment,&quot;One Hit Wonders&quot;, var enkelt att definiera. Det 
 
 ![Segmentdefinition](assets/segment-def.png)
 
-När du har definierat det här segmentet börjar du se hur arbetsytan Besöksmetod ser ut.
+När du har definierat det här segmentet börjar du se hur Workspace tar form på besökswebbplatsen.
 
 ![Fler segmentdefinitioner](assets/more-segment-defs.png)
 
-Bygga kundsegment med [!DNL Adobe Analytics] är en utmanande men givande process. Genom att skapa beteendebaserade segment, beräkna målgruppsstorlekar och spåra användarrörelser kan företag personalisera media och förbättra kundupplevelsen. Varje verksamhet är unik och det finns inga specifika formler för att skapa segment, utan riktlinjer och en process som ska följas. Segmenten bör uppdateras när företag lär sig mer om sina kunder, vilket medför rapporteringsproblem. Genom att följa processen med att bygga segment för besöksavsikt kan företag förbättra den övergripande kundupplevelsen.
+Det är en utmanande men givande process att skapa kundsegment med hjälp av [!DNL Adobe Analytics]. Genom att skapa beteendebaserade segment, beräkna målgruppsstorlekar och spåra användarrörelser kan företag personalisera media och förbättra kundupplevelsen. Varje verksamhet är unik och det finns inga specifika formler för att skapa segment, utan riktlinjer och en process som ska följas. Segmenten bör uppdateras när företag lär sig mer om sina kunder, vilket medför rapporteringsproblem. Genom att följa processen med att bygga segment för besöksavsikt kan företag förbättra den övergripande kundupplevelsen.
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 

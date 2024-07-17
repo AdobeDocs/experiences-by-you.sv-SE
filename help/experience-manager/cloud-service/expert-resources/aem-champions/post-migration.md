@@ -9,13 +9,13 @@ doc-type: Value Video
 duration: 224
 last-substantial-update: 2024-04-11T00:00:00Z
 jira: KT-15324
-source-git-commit: 4c59b1ed049e541cc1f6d9585be531958cf218af
+exl-id: 89530e01-c769-4553-bbe8-e543f84de827
+source-git-commit: 806a4847a8756e711ec78811e9678cdb593f2d76
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
 
 ---
-
 
 # AEM Champion Best Practices and Tips - Post Migration
 

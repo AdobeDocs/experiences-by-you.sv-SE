@@ -15,13 +15,13 @@ last-substantial-update: 2022-11-03T00:00:00Z
 exl-id: 1c83cfef-c363-4cdc-838d-19e7110d4fd8
 source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '71'
 ht-degree: 81%
 
 ---
 
 # De fem bästa arbetsflödena för marknadsförare från LoyaltyOne
 
-Kraftfulla arbetsflöden [!DNL Adobe] [!DNL Campaign] hjälper er att hantera kampanjer och nå kunderna smidigare. Lär dig och tillämpa god praxis för fem viktiga arbetsflöden för marknadsförare från Adam Wilson, Associate Director of Marketing, hos LoyaltyOne.
+Arbetsflöden, som är en kraftfull [!DNL Adobe] [!DNL Campaign]-funktion, hjälper dig att hantera kampanjer och enklare nå kunder. Lär dig och tillämpa god praxis för fem viktiga arbetsflöden för marknadsförare från Adam Wilson, Associate Director of Marketing, hos LoyaltyOne.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410837?quality=12&learn=on){transcript=true}

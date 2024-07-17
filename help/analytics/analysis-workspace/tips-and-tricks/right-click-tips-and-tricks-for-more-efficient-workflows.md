@@ -11,7 +11,7 @@ kt: KT-13087
 exl-id: 2bd7a828-5bb0-43bf-8802-310edd444d62
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Detta kan användas i många visualiseringar, bland annat linjediagram, stolpdia
 
 ## Tips nr 6: Hämta data för specifika tabeller
 
-Användare vill ofta exportera data till csv. Det här tipset hjälper dig att komma bort från begränsningen på 400 rader i arbetsytan. Överst i en frihandstabell högerklickar du, så ser du 2 nedladdningsalternativ
+Användare vill ofta exportera data till csv. Det här tipset hjälper dig att komma bort från begränsningen på 400 rader i Workspace. Överst i en frihandstabell högerklickar du, så ser du 2 nedladdningsalternativ
 
 Med alternativet Hämta objekt som CSV (segment) kan du hämta upp till 50 000 rader med data.  Detta medför inte några neddelningar, men det kommer att föra över alla segment och använda filter. Detta är mycket användbart när det finns tusentals rader med data.
 
@@ -72,9 +72,9 @@ Det kan vara bra att dölja vissa rader i en frihandstabell. Markera endast de r
 
 Detta bör inte användas för att helt ändra data, och du måste vara försiktig så att du inte döljer viktiga rader. Men det kan också användas som ett enkelt sätt att snabbt rensa upp data och få användarna att komma tillbaka till helheten. Detta är ett bra sätt att enkelt ta bort röriga och oviktiga detaljer.
 
-Jag hoppas att du verkligen utnyttjar dessa tips och att de hjälper dig att spara tid och leverera mer relevanta rapporter med [!DNL Adobe]Analysis Workspace!
+Jag hoppas att du verkligen utnyttjar de här tipsen och att de hjälper dig att spara tid och leverera mer relevanta rapporter med [!DNL Adobe]s Analysis Workspace!
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 

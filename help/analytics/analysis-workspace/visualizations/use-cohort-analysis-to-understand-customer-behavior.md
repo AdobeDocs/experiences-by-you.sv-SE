@@ -12,7 +12,7 @@ thumbnail: KT-13213.jpeg
 exl-id: 79392eea-a8b6-4ae2-98ef-6ebbd11d88a0
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,12 @@ Kohortanalys är ett användbart verktyg för att förstå hur kohorter interage
 Så här ställer du in kohorttabellen
 
 1. Ange datumintervall till jan till dec 2022
-1. **Inkluderingskriterier:** Besök
-1. **Returkriterier:** Besök
+1. **Inkluderingskriterier:** besök
+1. **Returvillkor:** besök
 1. **Kornighet:** Månad
-1. **Inställningar:** Rullande beräkning \*\*Gör att du kan beräkna kvarhållningen baserat på föregående kolumn, inte den inkluderade kolumnen. Detta innebär att en användare ingår i var och en av månaderna\*\*
-1. **Segment:** kan du välja specifika segment för att ytterligare utveckla analysen
+1. **Inställningar:** Rullande beräkning
+\*\*Gör att du kan beräkna bevarande baserat på föregående kolumn, inte den inkluderade kolumnen. Detta innebär att en användare ingår i var och en av månaderna\*\*
+1. **Segment:** Du kan välja specifika segment för att ytterligare utveckla analysen
    1. Särskilda landningssidor
    1. Enhetstyp
    1. Marknadsföringskanaler
@@ -65,7 +66,7 @@ Så här ställer du in kohorttabellen
 
 ### Tolka resultaten
 
-**År 2022:**
+**Under 2022:**
 
 1) Månader med högsta lojalitetsgrad +1 månad omfattar januari, april och november
 1) Månader med störst volym är februari och maj
@@ -113,13 +114,14 @@ Vilken skulle påverkas om vi kunde få fler användare att logga in? Är det en
 
 1. **Ange datumintervall:** till jan till dec 2022
 1. **Inkluderingskriterier:** Besök + händelse om att inloggningen lyckades
-1. **Returkriterier:** Besök
+1. **Returvillkor:** besök
 1. **Kornighet:** Månad
-1. **Inställningar:** Rullande beräkning \*\*Gör att du kan beräkna kvarhållningen baserat på föregående kolumn, inte den inkluderade kolumnen. Detta innebär att en användare ingår i var och en av månaderna\*\*
+1. **Inställningar:** Rullande beräkning
+\*\*Gör att du kan beräkna bevarande baserat på föregående kolumn, inte den inkluderade kolumnen. Detta innebär att en användare ingår i var och en av månaderna\*\*
 
 ### Tolka resultaten
 
-**År 2022:**
+**Under 2022:**
 
 1) Månader med de högsta kvarhållningsfrekvenserna +1 månad omfattar januari, april och november (samma månader som första kohorttabellen)
 1) Månader med störst volym är februari, maj och december
@@ -133,7 +135,7 @@ Undersök webbplatsens användarupplevelse för att få användare att skapa ett
 
 ## Del 4: Custom Dimension Cohort
 
-Kohort för anpassad Dimension: Skapa kohorter baserat på den valda dimensionen i stället för tidsbaserade kohorter (standard). Många kunder vill analysera sina kohorter med något annat än tid, och med den nya funktionen Custom Dimension Cohort kan du skapa kohorter baserat på de mått de själva väljer. Använd dimensioner som marknadsföringskanal, kampanj, produkt, sida, region eller någon annan dimension i [!DNL Adobe Analytics] om du vill visa hur kvarhållandet ändras baserat på de olika värdena för de här dimensionerna. The
+Kohort för anpassad Dimension: Skapa kohorter baserat på den valda dimensionen i stället för tidsbaserade kohorter (standard). Många kunder vill analysera sina kohorter med något annat än tid, och med den nya funktionen Custom Dimension Cohort kan du skapa kohorter baserat på de mått de själva väljer. Använd dimensioner som marknadsföringskanal, kampanj, produkt, sida, region eller någon annan dimension i [!DNL Adobe Analytics] för att visa hur kvarhållandet ändras baserat på de olika värdena för de här dimensionerna. The
 
 Segmentdefinitionen för Custom Dimension Cohort tillämpar bara dimensionsobjektet som en del av inkluderingsperioden, inte som en del av returdefinitionen.
 
@@ -145,7 +147,7 @@ sida, produkter, kampanjer osv. Den returnerar de 14 viktigaste artiklarna. Du k
 
 Tabellen Custom Dimension Cohort visar produkter som ger högre retentionstakt än genomsnittet.  Tabellen hjälper er att identifiera era främsta produkter för att driva interna och externa marknadsföringskampanjer med de bästa, intressanta produkterna.
 
-**I februari:** 3 produkter som sticker ut med högre retentionshastighet
+**I feb:** 3 produkter sticker ut med högre kvarhållningsfrekvens
 
 1) Produkt 1
 1) Produkt 2
@@ -163,7 +165,7 @@ Tabellen Custom Dimension Cohort visar produkter som ger högre retentionstakt �
 
 Kohortanalyser och Custom Dimension Cohort är kraftfulla verktyg för att förstå kundbeteende och förbättra digitala prestanda. Genom att analysera kundlojalitet, inloggningsfrekvens och påverkan av specifika produkter kan företag fatta datadrivna beslut för att förbättra kundupplevelsen och öka tillväxten.
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 

@@ -9,10 +9,11 @@ duration: 0
 last-substantial-update: 2024-05-04T00:00:00Z
 jira: KT-14810
 thumbnail: KT-14810.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: 73976144-f02b-4423-9b4b-410330117ba9
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '2111'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,16 +33,16 @@ Genom att poängsätta personer i din Marketo Engage-databas kan du mäta hur kv
 
 Beteendepoängen ger ett numeriskt värde till spårbara åtgärder som en potentiell kund vidtar som visar intresse för era produkter och tjänster och avsikter att köpa. Om du till exempel besöker webbplatsen kan det visa sig intressant att besöka prissidan. Om du däremot besöker yrkessidan kan det tyda på att personen inte kommer att köpa produkten.
 
-**Steg 1** - Gör en lista över aktiviteter som är viktiga för din försäljningsprocess eller som är värdefulla för din organisation. Det kan vara praktiskt att samarbeta med säljarna för att fastställa vilka aktiviteter som indikerar att en lead har avsikt att köpa, vilket hjälper er att anpassa villkoren efter försäljningen och prioritera baserat på deras observationer av avslutade avtal. Här följer några förslag på frågor som du kan ställa till ditt säljteam:
+**Steg 1** - Gör en lista över aktiviteter för potentiella kunder som är viktiga för din försäljningsprocess eller som är värdefulla för din organisation. Det kan vara praktiskt att samarbeta med säljarna för att fastställa vilka aktiviteter som indikerar att en lead har avsikt att köpa, vilket hjälper er att anpassa villkoren efter försäljningen och prioritera baserat på deras observationer av avslutade avtal. Här följer några förslag på frågor som du kan ställa till ditt säljteam:
 
 * Vilka aktiviteter tyder på att det är bra eller dåligt som leder dig?
 * Vilken typ av innehåll som används av ett lead har en starkare avsikt att köpa?
 
-**Steg 2** - Visa en lista över åtgärder som tyder på att en potentiell kund inte är intresserad av din produkt. Se till att lista aktiviteter som kan spåras via Marketo Engage.
+**Steg 2** - Visa en lista över åtgärder som indikerar att en potentiell kund inte är intresserad av produkten. Se till att lista aktiviteter som kan spåras via Marketo Engage.
 
 **Exempel 1a - Aktiviteter som anger avsikt att köpa**
 
-| **Verksamheter som anger avsikten att köpa** | **Verksamheter som anger att man inte har för avsikt att köpa** |
+| **Aktiviteter som indikerar avsikt att köpa** | **Aktiviteter som anger att det inte finns någon avsikt att köpa** |
 | --- | --- |
 | Besök prissidan | Ingen interaktion de senaste 90 dagarna |
 | Delta i en årlig kundhändelse | Besök karriärsidan |
@@ -61,12 +62,12 @@ Beteendepoängen ger ett numeriskt värde till spårbara åtgärder som en poten
 | --- | --- |
 | Tröskelvärde för överlämning av försäljning | 50 |
 
-**Steg 4** - Tilldela ett poängvärde till varje aktivitet som listas i&quot;Exempel 1a - Aktiviteter som anger att kunden tänker köpa&quot;.
+**Steg 4** - Tilldela ett poängvärde till varje aktivitet som listas i &#39;Exempel 1a - Aktiviteter som indikerar avsikt att köpa&#39;.
 
 * Använd en positiv beteendepoäng för aktiviteter som indikerar intresse för att öka den potentiella kundens totala ledpoäng och en negativ poäng för att indikera ointresse.
 * Använd ditt tröskelvärde från Exempel 1b - Tröskelvärde för försäljning vid leverans som riktmärke för att fastställa dina beteendepoäng i förhållande till betydelsen av deras åtgärder. Exempel: potentiella kunder som begär en demo ska gå direkt till försäljning. Det bästa är att tilldela den åtgärden ett poängvärde som motsvarar tröskelvärdet för när en potentiell kund ska lämna över en åtgärd. Samtidigt är nedladdningen av en rapport inte en lika stark indikator på köpintresset och bör därför vara värd färre poäng.
 
-**Exempel 1c - Poängaktiviteter som anger avsikt att köpa:**
+**Exempel 1c - Betygsningsaktiviteter som anger avsikt att köpa:**
 
 | Tröskelvärde för överlämning av försäljning = 50 poäng |     |
 | --- | --- |
@@ -76,17 +77,17 @@ Beteendepoängen ger ett numeriskt värde till spårbara åtgärder som en poten
 | Ladda ned en rapport | +5 |
 | Besök oss på ett mässor | +15 |
 
-**Steg 5** - Kom ihåg att poängsättning är en repetitiv process! Granska och justera poängvärden och tröskelvärden kontinuerligt när ni samlar in mer data för analys.
+**Steg 5** - Kom ihåg att poängsättning är en iterativ process! Granska och justera poängvärden och tröskelvärden kontinuerligt när ni samlar in mer data för analys.
 
 ## Utövning 2 - Identifiera rätt anpassning med demografiska resultat
 
 Nu när du har definierat aktiviteterna som indikerar inköpsavsikt bör du slutföra poängmodellen med dina Idealiska profiler för potentiella kunder. För att identifiera om en potentiell kund är rätt lämpad för ytterligare säljsamtal är det viktigt att tilldela demografiska poäng utöver beteendepoängen så att modellen hjälper till att fastställa de bästa leads vad gäller anpassning och avsikt.
 
-**Steg 1** - Gör en lista med egenskaper för dina idealiska prospects.
+**Steg 1** - Gör en lista över egenskaper för dina idealiska prospects.
 
 * Ta en titt på attribut som bransch, företag, avdelning och roll. Se till att dessa egenskaper motsvarar de tillgängliga demografiska fälten i Marketo Engage.
 * Samarbeta med säljarna för att ta reda på vilka leads som svarar mest på säljförfrågningar och är viktiga kontakter under försäljningstillfällen.
-   * Det kan vara till hjälp att analysera nyligen avslutade kundtillfällen för att se vilka egenskaper era bästa kunder har. Till exempel:
+   * Det kan vara till hjälp att analysera nyligen avslutade kundtillfällen för att se vilka egenskaper era bästa kunder har. Exempel:
       * Genom att gå igenom stängda förlorade möjligheter för mönster kan du hitta demografiska data som du vill undvika.
       * Identifiera beslutsfattare och interna förespråkare som driver era säljsatsningar. Fördjupa dig i informationen och ta fram resultatet för en workshop med några av säljarna för att validera eller förfina slutsatserna.
    * Du kan även intervjua ditt säljteam med följande exempelfrågor:
@@ -102,9 +103,9 @@ Nu när du har definierat aktiviteterna som indikerar inköpsavsikt bör du slut
 | Befattning | Director, Vice President, C-Level |
 | Avdelning | HR |
 
-**Steg 2** - Tilldela ett poängvärde till varje egenskap utifrån dess relevans i din profil för potentiella kunder. Använd positiva poäng för önskvärda egenskaper och negativa resultat för egenskaper som gör att leadet inte passar produkten bättre.
+**Steg 2** - Tilldela ett poängvärde till varje egenskap utifrån dess relevans i din profil för idealiska potentiella kunder. Använd positiva poäng för önskvärda egenskaper och negativa resultat för egenskaper som gör att leadet inte passar produkten bättre.
 
-**Exempel 2b - Tilldela poäng till idealiska och oönskade egenskaper**
+**Exempel 2b - Tilldela poäng till idealiska och oönskade egenskaper för potentiella kunder**
 
 | **Egenskaper** | **Poäng** |
 | --- | --- |
@@ -122,7 +123,7 @@ Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426914/?learn=on)
 
-**Steg 1** - Ta aktiviteter och egenskaper från övningar 1 och 2 och för varje artikel avgöra om de varierar beroende på plats eller produktlinje.
+**Steg 1** - Ta aktiviteter och egenskaper från övningar 1 och 2 och fastställ för varje objekt om de varierar beroende på plats eller produktlinje.
 
 **Exempel 3a - Signaler på globala och lokala marknader:**
 
@@ -140,15 +141,15 @@ Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage
 * Överväg att definiera vanliga scenarier när presumtiva kunder interagerar med ert varumärke och testa er övergripande bedömning för dem.
    * En vanlig kundresa som du ser är till exempel att en person kan ange din webbplats på en innehållssida, sedan klicka igenom till en produktsida och ladda ned en broschyr. Om du vill göra dem till målgrupper med en webbinariinbjudan svarar de på den genom att registrera sig, men inte vara närvarande. Fundera på om er försäljning redan vill tala med den här personen eller inte och utvärdera om er poängmodell får dessa potentiella kunder att få rätt totalpoäng för att återspegla den nivån av intresse.
 
-**Exempel 3b - Demografisk poängmatris:**
+**Exempel 3b - Demografisk bedömningsmatris:**
 
 | **Demografisk matris** | **Prioritet 1** | **Prioritet 2** | **Prioritet 3** |
 | --- | --- | --- | --- |
 | Höga värden | 20 poäng | 10 poäng | 7 punkter |
-| Medelvärden | 10 poäng | 7 punkter | 3 punkter |
+| Medium-värden | 10 poäng | 7 punkter | 3 punkter |
 | Låga värden | 5 punkter | 3 punkter | 1 punkt |
 
-**Steg 3** - Samla in data från era lokala eller regionala säljteam för att få en helhetsbild. Du kommer att märka att inga individuella resultat inkluderas i exempel 3c. På så sätt kan säljteamet fokusera på det relativa värdet av de olika ämnena under granskningsprocessen. Du bör dock ha den fullständiga modellen dokumenterad som bakgrundsmaterial för andra Marketo Engage-administratörer.
+**Steg 3** - Samla in indata från lokala eller regionala säljteam för att få en helhetsbild. Du kommer att märka att inga individuella resultat inkluderas i exempel 3c. På så sätt kan säljteamet fokusera på det relativa värdet av de olika ämnena under granskningsprocessen. Du bör dock ha den fullständiga modellen dokumenterad som bakgrundsmaterial för andra Marketo Engage-administratörer.
 
 * Lås det som inte kan justeras för global konsekvens (här i kolumnen Implementeringsämne).
 * Markera (här i kolumnerna Prioritet och Poäng) vad som kan justeras för lokala påverkan.
@@ -180,11 +181,11 @@ Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage
   </tr>
   <tr>
     <td>Detaljhandel</td>
-    <td><b>Medel</b></td>
+    <td><b>Medium</b></td>
   </tr>  
   <tr>
     <td>Tillverkning</td>
-    <td><b>Medel</b></td>
+    <td><b>Medium</b></td>
   </tr>
   <tr>
     <td>Sjukvård</td>
@@ -205,7 +206,7 @@ Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage
   </tr>
   <tr>
     <td>250-999 anställda</td>
-    <td><b>Medel</td>
+    <td><b>Medium</td>
   </tr>
   <tr>
     <td>1-249 anställda</td>
@@ -222,7 +223,7 @@ Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage
   </tr>
   <tr>
     <td>Prissättningssidor</td>
-    <td><b>Medel</b></td>
+    <td><b>Medium</b></td>
   </tr>
   <tr>
     <td>Demo - begärandesida</td>
@@ -232,8 +233,8 @@ Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage
 
 ## Vad händer nu?
 
-* Ladda ned [träningsblad för personpoäng](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target="_blank} för att utveckla din poängmodell offline.
-* Bygg upp din personpoäng i Marketo Engage. Kontrollera detta [självstudiekurs](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target="_blank} och [demo](https://experienceleague.adobe.com/en/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target="_blank} för att komma igång. Du kan importera ett lead-/personbedömningsprogram [mall](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target="_blank} från referensbiblioteket i Marketo Engage för att snabba upp programbygget.
+* Hämta [personbedömningsformuläret](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target="_blank} om du vill utveckla din poängmodell offline.
+* Bygg upp din personpoäng i Marketo Engage. Kolla in den här [självstudiekursen](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target="_blank} och [demon](https://experienceleague.adobe.com/en/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target="_blank} för att komma igång. Du kan importera ett lead-/personbedömningsprogram [mall](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target="_blank} från referensbiblioteket i Marketo Engage för att snabba upp programbygget.
 * Skapa två versioner av poängprogrammet:
    * Ett centralt program som kör all poängsättning som inte kan uppdateras lokalt.
    * En lokal kopia med de poängsättningselement som kan konfigureras.
@@ -243,8 +244,8 @@ Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage
    * Bestäm vilka demografiska aktiviteter och beteendeaktiviteter som bara ska poängsättas en gång (dvs. bransch) och vilka som ska poängsättas varje gång en potentiell kund kvalificerar sig (dvs. deltar i ett webbinarium). Detta garanterar att potentiella kontakter som triggas av ändringen av datavärdet är relevanta för försäljningen.
    * Se till att dina val utesluter varandra.
    * Uppdatera i båda flödesstegen så att personbakgrundsmusiken uppdateras på samma sätt som den demografiska poängen. På så sätt håller sig personbakgrundsmusiken till en kombination av beteendepoäng och demografiska poäng.
-* Testa Smart Campaign när du är klar med att skapa programmet. Du kan till exempel gå till demoformuläret, fylla i det med ett testmeddelande och kontrollera din testpersons poäng i [Marketo Engage-databas](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started-with-marketo/quick-wins/simple-scoring#step-view-the-person-info){target="_blank}.
-* När du har skapat din modell bör du överväga att skapa en avisering som ska gå till försäljning när personens poäng har nått tröskelvärdet för försäljning. Läs mer om hur du ställer in en avisering med den här [självstudiekurs](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/send-alert){target="_blank}.
+* Testa Smart Campaign när du är klar med att skapa programmet. Gå till exempel till demoformuläret, fyll i det med ett testmeddelande och kontrollera din testpersons poäng i [Marketo Engage-databasen](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started-with-marketo/quick-wins/simple-scoring#step-view-the-person-info){target="_blank}.
+* När du har skapat din modell bör du överväga att skapa en avisering som ska gå till försäljning när personens poäng har nått tröskelvärdet för försäljning. Läs mer om hur du konfigurerar en avisering med den här [självstudiekursen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/send-alert){target="_blank}.
 
 ### Författare
 

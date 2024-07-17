@@ -1,6 +1,6 @@
 ---
 title: Rapportering och analys
-description: Lär dig navigera i [!DNL Analytics] och databasavsnittet för att dra igång olika färdiga rapporter i [!DNL Marketo Engage].
+description: Lär dig hur du navigerar i avsnittet  [!DNL Analytics]  och Databas för att hämta olika körklara rapporter i  [!DNL Marketo Engage].
 role: User
 level: Beginner
 solution: Marketo Engage
@@ -13,21 +13,21 @@ feature: Reporting
 exl-id: d45b2757-bc7f-4085-b374-ea8c1caf1774
 source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 4%
+source-wordcount: '69'
+ht-degree: 5%
 
 ---
 
 # Rapportering och analys
 
-Lär dig navigera i [!DNL Analytics] och databasavsnittet för att dra igång olika färdiga rapporter i [!DNL Marketo Engage].
+Lär dig hur du navigerar i avsnittet [!DNL Analytics] och Databas för att hämta olika körklara rapporter i [!DNL Marketo Engage].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419295/?learn=on){transcript=true}
 
 ## Ytterligare resurser
 
 * **Produktdokumentation**
-Läs mer om de olika rapporterna du kan skicka - [Rapportöversikt](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=en&amp;sdid=M7K4SLTS&amp;mv=email&amp;mv2=instreml)
+Läs mer om de olika rapporter du kan hämta - [Rapporteringsöversikt](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=en&amp;sdid=M7K4SLTS&amp;mv=email&amp;mv2=instreml)
 
 * **Expert Customer Blog Post**
-Läs av Champion Chelsea Kiko om hur man skapar olika rapporter - [Rapportering i olika [!DNL Marketo Engage] Blanksteg](https://nation.marketo.com/t5/product-blogs/how-marketo-champion-chelsea-kiko-reports-in-various-marketo/ba-p/242627)
+Lär dig av Champion Chelsea Kiko om hur du skapar olika rapporter - [Rapporter i olika  [!DNL Marketo Engage] Spaces](https://nation.marketo.com/t5/product-blogs/how-marketo-champion-chelsea-kiko-reports-in-various-marketo/ba-p/242627)

@@ -10,7 +10,8 @@ doc-type: Article
 last-substantial-update: 2023-05-18T00:00:00Z
 jira: KT-13256
 thumbnail: KT-13256.jpeg
-source-git-commit: 0fc67f48deb78d5a66d485093d1837cbeee7c4d4
+exl-id: 1f27e284-73e3-4f28-988e-51163775eec8
+source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -19,9 +20,9 @@ ht-degree: 0%
 
 # Felsökning för marknadsförare: 5 Vanliga arbetsflödes- och leveransfel
 
-Efter: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, Senior Consultant, Meijer
+Av: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, Senior Consultant, Meijer
 
-Som tekniker och kundexpert på [!DNL Adobe] De fem senaste Experience Cloud-produkterna har jag gjort det möjligt för företagsanvändare på [Meijer](https://www.meijer.com/){target="_blank"}, en amerikansk supercenterkedja som grundades 1934, för att genomföra komplexa marknadsförings- och transaktionskampanjer med ACS. Några projekt som jag har arbetat med är anpassade kampanjer för att lagra erbjudanden och beställa detaljer för personalisering, integrerade med [!DNL Adobe] Audience Manager och kundinsikter om segmentförtäring.
+Som Senior Engineer och Customer Expert på [!DNL Adobe] Experience Cloud-produkter de senaste fem åren ger jag företagsanvändare på [Meijer](https://www.meijer.com/){target="_blank"}, en amerikansk supercenter som grundades 1934, möjlighet att köra komplexa marknadsförings- och transaktionskampanjer med ACS. Några projekt som jag har arbetat med är anpassade kampanjer för att lagra erbjudanden och beställningsinformation för personalisering, integrerade med [!DNL Adobe] Audience Manager, och kundinsikter för segmentförtäring.
 
 Under min tid med ACS har jag råkat ut för fel som kan vara tidskrävande och frustrerande att lösa. Att veta de vanligaste felen kan bidra till snabbare problemlösning och öka produktiviteten. Här nedan hittar jag felsökningstips som hjälper dig att effektivt åtgärda liknande fel som de inträffar.
 
@@ -39,9 +40,9 @@ Den här typen av fel visas i ett arbetsflöde när du försöker stämma av med
 Ändra datatypen för fältet i aktiviteten &quot;Läs in fil&quot; till den som du matchar med. Öppna aktiviteten Läs in fil. Gå till fliken&quot;COLUMN DEFINITION&quot; och ändra datatypen för det önskade fältet.
 
 
-![datatyp-mismatch-solution](/help/_assets/kt-13256/data-type-mismatch-solution.png)
+![data-type-mismatch-solution](/help/_assets/kt-13256/data-type-mismatch-solution.png)
 
-## Leveranspersonaliseringsfel
+## Personalization-leveransfel
 
 **Felkod:**
 `The schema for profiles specified in the transition ('') is not compatible with the schema defined in the delivery template ('nms:recipient'). They should be identical.`
@@ -52,7 +53,7 @@ Det här felet visas när du skickar ett e-postmeddelande till en adress, men e-
 ![arbetsflöde med avstämningsaktivitet](/help/_assets/kt-13256/del-persn-error-wf.png)
 
 **Lösning:**
-Det måste finnas ett gemensamt ID från den inlästa filen med mottagartabellen. Den här gemensamma nyckeln kopplar inläsningsfilen till mottagartabellen inom avstämningsaktiviteten. E-postmeddelanden kan inte skickas till poster som inte finns i mottagarregistret, vilket kräver det här avstämningssteget i arbetsflödet. Då stämde du av den inkommande inläsningsfilaktiviteten med en identifierare som e-post-ID från profilen. The `nms:recipient` schemat refererar till profiltabellen och när inkommande poster stäms av mot profilen blir den tillgänglig under e-postförberedelsen.
+Det måste finnas ett gemensamt ID från den inlästa filen med mottagartabellen. Den här gemensamma nyckeln kopplar inläsningsfilen till mottagartabellen inom avstämningsaktiviteten. E-postmeddelanden kan inte skickas till poster som inte finns i mottagarregistret, vilket kräver det här avstämningssteget i arbetsflödet. Då stämde du av den inkommande inläsningsfilaktiviteten med en identifierare som e-post-ID från profilen. Schemat `nms:recipient` refererar till profiltabellen och om inkommande poster stäms av med profilen blir det tillgängligt under e-postförberedelsen.
 
 Se skärmbilden för avstämningsaktiviteten som visas nedan.
 
@@ -66,10 +67,10 @@ Läs mer om [avstämning](https://experienceleague.adobe.com/docs/campaign-stand
 `The document types of inbound events (''and'') are incompatible (step 'Exclusion'). Unable to perform the operation. `
 
 **Orsak:**
-Problemet inträffar när **exkluderingsaktivitet** i ACS-arbetsflöden, när du utför ett undantag baserat på ID, när den primära uppsättningen och den uteslutna uppsättningen inte har samma fältnamn.
+Problemet inträffar när **exkluderingsaktiviteten** används i ACS-arbetsflöden, när en exkludering baserat på ID:t utförs, när den primära uppsättningen och den exkluderade uppsättningen inte har samma fältnamn.
 
 
-![Fel i datamängd för gemensamt fält](/help/_assets/kt-13256/dataset-error.png)
+![Fel i datauppsättning för vanligt fält](/help/_assets/kt-13256/dataset-error.png)
 
 **Lösning:**
 
@@ -90,11 +91,11 @@ Det finns två sätt att lösa det här felet:
 
 **Orsak:**
 
-Felpunkter kan uppstå i en **anrikningsverksamhet**. En av de vanligaste visas nedan.
+Felpunkter kan förekomma i en **anrikningsaktivitet**. En av de vanligaste visas nedan.
 
-![Ignorerat fältnamn](/help/_assets/kt-13256/field-name-dropped-error.png)
+![Fältnamn utelämnade fel](/help/_assets/kt-13256/field-name-dropped-error.png)
 
-Det här händer när du redigerar ett uttrycksnamn i aktiviteten manuellt. Bilden visar att uttrycket har ändrats från `name `till `i__name`.
+Det här händer när du redigerar ett uttrycksnamn i aktiviteten manuellt. Bilden visar att uttrycket har ändrats från `name ` till `i__name`.
 
 **Lösning:**
 
@@ -102,7 +103,7 @@ Du kan lösa det här felet på tre sätt:
 
 1. Ändra tillbaka namnet till det uttryck som ursprungligen fanns.
 
-2. Om du vill använda ett nytt namn ändrar du värdena i **anrikningsverksamhet**.
+2. Om du vill använda ett nytt namn ändrar du värdena i **anrikningsaktiviteten**.
 
 3. Om du inte kommer ihåg vad som har ändrats är det bästa valet att återskapa aktiviteten.
 
@@ -114,7 +115,7 @@ Du kan lösa det här felet på tre sätt:
 **Orsak:**
 Detta är ett vanligt fel i komplicerade arbetsflöden som innefattar anrikning eller annan aktivitet. Det betyder antagligen att vissa aktivitetsarbetsflöden inte sparas korrekt vid flera ändringar av arbetsflödet.
 
-![Tillfälligt tabellsläppningsfel ](/help/_assets/kt-13256/temp-table-dropped-error.png)
+![Temporärt tabellsläppt fel ](/help/_assets/kt-13256/temp-table-dropped-error.png)
 
 **Lösning:**
 Det finns många sätt att åtgärda det här felet, så det finns ingen enkel korrigering. Om det är ett enkelt arbetsflöde är det bättre att konfigurera om aktiviteten. I ett komplicerat arbetsflöde är det bättre att kopiera arbetsflödesaktiviteterna till ett nytt arbetsflöde, spara och köra om dem.

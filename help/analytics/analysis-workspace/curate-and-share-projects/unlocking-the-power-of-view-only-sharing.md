@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Möjlighet till skrivskyddad delning i Analysis Workspace
 
-Lär dig hur du delar [!DNL Adobe] Analysis Workspace-projekt som&quot;skrivskyddade&quot; kan skapa chefsklara kontrollpanelsrapporter med ett rent användargränssnitt och fördefinierade filtreringsalternativ, samt hur&quot;mobilstyrkortet&quot; kan förenkla delning av nyckeltal för digitala upplevelser med chefer på resande fot.
+Lär dig hur delning av [!DNL Adobe] Analysis Workspace-projekt som&quot;skrivskyddade&quot; kan skapa chefsklara kontrollpanelsrapporter med ett rent användargränssnitt och fördefinierade filtreringsalternativ, samt hur det mobila styrkortet kan förenkla delning av nyckeltal för digitala upplevelser med chefer på resande fot.
 
-Delning [!DNL Adobe Analytics] Arbetsyteprojekt med kollegor är en viktig användning [!DNL Analytics] att fatta bättre affärsbeslut. Vi kan dela projekt med andra användare för att få behörighet att redigera original, redigera kopia och skrivskyddad. Oftast delar vi antagligen projekt med redigeringsrättigheter för original eller redigering av kopior, så att vi kan uppdatera projektet tillsammans, eller så kan andra användare duplicera projektet som sina egna för ytterligare uppdateringar. Ibland är skrivskyddad delning dock ett förvånansvärt bra delningsalternativ förutom åtkomstkontrollen som anges av det högra åtkomstnamnet.
+Att dela [!DNL Adobe Analytics] Workspace-projekt med kollegor är en viktig användning av [!DNL Analytics] för att fatta bättre affärsbeslut. Vi kan dela projekt med andra användare för att få behörighet att redigera original, redigera kopia och skrivskyddad. Oftast delar vi antagligen projekt med redigeringsrättigheter för original eller redigering av kopior, så att vi kan uppdatera projektet tillsammans, eller så kan andra användare duplicera projektet som sina egna för ytterligare uppdateringar. Ibland är skrivskyddad delning dock ett förvånansvärt bra delningsalternativ förutom åtkomstkontrollen som anges av det högra åtkomstnamnet.
 
 ## Varför skrivskyddad
 
@@ -31,18 +31,18 @@ Eftersom alla komponenter är skrivskyddade om några segment och beräknade vä
 
 Detta gör att det skrivskyddade projektet blir en chefsklar kontrollpanelrapport med ett enkelt och rent användargränssnitt och fördefinierade filtreringsalternativ. Om den används tillsammans med en panel-/visualiseringslänk kan den även tillhandahålla en detaljfunktion som en fullständig BI-lösning.
 
-Det skrivskyddade projektet är också användbart för delning av data med användare som har lite [!DNL Adobe Analytics] upplevelser, som t.ex. kollegor som arbetar med produktlanseringar och ger dem en kampanjpanel med fördefinierade brytningar för konverterings- och marknadsföringskanaler.
+Det skrivskyddade projektet är också användbart för att dela data med användare som har lite [!DNL Adobe Analytics]-erfarenhet, till exempel produktmarknadskolledare som driver produktlanseringskampanjer och ger dem en kampanjinstrumentpanel med fördefinierade konverterings- och marknadsföringskanaler.
 
 ## Ett annat sätt - Mobile Scorecard
 
-Förutom skrivskyddad projektdelning [!DNL Analytics] Kontrollpanelen är ett annat sätt att dela chefsklara kontrollpaneler med fördefinierad upplevelse. Det här är det mobila styrkortet när du skapar ett nytt projekt i Analysis Workspace och det färdiga projektet blir tillgängligt i &quot;[!DNL Adobe Analytics]&quot; mobilapp. På så sätt kan vi dela nyckeltal för digitala upplevelser med chefer i en enkel och lättanvänd mobilapp som är tillgänglig var som helst och när som helst.
+Förutom skrivskyddad projektdelning är [!DNL Analytics] Dashboard ett annat sätt att dela chefsklara instrumentpaneler med fördefinierad upplevelse. Det här är det mobila styrkortet när du skapar ett nytt projekt i Analysis Workspace och det resulterande projektet blir tillgängligt i mobilappen [!DNL Adobe Analytics]. På så sätt kan vi dela nyckeltal för digitala upplevelser med chefer i en enkel och lättanvänd mobilapp som är tillgänglig var som helst och när som helst.
 
-En bra kontrollpanel för chefer bör vara enkel och på viktiga punkter. Genom att bara lägga till KPI:er på den första skärmen i ett [!DNL Analytics] Kontrollpanel, med en nivådetaljnivå som tillval för att dela upp en KPI i en dimension från en fördefinierad uppsättning alternativ. The [!DNL Analytics] Med Dashboard kan vi berätta en historia som vi vill förmedla till cheferna.
+En bra kontrollpanel för chefer bör vara enkel och på viktiga punkter. Genom att bara lägga till KPI:er på den första skärmen i en [!DNL Analytics]-instrumentpanel, med en nivådetaljnivå som tillval för att dela upp en KPI med en dimension från en fördefinierad uppsättning med alternativ. På kontrollpanelen [!DNL Analytics] kan vi berätta en historia som vi vill förmedla till cheferna.
 
-Även om du inte använder [!DNL Analytics] Instrumentpanelen har dessa nyckeltal direkt i [!DNL Analytics] Dashboard och få svaret precis som när du blir tillfrågad - du ser bara cool och väl förberedd ut.
-Vid antagande [!DNL Adobe Analytics] inom en organisation, vill vi förmodligen göra det möjligt för alla användare som har de fullständiga möjligheterna att skapa/ändra arbetsyteprojekt för analys. Det finns dock användare med olika kunskaper och fokus, och vissa behöver bara förbruka data i vissa fördefinierade arbetsyteprojekt, och de kommer inte att göra någon ytterligare analys med liten erfarenhet av [!DNL Adobe Analytics]. Skrivskydda projekt- eller analysdashboard ger ett enkelt gränssnitt med fördefinierade upplevelser så att de kan komma åt data.
+Även om cheferna inte använder kontrollpanelen [!DNL Analytics] direkt, har du dessa nyckeltal i kontrollpanelen i [!DNL Analytics] och får svaret precis som när du blir tillfrågad, så ser du bara coola och väl förberedda ut.
+När vi antar [!DNL Adobe Analytics] inom en organisation vill vi förmodligen aktivera alla användare med de fullständiga möjligheterna att skapa/ändra Workspace-projekt för analys. Det finns dock användare med olika kunskaper och fokus, och vissa av dem behöver bara förbruka data i vissa fördefinierade arbetsyteprojekt och kommer inte att göra någon ytterligare analys med liten erfarenhet av [!DNL Adobe Analytics]. Skrivskydda projekt- eller analysdashboard ger ett enkelt gränssnitt med fördefinierade upplevelser så att de kan komma åt data.
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 

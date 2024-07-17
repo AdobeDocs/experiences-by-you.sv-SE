@@ -9,13 +9,13 @@ duration: 0
 last: substantial-update- 2024-05-01
 jira: KT-14808
 thumbnail: KT-14808.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: 65119abd-6f13-4acc-9e99-09843369ad28
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '1098'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
-
 
 # Planering för en ny implementering i Marketo Engage
 
@@ -38,8 +38,8 @@ I den här självstudiekursen kommer vi att dyka upp i de specifika milstolparna
 
 ### Fas 3 - Skapa programbibliotek och konfigurera kampanjer
 
-- Utveckla e-postmallar och landningssidor. Börja med [importera startprogram](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) från [Programimportbibliotek](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
-- Konfigurera segmenterings- och personaliseringsregler
+- Utveckla e-postmallar och landningssidor. Börja med [att importera startprogram](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) från [Program Import Library](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
+- Konfigurera segmentering och Personalization-regler
 - Skapa initiala kampanjer för leadgenerering och vårdar
 
 ### Fas 4 - Utbildning och användande
@@ -134,7 +134,7 @@ Lyssna på Marketo Engage Champion (2019), Kyle McCormick, om hans introduktions
 
 Skapa en ny projektplan och tidslinje för implementering. Nedan visas ett exempel på en projekttidslinje med avsnitt för exempel på milstolpar, uppgifter, ansvariga team, deadlines och beroenden. Använd det för att effektivisera implementeringen av Marketo Engage och säkerställa en lyckad utrullning i hela organisationen.
 
-Du kan också hämta exemplet för att redigera och spåra specifika milstolpeuppgifter [HÄR](/help/marketo-tutorial-implementing-new-instance/assets/adobe-marketo-engage-implementation-milestones-project-management-template.xlsx).
+Du kan också hämta exemplet för redigering och spårning av specifika milstolpeuppgifter [HERE](/help/marketo-tutorial-implementing-new-instance/assets/adobe-marketo-engage-implementation-milestones-project-management-template.xlsx).
 
 <table>
  <thead>
@@ -165,7 +165,7 @@ Du kan också hämta exemplet för att redigera och spåra specifika milstolpeup
         <td>Webbutvecklingsteam</td>
     </tr>
     <tr>
-        <td><em>EXEMPEL -</em> Ställ in DKIM (Domain Keys Identified Mail) och två separata CNAME för leverans- och e-postspårningslänkar.</td>
+        <td><em>EXEMPEL -</em> Konfigurera DKIM (Domain Keys Identified Mail) och två separata CNAME-filer för leverans- och e-postspårningslänkar.</td>
         <td bgcolor="c6f0cf">Complete</td>
         <td>9/15/24</td>
         <td>9/18/24</td>
@@ -205,14 +205,14 @@ Du kan också hämta exemplet för att redigera och spåra specifika milstolpeup
         <td><em>EXEMPEL -</em> Bestämma fältmappning före synkronisering</td>
         <td bgcolor="ffeb9c">Pågår</td>
         <td>10/22/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Stöd från CRM-administratör för att förstå tillgängliga fält.</td>
     </tr>
     <tr>
-        <td><em>EXEMPEL -</em> Genomföra en datagranskning</td>
+        <td><em>EXEMPEL -</em> Utför en datakontroll</td>
         <td bgcolor="ffeb9c">Pågår</td>
         <td>10/26/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Stöd från CRM-administratör eller budget.</td>
     </tr>
     <tr>
@@ -220,28 +220,28 @@ Du kan också hämta exemplet för att redigera och spåra specifika milstolpeup
         <td><em>EXEMPEL -</em> Skapa program för att standardisera inkommande data</td>
         <td bgcolor="ffc7cf">Har inte startats</td>
         <td>11/9/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Stöd från säljarna och CRM-teamen för att fastställa en datahanteringsstrategi.</td>
     </tr>
     <tr>
         <td><em>EXEMPEL -</em> Skapa en prenumerationscentral för e-post</td>
         <td bgcolor="ffc7cf">Har inte startats</td>
         <td>11/19/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Marknadsföringsteamens information om innehållstyper och segmentering för e-postlistor.</td>
     <tr>
         <td rowspan="2">First Marketing Program Build</td>
         <td><em>EXEMPEL -</em> Konfigurera grundläggande e-postprogram</td>
         <td bgcolor="ffeb9c">Pågår</td>
         <td>11/12/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Kreativa resurser från digitalt team för e-post och landningssidor.</td>
     </tr>
     <tr>    
         <td><em>EXEMPEL -</em> Skapa program för kvartalsvisa nyhetsbrev</td>
         <td bgcolor="ffc7cf">Har inte startats</td>
         <td>11/30/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Innehåll från marknadsföringsteamet för nyhetsbrev via e-post och kreativt material/innehåll från designteamet.</td>
     </tr>
     <tr>
@@ -265,27 +265,27 @@ Du kan också hämta exemplet för att redigera och spåra specifika milstolpeup
         <td><em>EXEMPEL -</em> Skapa en styrningsguide för interna användare</td>
         <td bgcolor="ffc7cf">Har inte startats</td>
         <td>12/2/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Skapa ett styrningsteam i Marketo Engage för att bygga upp styrningsdokumentation eller budget för att kontraktera ledningsprojektet.</td>
     <tr>
-        <td><em>EXEMPEL -</em> Tåg 4-användare och förse dem med standardåtkomst för Marketo</td>
+        <td><em>EXEMPEL -</em> Användare av tåg 4 och förse dem med standardåtkomst för Marketo</td>
         <td bgcolor="ffc7cf">Har inte startats</td>
         <td>12/13/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Stöd från VP of Marketing för att göra utbildning obligatorisk för tillgång till Marketo Engage.</td>
     <tr>
         <td rowspan="2">Go-Live</td>
         <td><em>EXEMPEL -</em> Skicka första nyhetsbrevet</td>
         <td bgcolor="ffc7cf">Har inte startats</td>
         <td>12/9/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Marknadsföringsteamet kan hämta in kvalitetssäkring, planera och skicka.</td>
     </tr>
     <tr>
-        <td><em>EXEMPEL -</em> Hämta den första e-postprestandarapporten.</td>
+        <td><em>EXEMPEL -</em> Dra in den första e-postprestandarapporten.</td>
         <td bgcolor="ffc7cf">Har inte startats</td>
         <td>12/16/24</td>
-        <td>Ej tillämpligt</td>
+        <td>N/A</td>
         <td>Marknadsföringsteamet kan hämta in kvalitetssäkring, planera och skicka.</td>
     </tr>
  </tbody>    
@@ -294,7 +294,7 @@ Du kan också hämta exemplet för att redigera och spåra specifika milstolpeup
 >[!NOTE]
 >De exempel som anges är inte baserade på en riktig implementeringstidslinje. Förlita dig inte på dessa som en standardtidslinje för att komma igång med Marketo Engage, eftersom varje implementering är unik med olika milstolpar och krav beroende på organisationens behov.
 
-Om du behöver handhjälp med att implementera och anpassa Marketo Engage för din instans kontaktar du kontogruppen på Adobe eller kontaktar dig till [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
+Om du behöver handhjälp med att implementera och anpassa Marketo Engage för din instans kontaktar du kontogruppen på Adobe eller kontaktar [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
 
 ### Upphovsman
 

@@ -9,13 +9,13 @@ duration: 0
 last-substantial-update: 2024-05-08T00:00:00Z
 jira: KT-14815
 thumbnail: KT-14815.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: b3dd05e1-c522-4631-a6b4-c0c6309f25d3
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
 
 ---
-
 
 # Komma igång med instansstyrning och dokumentation
 
@@ -23,7 +23,7 @@ Bra dokumentation kan vara nästan lika viktig som själva instansimplementering
 
 Men det slutar inte där. Ditt team kan behöva kompletterande anställningsdokument eller utbildningsmaterial för att kunna utbilda sig bättre med Marketo Engage. Resurserna kan omfatta interaktiva övningar, frågor om åtkomst eller riktlinjer för åtgärder inom Marketo Engage som kan vara till nytta för alla användare i Marketo Engage inom organisationen. Oavsett om du först skapar en heltäckande styrningsguide eller dokumenterar viktiga konfigurationsaspekter är inspelningsbeslut som fattas under introduktionen avgörande för att du ska lyckas med Marketo Engage för ditt nuvarande team och framtida generationer av nya medarbetare.
 
-Genom att förstå vikten av dokumentation och styrning kan den här självstudiekursen lära sig mer om de bästa metoderna från andra experter [Komma igång med styrningen och utbildningsdokumentationen för Marketo Engage](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target="_blank} och [Hur dokumenterar du instansen?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target="_blank} för att hjälpa er att införa en process och hålla dokumentationen relevant för era interna användare.
+Genom att förstå vikten av dokumentation och styrning kan du använda den här självstudiekursen för att lära dig de bästa sätten som kommer från expertkollegor [Komma igång med din Marketo Engage-dokumentation för styrning och utbildning](https://nation.marketo.com/t5/product-blogs/getting-started-on-your-marketo-governance-and-training/ba-p/242421){target="_blank} och [Hur dokumenterar du instansen?](https://nation.marketo.com/t5/product-discussions/how-do-you-document-your-instance/td-p/72877){target="_blank} för att hjälpa dig att införa en process och hålla dokumentationen relevant för dina interna användare.
 
 ## Varför det är viktigt att dokumentera ändringar och beslut under instansimplementering
 
@@ -73,7 +73,7 @@ Vägled din styrnings- och dokumentationsplan genom att börja med exempelbilden
    * Namnkonventioner
    * Programorganisation
    * Programmallar*
-   * Design Studio Assets (e-postmallar, mallar för landningssidor, fragment, formulär)
+   * Design Studio Assets (e-postmallar, landningssidmallar, utdrag, formulär)
    * Standardiserade processer
    * Checklistor
    * Segmenteringar
@@ -103,7 +103,7 @@ Ett annat viktigt sätt att styra instanser är att skapa en Ändra och använda
 
 ## Vad händer nu?
 
-* Ladda ned [exempeldokumentation och Changelog](/help/marketo-tutorial-implementing-new-instance/assets/template-adobe-marketo-engage-instance-documentation.xlsx) och anpassa dem efter organisationens behov.
+* Hämta [exempeldokumentationen och Changelog](/help/marketo-tutorial-implementing-new-instance/assets/template-adobe-marketo-engage-instance-documentation.xlsx) och anpassa dem baserat på organisationens behov.
 * Lagra dokumentationen på en tillgänglig plattform där organisationen föredrar att referera och uppdatera regelbundet. I vissa Marketo Engage Champions används till exempel Confluence (av Atlassian) eller Excel-kalkylblad.
 * Se till att alla regler ni skapar för styrning har en ägare som kan tillämpa dem och anpassa dokumentationen, och hålla den uppdaterad över tid.
 

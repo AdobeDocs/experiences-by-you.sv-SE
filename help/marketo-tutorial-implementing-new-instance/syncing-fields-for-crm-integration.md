@@ -27,7 +27,7 @@ Lär dig mer om hur du utför den här övningen med bästa praxis som Adobe Pro
 
 När du integrerar CRM med Marketo Engage behöver du förmodligen inte synkronisera alla CRM-fält till Marketo Engage. Att vara strategisk i de fält ni behöver kan hjälpa Marketo Engage att bearbeta dataflödet effektivare.
 
-Den inledande synkroniseringen mellan Marketo Engage och CRM-systemet skapar automatiskt associationer för de flesta befintliga standardfält (t.ex. e-post, förnamn/efternamn, företag). Dessutom synkroniseras även kopplingen [Anpassade fält](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"} för era leads, kontakter, konton och säljprojekt genom att skapa nya fält i Marketo Engage som automatiskt mappas till dessa fält från CRM.
+Den inledande synkroniseringen mellan Marketo Engage och CRM-systemet skapar automatiskt associationer för de flesta befintliga standardfält (t.ex. e-post, förnamn/efternamn, företag). Dessutom synkroniserar anslutningsprogrammet [Anpassade fält](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"} för dina leads, kontakter, konton och säljprojekt genom att skapa nya fält i Marketo Engage som automatiskt mappas till dessa fält från CRM.
 
 Att identifiera och organisera de fält som du vill synkronisera från CRM innan du utför den första synkroniseringen är ett viktigt steg i konfigurationsprocessen för Native Connector. Vi hänvisar till detta som en dataordlisteövning, som hjälper dig att minimera antalet dubblettfält som skapas och som gör att efterföljande ommappningssteg går så smidigt som möjligt. Den här övningen omfattar vanligtvis indata från marknadsförings- och säljteam samt CRM-administratören för att säkerställa att endast relevanta fält synkroniseras med din Marketo Engage-instans.
 
@@ -36,29 +36,29 @@ Att identifiera och organisera de fält som du vill synkronisera från CRM innan
 I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs i marknadsföringssyfte. Börja med den här övningen för att ordna fälten från CRM som måste mappas till Marketo Engage och kör den första CRM-synkroniseringen korrekt första gången.
 
 >[!NOTE]
->Om du har anpassade fält i CRM som redan har ett motsvarande anpassat fält i Marketo Engage innan den första synkroniseringen börjar, skapas ett nytt dubblettfält i Marketo Engage för CRM-fältet. Du kan mappa om CRM-fältet till det ursprungliga Marketo Engage-fältet och dölja dubblettfältet när den första synkroniseringen är klar, men du måste kontakta [Adobe kundsupport](https://experienceleague.adobe.com/en/docs/customer-one/using/home#create-a-support-ticket-with-admin-console){target="_blank"} att göra det. Mer information finns i steg 7.
+>Om du har anpassade fält i CRM som redan har ett motsvarande anpassat fält i Marketo Engage innan den första synkroniseringen börjar, skapas ett nytt dubblettfält i Marketo Engage för CRM-fältet. Du kan mappa om CRM-fältet till det ursprungliga Marketo Engage-fältet och dölja dubblettfältet när den första synkroniseringen är klar, men du måste kontakta [Adobe kundsupport](https://experienceleague.adobe.com/en/docs/customer-one/using/home#create-a-support-ticket-with-admin-console){target="_blank"} för att göra det. Mer information finns i steg 7.
 
-**Steg 1:** Skapa en grov lista över fält som är tillgängliga i CRM och markera om du vill att de ska visas i Marketo Engage.
+**Steg 1:** Skapa en grov lista över fält som för närvarande är tillgängliga i CRM och markera om du vill att de ska visas i Marketo Engage.
 
 * Inkludera feedback från CRM-administratörer, marknadsförare och säljare i beslutsprocessen.
 * Dokumentera API-namn och fälttyper för varje fält
 * Bestäm vilken åtkomstnivå Marketo Engage ska ha för dessa fält (t.ex. skrivskyddad eller skrivskyddad)
 
 
-**Steg 2:** Granska [Admin > Fälthantering](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/view-field-mappings-between-marketo-and-salesforce){target="_blank"} av din Marketo Engage-instans för att identifiera anpassade fält som tidigare skapats direkt i systemet som du vill inkludera i synkroniseringen.
+**Steg 2:** Granska [Admin > Fälthanteringssektionen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/view-field-mappings-between-marketo-and-salesforce){target="_blank"} i din Marketo Engage-instans för att identifiera anpassade fält som tidigare skapats direkt i systemet som du vill inkludera i synkroniseringen.
 
 * Dokumentera API-namn och fälttyper för varje fält.
 * Ange fält som redan har ett motsvarande fält i CRM.
 * Ange fält som inte redan har ett motsvarande fält i CRM.
 
 
-**Steg 3:** Börja skapa datamappningsordlistan med standardkartfälten
+**Steg 3:** Börjar skapa dataordlistan med standardkartfälten
 
 * Eftersom Marketo Engage använder en platt databas rekommenderar vi att du formaterar din datamordlista enligt följande:
 
    * Första kolumnen: fältnamn i Marketo Engage
    * Andra kolumnen: Marketo Engage API-namn
-   * Tredje kolumnen: [Fälttyp för Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"} (t.ex. boolesk, Valuta, Datum osv.)
+   * Tredje kolumnen: [Fälttyp för Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"} (t.ex. Boolean, Valuta, Datum)
    * I efterföljande kolumner upprepar du CRM-objekttyperna (Lead, Contact, Account, Opportunity) med en extra kolumn för den åtkomstnivå som du vill att Marketo Engage ska ha (t.ex. Read, Write, Edit)
   <br>
 
@@ -73,9 +73,9 @@ I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs 
    * [Veeva](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/veeva-crm-sync/sync-details/default-veeva-field-mapping){target="_blank"}
 
 * Bekräfta att varje standardfält i Marketo Engage matchar det fält i CRM som du vill synkronisera med. Fältet &quot;Avbeställ&quot; i Marketo Engage kan till exempel vara fältet &quot;Avbeställ via e-post&quot; i CRM.
-* Justera CRM API-namn, behörigheter och [datatyp](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"} vid behov.
+* Justera CRM API-namnet, behörigheterna och [datatypen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"} om det behövs.
 
-**Steg 4:** Lägga till ytterligare fält i datamordlistan
+**Steg 4:** Lägg till ytterligare fält i datamappningslistan
 
 * Inkludera visningsnamn, CRM-behörighet och datatyp för varje fält.
 * Om det finns ett fält i CRM men inte Marketo Engage fyller du i Marketo Engage-visnings- och API-namnen med samma värden från CRM-fältet.
@@ -83,21 +83,21 @@ I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs 
 * Om det finns motsvarande fält i båda systemen inkluderar du dem på samma rad och anger att de måste mappas om i avsnittet &quot;Anteckningar&quot; längst till höger i ditt Data Dictionary-blad.
 
 >[!NOTE]
->Om du planerar att skapa ett fält för synkroniseringsfilter ([Salesforce](https://nation.marketo.com/t5/product-blogs/instructions-for-creating-a-custom-sync-rule/ba-p/242758){target="_blank"} | [Microsoft Dynamics](https://community.dynamics.com/blogs/post/?postid=8a91d93e-2181-45dd-a8fb-1092010bc8f1){target="_blank"}) måste du ta med det i det här steget, men lämna API-namnen tomma tills fältet skapas i CRM.
+>Om du planerar att skapa ett synkroniseringsfilterfält ([Salesforce](https://nation.marketo.com/t5/product-blogs/instructions-for-creating-a-custom-sync-rule/ba-p/242758){target="_blank"}) | [ Microsoft Dynamics ](https://community.dynamics.com/blogs/post/?postid=8a91d93e-2181-45dd-a8fb-1092010bc8f1){target="_blank"}) måste du ta med det i det här steget, men lämna API-namnen tomma tills fältet skapas i CRM.
 
 **Steg 5:** Granska datalexikonet med CRM-administratören
 
 * Skapa fält i CRM för dem som redan finns i Marketo Engage och uppdatera datamappningslistan med Display- och API-namnen för det nya CRM-fältet.
-* Utför fältmappning mellan lead- och kontaktobjekt i CRM ([Salesforce](https://nation.marketo.com/t5/product-blogs/instructions-for-creating-a-custom-sync-rule/ba-p/242758){target="_blank"} | [Microsoft Dynamics](https://community.dynamics.com/blogs/post/?postid=8a91d93e-2181-45dd-a8fb-1092010bc8f1){target="_blank"}). När en lead konverteras till en kontakt säkerställer detta att fälten kan konsolideras till ett enda fält i Marketo Engage.
+* Utför fältmappning mellan lead- och kontaktobjekt i CRM ([Salesforce](https://nation.marketo.com/t5/product-blogs/instructions-for-creating-a-custom-sync-rule/ba-p/242758){target="_blank"}) | [Microsoft Dynamics ](https://community.dynamics.com/blogs/post/?postid=8a91d93e-2181-45dd-a8fb-1092010bc8f1){target="_blank"}). När en lead konverteras till en kontakt säkerställer detta att fälten kan konsolideras till ett enda fält i Marketo Engage.
 * Kontrollera att Marketo Sync Profile har rätt behörighet för varje fält enligt ordlistan:
    * [Ange profilbehörigheter i Salesforce](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-2-of-3-create-a-salesforce-user-for-marketo-enterprise-unlimited#set-profile-permissions){target="_blank"}
    * [Ange profilbehörigheter i Microsoft Dynamics](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/microsoft-dynamics-365-with-s2s-connection/step-2-of-3-set-up#create-application-user-in-microsoft){target="_blank"}
-   * [Ange profilbehörigheter i veeva](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/microsoft-dynamics-365-with-s2s-connection/step-2-of-3-set-up#create-application-user-in-microsoft){target="_blank"}
+   * [Ange profilbehörigheter i veva](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/microsoft-dynamics-365-with-s2s-connection/step-2-of-3-set-up#create-application-user-in-microsoft){target="_blank"}
 
 **Steg 6:** Utför den inledande synkroniseringen
 
 * Se till att alla fält som du vill synkronisera med Marketo Engage har lämplig behörighet i CRM enligt dataordlistan.
-* Se till att du har alla fält  ***not*** gillar att synkronisera med Marketo Engage är [dold från Marketo Sync Profile](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/hide-a-salesforce-field-from-the-marketo-sync){target="_blank"}. Det är mycket enklare att lägga till nya fält i synkroniseringen senare än att ta bort fält som har synkroniserats oavsiktligt.
+* Se till att alla fält som du ***inte*** vill synkronisera med Marketo Engage är [dolda i Marketo Sync Profile](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/hide-a-salesforce-field-from-the-marketo-sync){target="_blank"}. Det är mycket enklare att lägga till nya fält i synkroniseringen senare än att ta bort fält som har synkroniserats oavsiktligt.
 * Ansluter du CRM till fältet Synkroniseringsfilter? Om du synkroniserar med Salesforce kontaktar du Adobe kundsupport för att se till att filterfunktionen är aktiverad innan du startar den första synkroniseringen.
 
 
@@ -110,12 +110,12 @@ I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs 
 
 
 
-**Steg 8:** Kontakta Adobe kundsupport om dubblerade fält visas
+**Steg 8:** Kontakta Adobe kundsupport för att utföra ommappning om dubblettfält visas
 
 * Kontakta support med följande information för fält som behöver mappas om:
    * Visnings- och API-namn för nya dubblettfält som skapas av CRM.
    * Visningsnamn för det Marketo Engage-fält som du vill mappa CRM-fältet till.
-   * Se detta exempel [HÄR](https://nation.marketo.com/t5/knowledgebase/re-mapping-sfdc-marketo-fields/ta-p/299284){target="_blank"}.
+   * Se exemplet [HERE](https://nation.marketo.com/t5/knowledgebase/re-mapping-sfdc-marketo-fields/ta-p/299284){target="_blank"}.
 * När ommappningen är klar granskar du API-namnen för de ommappade fälten i Marketo Engage och uppdaterar värdena i Data Dictionary-klassens &quot;API-namn&quot;-kolumn för att se till att den innehåller den mest korrekta informationen.
 
 ## Vad händer nu?
@@ -133,21 +133,21 @@ Läs om hur Marketo Engage och Salesforce samarbetar för att synkronisera dina 
 
 +++**Länkar som används i videon:**
 
-* [Förstå Salesforce-synkronisering](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/understanding-the-salesforce-sync.html){target="_blank"}
+* [Förstå Salesforce-synkroniseringen](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/understanding-the-salesforce-sync.html){target="_blank"}
 
 * [Lägg till Marketo-fält i Salesforce (Enterprise/Unlimited)](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-1-of-3-add-marketo-fields-to-salesforce-enterprise-unlimited.html){target="_blank"}
 
 * [Skapa en Marketo-användare i Salesforce (Enterprise/Unlimited)](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-2-of-3-create-a-salesforce-user-for-marketo-enterprise-unlimited.html){target="_blank"}
 
-* [Connect Marketo och Salesforce (Enterprise/Unlimited)](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-3-of-3-connect-marketo-and-salesforce-enterprise-unlimited.html){target="_blank"}
+* [Anslut Marketo och Salesforce(Enterprise/Unlimited)](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-3-of-3-connect-marketo-and-salesforce-enterprise-unlimited.html){target="_blank"}
 
-* [Användare måste konfigurera det anslutna programmet på Salesforce-sidan innan de kan fortsätta till Marketo och Salesforce Sync.](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0.html){target="_blank"}
+* [Användare måste konfigurera det anslutna programmet på Salesforce-sidan innan de kan fortsätta till Marketo- och Salesforce-synkronisering.](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0.html){target="_blank"}
 
-* [Status för Salesforce-synkronisering](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/salesforce-sync-status.html){target="_blank"}
+* [Salesforce-synkroniseringsstatus](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/salesforce-sync-status.html){target="_blank"}
 
-* [Dölja och visa ett fält](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/field-management/hide-and-unhide-a-field.html){target="_blank"}
+* [Dölj och visa ett fält](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/field-management/hide-and-unhide-a-field.html){target="_blank"}
 
-* [Självstudiekurs: Lär dig hur du synkroniserar Marketo med CRM](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/lead-and-data-management/crm-sync-learn.html){target="_blank"}
+* [Självstudiekurs: Lär dig hur du synkroniserar Marketo med ditt CRM](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/lead-and-data-management/crm-sync-learn.html){target="_blank"}
 
 +++
 
@@ -161,25 +161,25 @@ Lär dig hur synkroniseringen av Microsoft Dynamics 365 fungerar och konfigurera
 
 * [Förstå Microsoft Dynamics Sync](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync.html){target="_blank"}
 
-* [Ladda ned Marketo Lead Management Solution](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/download-the-marketo-lead-management-solution.html){target="_blank"}
+* [Hämta Marketo Lead Management Solution](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/download-the-marketo-lead-management-solution.html){target="_blank"}
 
-* [Uppdatera Marketo Solution för Microsoft Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/update-the-marketo-solution-for-microsoft-dynamics.html){target="_blank"}
+* [Uppdatera Marketo-lösningen för Microsoft Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/update-the-marketo-solution-for-microsoft-dynamics.html){target="_blank"}
 
-* [Bevilja samtycke för klient-ID och appregistrering](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/grant-consent-for-client-id-and-app-registration.html)
+* [Bevilja medgivande för klient-ID och appregistrering](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/grant-consent-for-client-id-and-app-registration.html)
 
-* [Validera Microsoft Dynamics Sync](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/validate-microsoft-dynamics-sync.html){target="_blank"}
+* [Verifiera Microsoft Dynamics Sync](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/validate-microsoft-dynamics-sync.html){target="_blank"}
 
 * [Synkroniseringsstatus](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/microsoft-dynamics-sync-details/sync-status.html){target="_blank"}
 
 * [Åtgärda problem med synkronisering av Dynamics-validering](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/fix-dynamics-validation-sync-issues.html){target="_blank"}
 
-* [Skapa ett anpassat Dynamics-synkroniseringsfilter](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/custom-dynmaics-sync-filter-details/create-a-custom-dynamics-sync-filter.html){target="_blank"}
+* [Skapa ett synkroniseringsfilter för anpassad Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/custom-dynmaics-sync-filter-details/create-a-custom-dynamics-sync-filter.html){target="_blank"}
 
 * [Visa URL för organisationstjänsten](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/view-the-organization-service-url.html){target="_blank"}
 
-* [Redigera fält som ska synkroniseras innan de tas bort i Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/microsoft-dynamics-sync-details/editing-fields-to-sync-before-deleting-them-in-dynamics.html){target="_blank"}
+* [Redigerar fält som ska synkroniseras innan de tas bort i Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/microsoft-dynamics-sync-details/editing-fields-to-sync-before-deleting-them-in-dynamics.html){target="_blank"}
 
-* [Självstudiekurs: Lär dig hur du synkroniserar Marketo med CRM](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/lead-and-data-management/crm-sync-learn.html){target="_blank"}
+* [Självstudiekurs: Lär dig hur du synkroniserar Marketo med ditt CRM](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/lead-and-data-management/crm-sync-learn.html){target="_blank"}
 
 +++
 

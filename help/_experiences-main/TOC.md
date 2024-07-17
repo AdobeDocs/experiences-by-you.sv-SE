@@ -5,7 +5,7 @@ breadcrumb-title: Upplevelser av dig
 source-git-commit: 6048af1513ad27766ff0da6593a6442d3521ab67
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 4%
 + [!DNL Analytics] av dig {#analytics}
    + [Översikt](/help/analytics/overview.md)
    + Introduktion till [!DNL Analytics] {#intro-to-analytics}
-      + Övergång från andra plattformar {#transitioning-from-other-platforms}
-         + [Övergång från [!DNL Google Analytics]](../analytics/intro-to-analytics/transitioning-from-other-platforms/transition-from-google-analytics.md)
+      + Övergångar från andra plattformar {#transitioning-from-other-platforms}
+         + [Övergår från  [!DNL Google Analytics]](../analytics/intro-to-analytics/transitioning-from-other-platforms/transition-from-google-analytics.md)
    + Analysis Workspace {#analysis-workspace}
-      + Använda paneler {#using-panels}
+      + Använder paneler {#using-panels}
          + [Om attribueringspanelen och backupfönster](../analytics/analysis-workspace/using-panels/understanding-adobe-analytics-attribution-panel-and-lookback-windows.md)
       + Visualiseringar {#visualizations}
          + [Frigöra insikter med histogram](../analytics/analysis-workspace/visualizations/unlocking-insights-with-histograms.md)
@@ -42,19 +42,19 @@ ht-degree: 4%
          + [Högerklicka på tips och tricks för effektivare arbetsflöden](../analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md)
          + [Taggar - din egen assistent](../analytics/analysis-workspace/tips-and-tricks/tags-your-personal-assistant.md)
    + Administration {#administration}
-      + Viktiga administratörsfärdigheter {#key-admin-skills}
+      + Viktiga administratörskunskaper {#key-admin-skills}
          + [Skapa en kraftfull community](../analytics/administration/key-admin-skills/empowered-community.md)
          + [Förenkla och lägg mindre tid på utbildning](../analytics/administration/key-admin-skills/simplify-training-users.md)
          + [Sätta vid bordet](../analytics/administration/key-admin-skills/gaining-a-seat-at-the-table.md)
          + [Berätta viktiga historier med data](../analytics/administration/key-admin-skills/telling-impactful-stories-with-data.md)
-         + [Översätter [!DNL Adobe Analytics] tekniskt språk på ett icke-tekniskt sätt](../analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md)
+         + [Översätter  [!DNL Adobe Analytics] tekniskt språk på ett icke-tekniskt sätt](../analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md)
          + [Arbeta tvärfunktionellt](../analytics/administration/key-admin-skills/working-cross-functionally.md)
       + Administratörstips och metodtips {#admin-tips}
          + [Hämta implementeringens spelningsbok](../analytics/administration/admin-tips/download-the-adobe-analytics-implementation-playbook.md)
          + [Skapa standardiserade namnkonventioner](../analytics/administration/admin-tips/create-standardized-naming-conventions.md)
          + [Skapa standardiserade kodmallar](../analytics/administration/admin-tips/create-standardized-code-templates.md)
          + [Skapa grundläggande videor och kurser](../analytics/administration/admin-tips/create-basic-videos-and-training.md)
-         + [Skapa en intern [!DNL Adobe Analytics] webbplats](../analytics/administration/admin-tips/create-an-internal-adobe-analytics-site.md)
+         + [Skapa en intern [!DNL Adobe Analytics] plats](../analytics/administration/admin-tips/create-an-internal-adobe-analytics-site.md)
          + [Använd en global rapportsvit](../analytics/administration/admin-tips/use-a-global-report-suite.md)
          + [Skapa ett nytt projekt](../analytics/administration/admin-tips/create-a-news-and-announcements-project.md)
          + [Skapa framgångsrika statuspaneler med chefssammanfattning](../analytics/administration/admin-tips/driving-success-with-executive-summary-dashboards.md)
@@ -65,11 +65,11 @@ ht-degree: 4%
 + [!DNL Campaign] av dig {#campaign}
    + [Översikt](/help/campaign/overview.md)
    + [!DNL Campaign Classic v7] {#campaign-classic-v7}
-      + [Bästa praxis för arbetsflöden](/help/campaign/ac-v7/workflow-best-practices-for-marketers.md)
+      + [God praxis för arbetsflöden](/help/campaign/ac-v7/workflow-best-practices-for-marketers.md)
    + [!DNL Campaign Standard] {#campaign-standard}
       + [Felsökning för marknadsförare](/help/campaign/acs/troubleshooting-for-marketers.md)
    + Strategi och tankeledarskap{#strategy}
-      + [Tio bästa sätten för [!DNL Adobe Campaign] framgång för marknadsförare](/help/campaign/10-best-practices-for-marketers.md)
+      + [Tio bästa sätten för marknadsförare att  [!DNL Adobe Campaign] lyckas](/help/campaign/10-best-practices-for-marketers.md)
 + Experience Manager av dig {#experience-manager}
    + [Översikt](/help/experience-manager/overview.md)
    + AEM Sites {#sites}
@@ -78,21 +78,21 @@ ht-degree: 4%
          + [AEM Champion Tips and Tricks: Session 1](/help/experience-manager/sites/expert-resources/champion-tips-1.md)
          + [AEM Champion Tips and Tricks: Session 2](/help/experience-manager/sites/expert-resources/champion-tips-2.md)
    + AEM as a Cloud Service {#cloud-service}
-      + [[!DNL Cloud Manager] Onboarding Playbook](/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md)
-      + [[!DNL Cloud Manager] Miljötyper](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
-      + [[!DNL Cloud Manager] UI](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
+      + [[!DNL Cloud Manager] introducerar spelbok](/help/experience-manager/cloud-service/expert-resources/aem-champions/onboarding-playbook.md)
+      + [Miljötyper för [!DNL Cloud Manager]](/help/experience-manager/cloud-service/expert-resources/aem-champions/environment-types.md)
+      + [[!DNL Cloud Manager]-gränssnitt](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-ui.md)
       + Bästa praxis {#cloud-manager-best-practices}
-         + [Använda loggar i Cloud Manager](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-using-logs.md)
+         + [Använda inloggningar i Cloud Manager](/help/experience-manager/cloud-service/expert-resources/aem-champions/cloud-manager-using-logs.md)
          + [Planera en migrering till AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration.md)
-         + [Strategier och tips efter migrering](/help/experience-manager/cloud-service/expert-resources/aem-champions/post-migration.md)
+         + [Strategier och tips för migrering från Post](/help/experience-manager/cloud-service/expert-resources/aem-champions/post-migration.md)
          + [Använda Best Practice Analyzer](/help/experience-manager/cloud-service/expert-resources/aem-champions/best-practice-analyzer.md)
-         + [Som hjälp vid migrering till AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration-challenges.md)
+         + [Som åtgärdar utmaningar vid migrering till AEM as a Cloud Service](/help/experience-manager/cloud-service/expert-resources/aem-champions/migration-challenges.md)
 + [!DNL Marketo Engage] av dig {#marketo-engage}
    + [Översikt](/help/marketo/overview.md)
    + Grundläggande {#fundamentals}
       + [Navigera i användargränssnittet](/help/marketo/fundamentals/ui-navigation.md)
       + [Tips och tricks för implementering av en ny instans](https://experienceleague.adobe.com/en/docs/experiences-by-you/implementing-new-instance/overview)
-      + [Granska en ärvd instans - självstudiekurs](https://experienceleague.adobe.com/docs/experiences-by-you/auditing-an-inherited-instance/overview.html)
+      + [Granska en ärvd instans - självstudie](https://experienceleague.adobe.com/docs/experiences-by-you/auditing-an-inherited-instance/overview.html)
    + Program och kampanjer {#programs-and-campaigns}
       + [E-postprogram](/help/marketo/programs/email-programs.md)
       + [Engagement programs](/help/marketo/programs/engagement-programs.md)

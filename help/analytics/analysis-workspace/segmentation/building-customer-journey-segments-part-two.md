@@ -11,7 +11,7 @@ thumbnail: KT-13476.jpeg
 exl-id: 369c526d-8664-4771-81b6-24c9f50bc37e
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Vi kan se det som något som en mataffär. Om någon plockar upp en produkt som 
 
 Jag föreslår att man använder besökta sidor eller andra explicita signaler för inköpsavsikt och undviker andra, mindre direkta signaler för att identifiera inköpsavsikt. Jag använder till exempel inte antal sessioner eller antal sidor i en session eller liknande. Dessa indirekta signaler indikerar övervägande, inte avsikt att köpa. Tänk på att syftet med det här segmentet är att sluta sig till besökarens avsikter, inte deras benägenhet.
 
-### Använda [!DNL Analytics] Arbetsyta för att identifiera skyltar för inköpsavsikt
+### Använda [!DNL Analytics] Workspace för att identifiera skyltar för inköpsavsikt
 
 Utfallsrapporten är mycket användbar för att identifiera en bra signal som indikerar inköpsavsikt. Leta efter en plats som logiskt anger återgivning. Du kan bekräfta att steget anger avsikten när du ser ett markerat utfall som går till det steget, ofta följt av ett mindre utfall för steget direkt efter.
 
@@ -92,7 +92,7 @@ Lägg till en Exkludera-behållare i segmentet som förenas med villkoret&quot;A
 
 Det bästa sättet är att märka behållarna. Du kommer att bli glad att du gjorde det, särskilt som våra segmentdefinitioner blir mer komplexa.
 
-Nu när vi har skapat segmentet Inköpsmetod kan vi använda arbetsytan för Intent Data Quality för att se att segmentet Inköpsmetod utesluter segmentet One och Done.
+Nu när vi har skapat segmentet Inköpsmetod kan vi använda Workspace Visit Intent Data Quality för att se att segmentet Inköpsmetod är ömsesidigt uteslutande för vårt One and Done-segment.
 
 ![Bild 5](assets/Image-5.png)
 
@@ -106,13 +106,13 @@ Precis som med segmentet Inköpsmetod söker vi efter mycket tydliga indikatione
 
 Jag bör notera att &quot;Kvarhållning&quot; är lite av ett pinsamt namn för besöksavsikten, eftersom besökaren inte finns på vår webbplats &quot;så jag kan behållas som kund.&quot; Vi tänker behålla besöket. Kom bara ihåg att vara empatisk för våra kunder och behålla kundfokus!
 
-### Använda [!DNL Analytics] Arbetsyta för att identifiera signaler för kvarhållningsmetod
+### Identifiera signaturer för lagringsmetod med [!DNL Analytics] Workspace
 
-Igen, [!DNL Analytics] Arbetsytan hjälper oss att identifiera kvarhållningsmetod. Du kan kategorisera sidorna med hjälp av sidorna, webbplatsavsnittet eller de anpassade segmentdimensionerna. Leta efter sidor med låga inköpskonverteringsgrader. I det här fallet ser vi att sidorna Online Check-In och Shore Excursion (Shorex) har relativt lägre konverteringsgrader än andra sidor som är mer logiskt kopplade till köp och köp.
+Även här kan [!DNL Analytics] Workspace hjälpa oss att identifiera bevarandemetod. Du kan kategorisera sidorna med hjälp av sidorna, webbplatsavsnittet eller de anpassade segmentdimensionerna. Leta efter sidor med låga inköpskonverteringsgrader. I det här fallet ser vi att sidorna Online Check-In och Shore Excursion (Shorex) har relativt lägre konverteringsgrader än andra sidor som är mer logiskt kopplade till köp och köp.
 
 ![Bild 6](assets/Image-6.png)
 
-Det är också en bra idé att titta på arbetsytan för sidor med hög trafik. Skanna listan över sidor med hög trafik och bestäm om de visar på en bevarandesats.
+Det är också en bra idé att titta i Workspace efter sidor med mycket trafik. Skanna listan över sidor med hög trafik och bestäm om de visar på en bevarandesats.
 
 ## Utesluta andra segment
 
@@ -132,13 +132,13 @@ Lägg sedan till exkluderingsbehållare för dina One Hit Wonders- och Purchase 
 
 ![Bild 7](assets/Image-7.png)
 
-Återigen kan du titta på arbetsytan Visit Data Quality för att se till att era segment är ömsesidigt uteslutande. Våra besöksintent-segment är perfekta!
+Återigen kan du titta på Workspace Intent Data Quality för att försäkra dig om att era segment är ömsesidigt uteslutande. Våra besöksintent-segment är perfekta!
 
 ![Bild 8](assets/Image-8.png)
 
 Nu har vi konfigurerat tre av våra fem besöksintent-segment. Vi ser att dessa segment utesluter varandra. I vårt nästa inlägg kommer vi att skapa de sista besöksavsiktssegmenten, överväganden och medvetenhet, och alla våra segment kommer att vara helt uttömmande. När våra besöksintent-segment väl har skapats kan vi sammanföra dem i besöksbaserade segment som ni tycker är mycket användbara för analys och personalisering.
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 

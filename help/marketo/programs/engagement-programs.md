@@ -13,8 +13,8 @@ solution: Marketo Engage
 exl-id: 6bd2433a-ec79-4ce6-873c-4c897c4b9f82
 source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Följ den här stegvisa självstudiekursen för att skapa ditt första engageman
 ## Ytterligare resurser:
 
 Se produktguiderna för mer information:
-* [Dokumentation om Engagement Programs](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/drip-nurturing/creating-an-engagement-program/understanding-engagement-programs.html?lang=en)
+* [Dokumentation om engagemangsprogram ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/drip-nurturing/creating-an-engagement-program/understanding-engagement-programs.html?lang=en)
 
 Lär er av andra om hur ni använder engagemangsprogram:
 * [Expert Customer Blog post: Engagement Programs](https://nation.marketo.com/t5/product-blogs/marketo-success-series-engagement-programs/ba-p/301712)

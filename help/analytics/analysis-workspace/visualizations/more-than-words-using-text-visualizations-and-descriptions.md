@@ -12,14 +12,14 @@ thumbnail: KT-13267.jpeg
 exl-id: ddcffb53-bcfb-4fc4-858a-ae191285fe66
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
 # Mer än ord - Använda textvisualiseringar och beskrivningar i Analysis Workspace
 
-Som en [!DNL Adobe Analytics] Analysis Workspace-användare, det är naturligt att du ofta fokuserar på dina data- och datavisualiseringar - vem som helst kan skriva en sammanfattning, eller hur? Men om du missar funktioner i Analysis Workspace som textvisualisering eller visualiseringsbeskrivningar kan det innebära att du inte har möjlighet att kombinera dina insikter med värdefull text, bilder, giffar och länkar. Genom att ge referenser och mer sammanhang för att informera användarna om vad era data innebär kan de göra dem mer effektiva och slagkraftiga.
+Som [!DNL Adobe Analytics] Analysis Workspace-användare är det naturligt att ditt fokus ofta går till dina data- och datavisualiseringar - alla kan skriva en sammanfattning, eller hur? Men om du missar funktioner i Analysis Workspace som textvisualisering eller visualiseringsbeskrivningar kan det innebära att du inte har möjlighet att kombinera dina insikter med värdefull text, bilder, giffar och länkar. Genom att ge referenser och mer sammanhang för att informera användarna om vad era data innebär kan de göra dem mer effektiva och slagkraftiga.
 
 Först ska vi se till att du vet var du hittar dessa funktioner:
 
@@ -48,22 +48,22 @@ Om du nu föredrar att lägga in innehållet direkt i rapporten kan du använda 
 
 ![text 06](assets/t06.png)
 
-Du kan lägga till en bild som är tillgänglig på alla offentliga URL:er i rapporten, så länge URL:en är i *https* och är formaterad som .png, .jpeg, .jpg eller .gif. Även om det kan låta restriktivt, kan alla onlineverktyg som används för att dela bilder eller GIF som imgur eller GIPHY erbjuda en snabb metod för att överföra filer som är tillgängliga i arbetsytan med hjälp av en Share Link.
+Du kan lägga till en bild som är tillgänglig på alla offentliga URL:er i rapporten, förutsatt att URL:en är i formatet *https* och är formaterad som .png, .jpeg, .jpg eller .gif. Alla onlineverktyg som används för att dela bilder eller GIF som imgur eller GIPHY kan vara en snabb metod för att överföra Workspace-tillgängliga filer med hjälp av en Dela länk.
 
 Resultatet? Du kan visa webbsidan som dina data refererar till direkt i ditt projekt:
 
 ![text 07](assets/t07.png)
 
-Du kan också använda GIF i dina projekt för att inkludera rörliga bilder som genomgång av en webbplats, en perfekt väg genom din webbplats eller en uppgift i din app, eller bara visa teamet hur ***tankeväckande*** Dina rapporter har nu blivit:
+Du kan också använda GIF i dina projekt för att inkludera rörliga bilder som genomgång av en webbplats, en perfekt sökväg genom din webbplats eller en uppgift i din app, eller bara visa teamet hur ***tankeväckande*** dina rapporter nu har blivit:
 
 ![text 08](assets/t08.png)
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 
 ![Dan Cummings](assets/text09.png)
 
-**Dan Cummings**, Sr. Product Engineering [!DNL Analytics] Chef på McDonald&#39;s Corporation
+**Dan Cummings**, Sr. Product Engineering [!DNL Analytics] Manager på McDonald&#39;s Corporation
 
 [!DNL Adobe Analytics] Champion

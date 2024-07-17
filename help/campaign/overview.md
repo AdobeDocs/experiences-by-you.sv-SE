@@ -16,7 +16,7 @@ ht-degree: 25%
 
 # [!DNL Campaign] av dig: Resurser per användare, för användare.
 
-Det mest kraftfulla med [!DNL Adobe] Experience Cloud lösningar? Du. De användare som tar produkterna, fördjupar sig i dem och använder dem på fantastiska, innovativa sätt för att skapa meningsfulla upplevelser och resultat. Experience by You har innehåll som skapats av vanliga användare som har uppnått en viss kunskapsnivå och som påverkar deras [!DNL Adobe] Experience Cloud lösningar. Denna peer-to-peer-kunskap uppmuntrar till samarbete och upptäckt - vilket gör att du - och andra användare - kan hitta inspiration som behövs för att höja nivån på din produktexpertis.
+Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De användare som tar produkterna, fördjupar sig i dem och använder dem på fantastiska, innovativa sätt för att skapa meningsfulla upplevelser och resultat. Experience by You innehåller innehåll som har skapats av vanliga användare som har uppnått en viss kunskapsnivå och påverkat sina [!DNL Adobe] Experience Cloud-lösningar. Denna peer-to-peer-kunskap uppmuntrar till samarbete och upptäckt - vilket gör att du - och andra användare - kan hitta inspiration som behövs för att höja nivån på din produktexpertis.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -37,7 +37,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud lösningar? Du. De använd
     </a>
     <div>
       <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
-    <strong>De fem populäraste arbetsflödena för marknadsförare</strong>
+    <strong> De fem vanligaste arbetsflödena för marknadsförare </strong>
     </a>
     </div>
     <p>
@@ -50,7 +50,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud lösningar? Du. De använd
     </a>
     <div>
       <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
-    <strong>Felsökning för marknadsförare: 5 Vanliga arbetsflödes- och leveransfel</strong>
+    <strong> Felsökning för marknadsförare: 5 Vanliga arbetsflödes- och leveransfel </strong>
     </a>
     </div>
     <p>
@@ -78,7 +78,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Experience League Adobe Campaign Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* Adobe Campaign v8 -  [Dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html)
+* Adobe Campaign v8 - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html)
 * Adobe Campaign Classic v7 - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic.html) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=sv)
-* ADOBE CAMPAIGN STANDARD - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard.html) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv)
+* Adobe Campaign Standard - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard.html) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv)
 * [Adobe Campaign produktinformation](https://business.adobe.com/products/campaign/adobe-campaign.html)

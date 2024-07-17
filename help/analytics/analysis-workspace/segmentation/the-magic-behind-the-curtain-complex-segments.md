@@ -19,11 +19,11 @@ ht-degree: 1%
 
 # Magin bakom gardinen: Komplexa segment: exkluderar, behållare och attribuering
 
-_Upptäck krånglet med komplex datasegmentering, utforska exkluderingar, behållare och attribueringsmodeller. Precis som en magiker med handen ger bemanningen av dessa tekniker analytiker möjlighet att utföra datagisk och omvandla insikter med precision och finess._
+_Upptäck krånglet med komplex datasegmentering, utforska exkluderingar, behållare och attribueringsmodeller. Precis som en magiker i handen ger bemanningen av dessa tekniker analytiker möjlighet att utföra datagisk och omvandla insikter med precision och finess._
 
 Gardinerna är öppna. Scenen är inte en Las Vegas-magisk handling, men vi kan göra några fantastiska trick när vi bygger våra segment.
 
-![Magician_händer](assets/magician-hands.jpeg)
+![Magician_hand](assets/magician-hands.jpeg)
 
 I den här modulen ska vi ta upp:
 
@@ -33,60 +33,60 @@ I den här modulen ska vi ta upp:
 
 ## Inkludera jämfört med exkludera
 
-Som standard börjar alla behållare som **include** typ, vilket i princip innebär att de returnerar data som matchar villkoret. Du kan dock även ändra segmentet, eller behållare i segmenten, så att de **exclude** -typ, så att du kan avvisa vissa villkor.
+Som standard startar alla behållare som typen **include**, vilket innebär att de returnerar data som matchar villkoren. Du kan också ändra segmentet, eller behållare i segmenten, till typen **exclude**, så att du kan avvisa vissa villkor.
 
 Medan en magiker kan hitta ditt kort på däck är det fantastiskt när magikern kan få resten av däcket att inte existera. På samma sätt vill vi att oönskade data ska tas bort från datauppsättningen när vi utesluter segment.
 
-![filtkort](assets/blankcards.png)
+![filkort](assets/blankcards.png)
 
-Du kanske sitter där och tänker &quot;OK, men jag har redan alternativen &quot;Är inte lika&quot; och &quot;Innehåller inte&quot;, så ska inte det täcka mig?&quot; Tyvärr är svaret på det nej ... och det handlar inte bara om att kunna utesluta grupper av logik, i stället för ett enda element. Även om du arbetar med en enstaka komponent behöver du ofta använda *exkluderar* för att nå ditt mål.
+Du kanske sitter där och tänker &quot;OK, men jag har redan alternativen &quot;Är inte lika&quot; och &quot;Innehåller inte&quot;, så ska inte det täcka mig?&quot; Tyvärr är svaret på det nej ... och det handlar inte bara om att kunna utesluta grupper av logik, i stället för ett enda element. Även när du arbetar med en enda komponent måste du ofta använda *excludes* för att uppnå ditt mål.
 
-- **Innehåller inte / Är inte lika med** - Är precis vad det låter som, matchning för objekt som inte innehåller en viss sträng
-- **Exkludera: Värdet innehåller / lika med** - Detta kommer att *exclude* objekt som matchar strängen
+- **Innehåller inte / Är inte lika med** - Är bara hur det låter, matchar objekt som inte innehåller en viss sträng
+- **Exkludera: Värdet innehåller / är lika med** - Detta *exkluderar* objekt som matchar strängen
 
-Vid första anblicken låter de båda lika... och **hit** nivåsegment/behållare skulle du ha gjort rätt eftersom de utför samma åtgärd. När du använder **besök** eller **besökare** kommer du att få helt olika resultat.
+Vid första anblicken låter båda de samma... och vid **hit**-nivåsegment/behållare skulle du ha rätt eftersom de utför samma åtgärd. När du använder omfattningen **besök** eller **besökare** får du dock väldigt olika resultat.
 
-**Bild 1: Innehåller inte / är inte lika med - träffomfång**
+**Figur 1: Innehåller inte/är inte lika med - Träff-omfång**
 
-![Bild1-DnceVsExclude-Hit](assets/figure1-dnce-vs-exclude-hit.png)
+![Figur1-DnceVsExclude-Hit](assets/figure1-dnce-vs-exclude-hit.png)
 
-*Observera att varje träff returnerar ett true- eller false-värde och att dessa värden inverteras mellan inte och exkluderar.*
+*Observera att varje träff returnerar ett true- eller false-värde och att dessa värden inverteras mellan gör det inte och exkluderar.*
 
 - Innebär att&quot;Värde&quot; inte innehåller&quot;Exempel&quot; (ja). Därför returneras true och den träffen tas med. På samma sätt innehåller&quot;Exempel&quot; inte&quot;Exempel&quot; (nej, den innehåller den). Därför returneras false och den träffen tas inte med. Returnera i stort sett alla data som returnerar ett sant resultat.
-- Innebär &quot;Värde&quot; att det innehåller &quot;Exempel&quot; (nej). Därför returneras false och träffen utesluts inte. På samma sätt innehåller &quot;Exempel&quot; (ja), därför returneras true och träffen utelämnas. I princip returnerar du data som **not** har ett sant resultat eller returnerar data som är falska enligt dina kriterier.
-- Du ser det på **Träff** level returnerar båda uppsättningarna med logik samma datauppsättning.
+- Innebär &quot;Värde&quot; att det innehåller &quot;Exempel&quot; (nej). Därför returneras false och träffen utesluts inte. På samma sätt innehåller &quot;Exempel&quot; (ja), därför returneras true och träffen utelämnas. Returnera data som **inte** har i princip ett sant resultat, eller returnera data som är falska enligt dina kriterier.
+- Du kan se att båda uppsättningarna med logik returnerar samma datauppsättning på **träff** -nivån.
 
-**Bild 2: Innehåller inte / är inte lika med - Besöksomfattning**
+**Figur 2: Innehåller inte/är inte lika - Besök omfång**
 
 ![Figur2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
 
-*Precis som ovan, slår varje träff i **besök**utvärderas med samma sant/falskt. Den datauppsättning som returneras är dock den som gäller för hela besöket.*
+*Precis som ovan utvärderas varje träff i **besök**med samma sant/falskt. Datauppsättningen som returneras är dock den för hela besöket.*
 
 - För varje träff innehåller&quot;Värde&quot; inte&quot;Exempel&quot; (ja), därför returneras true. På samma sätt innehåller&quot;Exempel&quot; inte&quot;Exempel&quot; (nej, det innehåller det) och returnerar därför false.
-   - If **alla** träffar i besöksresultaten **true** och sedan **hela besök** returneras.*
-   - Om besöket helt och hållet bestod av träffar som innehöll&quot;Exempel&quot;, skulle inga träffar returneras, och därför skulle besöket **returneras inte** i datauppsättningen.
+   - Om **någon** träffar i besöket returnerar **true** returneras **hela besöket**.*
+   - Om besöket helt består av träffar som innehöll&quot;Exempel&quot; returneras inga träffar som true, och därför returneras **inte** i din datauppsättning.
 - För varje träff innehåller &quot;Example&quot; (yes) och returnerar därför true
-   - If **träff** returnerar **true**, kommer hela besöket att **exkluderad**
-   - If **alla träffar** vid besöket **false**, kommer besöket att returneras i din datauppsättning
+   - Om **en träff** returnerar **true** kommer hela besöket att **exkluderas**
+   - Om **alla träffar** i besöket returnerar **false** returneras besöket i din datauppsättning
 - Nu ser ni var logiken börjar spridas. I exemplet ovan finns det tre olika besök:
-   - Vid användning av &quot;Innehåller inte/lika med&quot; **två av de tre** Besöken kommer att återsändas.
-   - Vid användning av Exkludera innehåller/är lika med **endast en** av dessa besök kommer att returneras
+   - När du använder &quot;Innehåller inte/är lika med&quot; returneras **två av de tre** besöken.
+   - När du använder Exkludera innehåller/är lika med **returneras bara en** av dessa besök
 
-**Bild 3: Innehåller inte / är inte lika med - Besöksomfattning**
+**Figur 3: Innehåller inte/är inte lika - Besök omfång**
 
 ![Figur3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
 
-*Precis som ovan, var och en av de **besökare**utvärderas med samma true/false-logik. Men nu tittar vi på alla träffar som besökaren har gjort på alla besök (inom det valda datumintervallet).*
+*Precis som ovan utvärderas varje träff som görs av **besökaren**med samma sanna/falska logik. Men nu tittar vi på alla träffar som besökaren har gjort i alla besök (inom det valda datumintervallet).*
 
 - För varje träff innehåller&quot;Värde&quot; inte&quot;Exempel&quot; (ja), därför returneras true. På samma sätt innehåller&quot;Exempel&quot; inte&quot;Exempel&quot; (nej, det innehåller det) och returnerar därför false.
-   - If **alla** träffad av besökaren **true** och sedan **hela besök** returneras.
-   - Om besökaren aldrig gjorde någon träff som innehöll&quot;Exempel&quot; returneras inga träffar som true, och därför skulle besökaren **returneras inte** i datauppsättningen.
+   - Om **någon**-träff som gjorts av besökaren returnerar **true** returneras **hela besöket**.
+   - Om besökaren aldrig gjorde någon träff som innehöll&quot;Exempel&quot; returneras inga träffar som true, och därför returneras **inte** i datauppsättningen.
 - För varje träff innehåller &quot;Exempel&quot; (ja) och returnerar alltså &quot;sant&quot;.
-   - If **träff** returnerar **true**, kommer hela besökaren (och därefter alla deras besök) att **exkluderad.**
-   - If **alla träffar** vid besöket **false**, returneras besökaren i datauppsättningen och returnerar därmed besökare som inte gjorde X.
+   - Om **en träff** returnerar **true** kommer hela besökaren (och senare alla deras besök) att **exkluderas.**
+   - Om **alla träffar** i besöket returnerar **false** returneras den besökaren i datauppsättningen, vilket innebär att besökare som inte gjorde X returneras.
 - Detta är en förlängning av besökslogiken, där det finns ännu fler överväganden. I exemplet ovan finns det två olika besökare, med tre besök var:
-   - Vid användning av &quot;Innehåller inte/lika med&quot; **båda** besökarna kommer att återvända, liksom alla **tre** av besöken (motsvarar 2 besökare och totalt 6 besök i rapporter)
-   - Vid användning av Exkludera innehåller/är lika med **endast en** av dessa besökare kommer att returneras, och endast de tre besök som är kopplade till besökaren kommer att inkluderas (vilket motsvarar 1 besökare och 3 totala besök i dina rapporter)
+   - När du använder&quot;Innehåller inte/är lika&quot; returneras **båda** besökarna, liksom alla **tre** av deras besök (motsvarar 2 besökare och totalt 6 besök i dina rapporter)
+   - När du använder Exkludera innehåller/är lika med **returneras bara en** av dessa besökare, och endast de tre besök som är kopplade till den besökaren inkluderas (motsvarar 1 besökare och 3 totala besök i dina rapporter)
 
 >[!TIP]
 >
@@ -94,7 +94,7 @@ Vid första anblicken låter de båda lika... och **hit** nivåsegment/behållar
 
 ### Segmentexempel 1: Uteslut besök som gör ett köp
 
-I det här exemplet vill jag rikta in mig på användare som kom till en webbplats och som gjorde det *not* göra ett inköp under besöket (jag vill i princip utesluta de besök som gjorde en transaktion, och därför lämnar jag över besöken som inte slutförde en transaktion)
+I det här exemplet vill jag rikta in mig på användare som kom till en webbplats och gjorde *inte* ett köp under besöket (i princip vill jag utesluta de besök som utförde en transaktion. Därför lämnar jag besöken som inte slutförde en transaktion)
 
 ![Segment1A-VisitLevelExclude](assets/segment-example-1/segment1a-visit-level-exclude.png)
 
@@ -108,7 +108,7 @@ Om du vill illustrera detta ytterligare kan du jämföra de två segmenten sida 
 
 ![Segment1C-ComparisonTable](assets/segment-example-1/sement1c-comparison-table.png)
 
-Först ser du det trots *besök* segmentets nivåomfång kan vi koppla segmentet med andra mätvärden (som sidvyer eller unika besökare). Den första uppsättningen kolumner är osegmenterade, så att du snabbt kan se att det enda segmentet (som inte finns) returnerar nästan 100 % av alla data, så är det bara det uteslutna segmentet som gör det vi behöver.
+För det första kan du se att vi, trots segmentets *besöksnivå*, kan koppla segmentet med andra mätvärden (som sidvisningar eller unika besökare). Den första uppsättningen kolumner är osegmenterade, så att du snabbt kan se att det enda segmentet (som inte finns) returnerar nästan 100 % av alla data, så är det bara det uteslutna segmentet som gör det vi behöver.
 
 Den mest påfallande kolumnen är beställningarna, som bör vara direkt uppenbart att behållaren &quot;Finns inte&quot; är felaktig eftersom de flesta beställningarna fortfarande returneras.
 
@@ -120,7 +120,7 @@ Det här segmentet kommer att se ut ungefär som i ovanstående exempel, nästan
 
 ![Segment2A-VisitorLevelExclude](assets/segment-example-2/segment2a-visitor-level-exclude.png)
 
-Om vi nu jämför besöksomfångssegmentet med besöksomfångssegmentet ovan, kommer du att se att mycket mer data och många fler besök utesluts, eftersom *besökare som köpt* Det fanns även besök där inga inköp gjordes, och därför exkluderas dessa besök också eftersom de ingår i besökarens livscykel.
+Om vi nu jämför besöksomfångssegmentet med besöksomfångssegmentet ovan, kommer du att se att mycket fler data och många fler besökare utesluts, eftersom *besökare som gjorde köp* också hade besök där inga inköp gjordes, och dessa besök exkluderas också eftersom de ingår i besökarens livscykel.
 
 >[!IMPORTANT]
 >
@@ -131,10 +131,10 @@ Om vi nu jämför besöksomfångssegmentet med besöksomfångssegmentet ovan, ko
 
 >[!IMPORTANT]
 >
->Skillnaderna mellan besök och besökare kan vara *subtil* (särskilt i dessa exempeldata) är de unika logiska funktioner som bör beaktas. Dina data kan vara påfallande annorlunda beroende på din webbplats och dina användarbeteenden.
+>Skillnaderna mellan besök och besökare kan vara *subtil* (särskilt i dessa exempeldata), men de är unika logik som bör beaktas. Dina data kan vara påfallande annorlunda beroende på din webbplats och dina användarbeteenden.
 
 
-Det är viktigt att veta exakt vilka data, eller vad *artikel*...du försöker berätta med din rapport. Se till att era tabeller och visualiseringar tydligt talar om för publiken ***vad*** visas och det är viktigt att använda lämplig segmentmodell för att kunna göra en lämplig analys. Informade beslut kan bara fattas på rätt sätt om alla förstår vad de tittar på.
+Det är viktigt att du vet exakt vilka data, eller vilken *artikel*, du försöker berätta med din rapport. Att se till att dina tabeller och visualiseringar tydligt talar om för publiken ***vad*** visas, och att det är viktigt att använda rätt segmentmodell för att kunna göra rätt analys. Informade beslut kan bara fattas på rätt sätt om alla förstår vad de tittar på.
 
 ## Använda behållare
 
@@ -142,37 +142,37 @@ Behållare ger oss möjlighet att skapa&quot;sublogik&quot; inom segmentets huvu
 
 Det bästa sättet att tänka på behållare är att tänka sig att varje behållare är en låda och att vi kan stapla lådor (av logik) i en annan låda, i en annan låda.. men till skillnad från fysiska lådor där varje låda måste vara mindre än den yttre lådan, kan vi placera något större inuti om det driver oss att få rätt data tillbaka. Tänk på det som en trollkarhatt, där det omöjliga får plats inuti och vi är datagianer...
 
-![Kanin_in_hat](assets/rabbit-in-hat.jpeg)
+![Kanin_in_hatt](assets/rabbit-in-hat.jpeg)
 
 ### Behållarnas omfattning
 
-Låt oss först göra en snabb analys av *container* omfång. Gilla *segment* din egen **hit**, **besök** och **besökare** omfångsalternativ, men ibland visas även något som kallas **logikgrupp** i stället för besökaren (detta kommer endast att ske inom sekventiella segment, och vi kommer att ta med dem i nästa artikel).
+Först gör vi en snabb uppdelning av omfattningen *container*. Precis som för *segmentets* omfång har du dina grundläggande **hit**, **besök** och **besökare** omfångsalternativ, men ibland visas även något som kallas **logikgrupp** i stället för besökaren (detta sker endast inom sekventiella segment, och vi täcker dem i nästa artikel).
 
-Du kan lägga till behållare i segmentet (eller i andra behållare) genom att använda **alternativ***-meny (när du kapslar flera objekt ska du vara noga med att lägga till i rätt block, men du kan som tur är dra och släppa behållare i gränssnittet om du lägger till det på fel plats)
+Du kan lägga till behållare i ditt segment (eller i andra behållare) genom att gå till menyn **options*** (om du kapslar in flera objekt ska du se till att lägga till i rätt block, men som tur är kan du dra och släppa behållare i gränssnittet om du lägger till det på fel plats)
 
-**Bild 1: Lägga till en behållare**
+**Figur 1: Lägger till en behållare**
 
 ![Figur1-AddingContainer](assets/figure1-adding-container.png)
 
-Omfånget för en behållare är, som jag nämnde ovan, oberoende av den överordnade. *inte* måste matcha, och beroende på vad du vill komma tillbaka kan du behöva rita upp planen för att helt visualisera det du behöver, åtminstone tills du känner dig trygg med att visualisera det i ditt huvud.
+Omfånget för en behållare är oberoende av den överordnade, vilket jag nämnde ovan, dessa *behöver inte* matcha, och beroende på vad du vill returnera kan du behöva rita ut planen för att se det du behöver, åtminstone tills du känner dig bekväm med att visualisera det i ditt huvud.
 
-**Bild 2: Segmentomfång kontra behållaromfång**
+**Figur 2: Segmentomfång kontra behållaromfång**
 
 ![Figur2-SegmentScopeVsContainerScope](assets/figure2-segment-scope-vs-container-scope.png)
 
 >[!NOTE]
 >
->Adobe har logik för att förstå giltiga och ogiltiga segment, de ger dig inga alternativ som kan *aldrig* arbete... så om du ser alternativet att använda en behållare med besöksomfattning i ett segment med träffomfång, betyder det att det är ett giltigt alternativ.
+>Adobe har logik för att förstå giltiga och ogiltiga segment. De ger dig inga alternativ som kan *aldrig* fungera.. så om du ser alternativet att använda en besöksomfångsbehållare i ett träffomfångssegment, betyder det att det är ett giltigt alternativ.
 
-Precis som för enkla segment, när du börjar skapa ett komplext segment med kapslade behållare, måste du ha en tydlig uppfattning om ***vad*** typ av data som du vill returnera. ***Hur*** planerar du att använda dessa data? ***som*** mätvärden planerar du att para ihop med segmentet?
+Precis som för bassegment måste du, när du börjar skapa ett komplext segment med kapslade behållare, ha en tydlig uppfattning om ***vilken typ av data du vill returnera***. ***Hur*** tänker du använda dessa data? ***Vilka*** mätvärden planerar du för att para ihop med segmentet?
 
 Dessa frågor hjälper till att avgöra vilket segment som ska vara, det är startpunkten för vilket segment som helst.
 
-Bara för att du planerar att para ihop ett segment med dina unika besökarmått betyder det inte att själva segmentet ska vara besökarnivå ... långt ifrån det. Ett besöksnivåsegment returnerar alla data för en besökare.. Det innebär alla deras besök, alla deras sidvisningar osv.. när en besökare uppfyller dina segmentkriterier kan ditt segment börja returnera data från *förfluten* för den här besökaren (så länge som det ligger inom datumintervallet på arbetsytan).
+Bara för att du planerar att para ihop ett segment med dina unika besökarmått betyder det inte att själva segmentet ska vara besökarnivå ... långt ifrån det. Ett besökarnivåsegment returnerar alla data för en besökare.. Det innebär alla deras besök, alla deras sidvisningar osv.. När en besökare uppfyller dina segmentvillkor kan ditt segment börja returnera data från *förbi* för den här besökaren (så länge som det ligger inom datumintervallet på arbetsytan).
 
 >[!IMPORTANT]
 >
->Även när man planerar att para ihop ett segment med de unika besökarvärdena är detta *betyder inte* att segmentet automatiskt ska omfatta besökare.. Denna missuppfattning *kan* skapa inflaterade och felaktiga resultat.
+>Även om du planerar att para ihop ett segment med det unika besökarmåttet innebär detta *inte* att segmentet automatiskt ska begränsas till besökaromfånget... Denna missuppfattning *kan* skapa uppblåsta och felaktiga resultat.
 
 Så jag har gått igenom en hel del om hur man väljer rätt omfång, men inte gett några exempel eller detaljer som verkligen hjälper dig ... så vi ska titta på det nu med några exempel på hur man använder det. De säger att en trollkarl aldrig avslöjar sina hemligheter, men det är inte riktigt sant. Inom den magiska världen delas teknikerna och &quot;bakom draperiet&quot;-arbetena ofta med kollegor, vilket gör det möjligt för dem att bygga vidare på och förbättra illusionen, och det är vad jag vill göra ... för att öppna dörren för de möjligheter som väntar dig.
 
@@ -184,7 +184,7 @@ Den här typen av scenario är bra att titta på om jag har köpare som tittar p
 
 Mitt exempel är att titta på sidorna&quot;Aktuella erbjudanden&quot; och&quot;Rekommenderade produkter&quot;. För närvarande kommer vi att hålla logiken enkel och inte gå in i sekventiell segmentering (åtminstone inte än, men vi kommer att ta itu med mer komplex logik som den i en kommande artikel).
 
-En annan fråga är **varför** Kastar vi tillbaka i hits? Tekniskt sett kan jag besöka besök eller besökare här, men jag vill kanske också titta på dessa specifika sidor av **sidvisningar (för den specifika siduppsättningen) per besök** eller **sidvy (för den specifika uppsättningen) per besökare** ger detta omfång mig flexibilitet att utföra just den här matematiken. Eftersom dessa träffar enkelt kan kombineras med besök eller unika besökare för att avgöra hur många besök eller besökare som ser de här sidorna väljer jag det mest flexibla segmentet som jag kan använda för alla scenarier.
+En annan fråga är **varför** drar vi tillbaka efter träffar? Tekniskt sett skulle jag kunna följa med besök eller besökare hit, men jag kanske också vill titta på dessa specifika sidor med **sidvisningar (för den specifika siduppsättningen) per besök** eller **sidvisningar (för den specifika uppsättningen) per besökare**, ger det här omfånget mig flexibilitet att utföra just den här matematiken. Eftersom dessa träffar enkelt kan kombineras med besök eller unika besökare för att avgöra hur många besök eller besökare som ser de här sidorna väljer jag det mest flexibla segmentet som jag kan använda för alla scenarier.
 
 För det första finns det ett enkelt HIT-baserat segment för de specifika sidorna.
 
@@ -212,7 +212,7 @@ För det första, i stället för att visa en daglig uppdelning, visar jag en si
 
 <table style="border: 0;">
     <tr>
-        <td width="352" style="border: 0;">Sedan visar jag resultatet av det enkla segmentet, som bara handlar om <strong>träffar</strong> på de två angivna sidorna. Du kommer att märka att de andra sidorna i uppdelningen blir 0 som förväntat.</td>
+        <td width="352" style="border: 0;">Sedan visar jag resultatet av det enkla segmentet, som bara tittar på <strong>träffar</strong> på de två angivna sidorna. Du kommer att märka att de andra sidorna i uppdelningen blir 0 som förväntat.</td>
         <td style="border: 0;">&lt;img src="assets/segment-example-3/segment3c-comparison-table-detail2.png" width="352"
         </td>
     </tr>
@@ -243,7 +243,7 @@ Med hjälp av några av de sidor vi tittade på tidigare är det nu viktigt att 
 
 Det här segmentet innehåller alla tre omfången. Den översta nivån i segmentet är besökare, så att ALLA träffar från alla besök returneras för den matchande besökaren. Dessutom har vi lagt till en besöksomfångsbehållare, vilket kommer att säkerställa att besökaren måste ha haft minst ett besök som uppfyller de specifika kriterierna för att göra en beställning OCH efter att ha besökt specifika sidor. Vi har lagt till en behållare för träffområde för själva sidorna, så att vi kan använda ELLER-logik för att söka efter antingen den aktuella sidan ELLER den rekommenderade produktsidan.
 
-Fördelen med det här besöksomfångssegmentet är att detta kommer att returnera **ALLA** Besök från besökarna som uppfyller dessa kriterier, så det här segmentet blir bra om jag vill se beteendena i tidigare besök som leder fram till kombinationen och besökarnas agerande efter ett sådant scenario.
+Fördelen med det här besöksomfångssegmentet är att det returnerar **ALLA** besök från besökarna som matchar det här villkoret, så det här segmentet är bra om jag vill se beteendena i tidigare besök som leder fram till den här kombinationen och besökarnas åtgärder efter ett sådant scenario.
 
 ![Segment4B-ComparisonTable](assets/segment-example-4/segment4b-comparison-table.png)
 
@@ -265,30 +265,30 @@ Vi har två eVars, en av dem går ut (eVar1) och en av dem går ut 30 dagar (eVa
 - Klicka på Promo Banner med ?icid=promo-banner i URL:en
 - Sida B
    - **eVar1** och **eVar2** är inställda på &quot;promo-banner&quot;
-   - **Instans av eVar1** aktiveras
-   - **Instans av eVar2** aktiveras
+   - **Instansen av eVar1** utlöses
+   - **Instansen av eVar2** utlöses
 - Sida C
-   - Båda **eVar1** och **eVar2** behålla värdet &quot;promo-banner&quot;
+   - Både **eVar1** och **eVar2** behåller värdet &quot;promo-banner&quot;
    - Ingen av instansvärdena för eVars genereras eftersom båda eVars-instanserna använder beständiga värden
 
 **Besök 2**
 
 - Sida D
-   - **eVar1** är inte inställt på något värde och inte **Instans av eVar1** aktiveras
-   - **eVar2** behåller värdet för &quot;kampanjbanner&quot; på grund av att det är 30 dagar gammalt
-   - **Instans av eVar2** aktiveras inte eftersom värdet är beständigt och inte har angetts
+   - **eVar1** har inte angetts till något värde och ingen **instans av eVar1** har utlösts
+   - **eVar2** behåller värdet för kampanjbanderollen på grund av 30-dagars förfallodatum
+   - **Instansen av eVar2** aktiveras inte eftersom värdet är beständigt och inte har angetts
 - Klicka på Side Rail Promotion med ?icid=promo-side-rail i URL:en
 - Sida E
-   - **eVar1** och **eVar2** är inställda på&quot;sidobräde&quot;
-   - **Instans av eVar1** aktiveras
-   - **Instans av eVar2** aktiveras
+   - **eVar1** och **eVar2** är inställda på&quot;promo-side-rail&quot;
+   - **Instansen av eVar1** utlöses
+   - **Instansen av eVar2** utlöses
 - Sida F
-   - Båda **eVar1** och **eVar2** bibehålla värdet &quot;banträlsstöd&quot;,
+   - Både **eVar1** och **eVar2** behåller värdet &quot;promo-side-rail&quot;
    - Ingen av instansvärdena för eVars genereras eftersom båda eVars-instanserna använder beständiga värden
 
 Här är för närvarande det förväntade resultatet av dessa två besök:
 
-<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Sidvisningar</b></th><th colspan="1" valign="top"><b>Besök</b></th><th colspan="1" valign="top"><b>Instans av eVar1</b></th><th colspan="1" valign="top"><b>Instans av eVar2</b></th></tr>
+<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Sidvyer</b></th><th colspan="1" valign="top"><b>Besök</b></th><th colspan="1" valign="top"><b>Instans av eVar1</b></th><th colspan="1" valign="top"><b>Instans av eVar2</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">6</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" rowspan="7" valign="top">Sida</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">6</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">Sida A</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">0</td><td colspan="1" valign="top">0</td></tr>
@@ -299,14 +299,14 @@ Här är för närvarande det förväntade resultatet av dessa två besök:
 <tr><td colspan="1" valign="top">Sida F</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">0</td><td colspan="1" valign="top">0</td></tr>
 </table>
 
-<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Sidvisningar</b></th><th colspan="1" valign="top"><b>Besök</b></th><th colspan="1" valign="top"><b>Instans av eVar1</b></th></tr>
+<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Sidvyer</b></th><th colspan="1" valign="top"><b>Besök</b></th><th colspan="1" valign="top"><b>Instans av eVar1</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" rowspan="3" valign="top">eVar1</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">4</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">promo-banner</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 <tr><td colspan="1" valign="top">reklamsida-räl</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td><td colspan="1" valign="top">1</td></tr>
 </table>
 
-<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Sidvisningar</b></th><th colspan="1" valign="top"><b>Besök</b></th><th colspan="1" valign="top"><b>Instans av eVar2</b></th></tr>
+<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"><b>Sidvyer</b></th><th colspan="1" valign="top"><b>Besök</b></th><th colspan="1" valign="top"><b>Instans av eVar2</b></th></tr>
 <tr><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" rowspan="3" valign="top">eVar2</td><td colspan="1" valign="top"></td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">2</td></tr>
 <tr><td colspan="1" valign="top">promo-banner</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">1</td></tr>
@@ -315,7 +315,7 @@ Här är för närvarande det förväntade resultatet av dessa två besök:
 
 Nu ska vi titta på var du kan lägga in attribuering i ditt segment.
 
-**Bild 4: Attributionsmodell**
+**Figur 4: Attribution model**
 
 ![Figur4-AttributionModel](assets/figure4-attribution-model.png)
 
@@ -327,7 +327,7 @@ Nu ska vi titta på var du kan lägga in attribuering i ditt segment.
 
 ### Segmentexempel 5: Marknadskanalen&quot;Betald sökning&quot; jämfört med de direkta förekomsterna av betald sökning
 
-Som vi alla vet har marknadsföringskanalerna en lång attribueringsmodell (30 dagar som standard, men den kan anpassas efter dina egna behov), och när den väl har ställts in kommer marknadsföringskanalen inte att skrivas över av efterföljande&quot;direktbesök&quot; på webbplatsen, så att era specifika drivrutiner får konverteringsattribueringen. Ibland behöver du dock se ***poster*** via en viss marknadsföringskanal, och för poster, måste ni se när marknadsföringskanalen är specifikt inställd baserat på era regler för marknadsföringsbearbetning.
+Som vi alla vet har marknadsföringskanalerna en lång attribueringsmodell (30 dagar som standard, men den kan anpassas efter dina egna behov), och när den väl har ställts in kommer marknadsföringskanalen inte att skrivas över av efterföljande&quot;direktbesök&quot; på webbplatsen, så att era specifika drivrutiner får konverteringsattribueringen. Ibland behöver du dock se ***posterna*** på din webbplats specifikt av en viss marknadsföringskanal, och som poster måste du se när marknadsföringskanalen har ställts in specifikt baserat på dina regler för marknadsföringsbearbetning.
 
 Låt oss ändra på saker och ting och börja med att titta på jämförelserna, så gräver vi in i segmenten.
 
@@ -352,14 +352,14 @@ Låt oss ändra på saker och ting och börja med att titta på jämförelserna,
 
 <table style="border: 0;">
     <tr>
-        <td width="352" style="border: 0;">Nu ser de två uppsättningarna data identiska ut, och de returnerar faktiskt samma data på två olika sätt. Men nu tittar jag särskilt på <i>instanser</i> där marknadsföringskanalen <strong>set</strong> till "Betald sökning".</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail3.png" width="352">
+        <td width="352" style="border: 0;">Nu ser de två uppsättningarna data identiska ut, och de returnerar faktiskt samma data på två olika sätt. Men nu tittar jag specifikt på <i>förekomsterna</i> där marknadsföringskanalen <strong>ställdes in</strong> på"Betald sökning".</td> <td style="border: 0;"><img src="assets/segment-example-5/segment5a-table-comparison-detail3.png" width="352">
         </td>
     </tr>
 </table>
 
 Detta kan göras på två sätt:
 
-För det första används standarddimensionsattribueringen och detta paras med det specifika &quot;Marketing Channel Instance&quot;-måttet (som *exists* logik):
+Först används standarddimensionsattribueringen och detta paras med det specifika värdet för Marketing Channel Instance (som en *existerande*-logik):
 
 ![Segment5A-PaidSearchHitANDInstanceExists](assets/segment-example-5/segment5a-paid-search-hit-and-instance-exists.png)
 
@@ -388,7 +388,7 @@ Det finns så många sätt att kombinera logiken för att komma in i mycket deta
 
 Precis som alla andra stora magiker ligger den verkliga kraften i att inspirera den kommande generationen att bygga vidare på grunderna, att förnya inlärningen till något nytt och fantastiskt! Jag ser fram emot att få se vad ni kommer på!
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 

@@ -9,13 +9,13 @@ exl-id: a3e976a1-8bf1-4c18-b5b5-831367a7e8a0
 source-git-commit: 24c2ee272ab1dcda53e5dfe918125e8542ecfe15
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Experience by You: Resurser per användare, för användare.
 
-Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar? Du. De användare som tar produkterna, fördjupar sig i dem och använder dem på fantastiska, innovativa sätt för att skapa meningsfulla upplevelser och resultat. _Upplevelser av dig_ har innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som har påverkat [!DNL Adobe] DX-lösningar. Denna peer-to-peer-kunskap uppmuntrar till samarbete och upptäckt - vilket gör att du - och andra användare - kan hitta inspiration som behövs för att höja nivån på din produktexpertis.
+Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar (DX)? Du. De användare som tar produkterna, fördjupar sig i dem och använder dem på fantastiska, innovativa sätt för att skapa meningsfulla upplevelser och resultat. _Upplevelser av dig_ innehåller innehåll som har skapats av användare varje dag som har uppnått en viss kunskapsnivå och påverkat deras [!DNL Adobe] DX-lösningar. Denna peer-to-peer-kunskap uppmuntrar till samarbete och upptäckt - vilket gör att du - och andra användare - kan hitta inspiration som behövs för att höja nivån på din produktexpertis.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -40,7 +40,7 @@ Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar? Du. De anvä
     </a>
     </div>
     <p>
-    <em>Tips du kan använda i [!DNL Analysis Workspace] för att effektivisera arbetsflödena.</em>
+    <em>Tips som du kan använda i [!DNL Analysis Workspace] för att effektivisera dina arbetsflöden.</em>
     <p>
   </td>
   <td>
@@ -53,7 +53,7 @@ Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar? Du. De anvä
     </a>
     </div>
     <p>
-    <em>Stegvis självstudiekurs där du lär dig hur du skapar ett e-postprogram med ett A/B-test.</em>
+    <em>Stegvis självstudiekurs för att lära dig hur du skapar ett e-postprogram med ett A/B-test.</em>
     <p>
   </td>
   <td>
@@ -66,7 +66,7 @@ Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar? Du. De anvä
     </a>
     </div>
     <p>
-    <em>Med introduktionsspelningsboken kan du ta ansvar som ny administratör och utvecklare för [!DNL AEM as a Cloud Service].</em>
+    <em>Med spelboken för introduktion kan du ta ansvar som ny administratör och utvecklare för [!DNL AEM as a Cloud Service].</em>
     <p>
   </td>
 </tr>
@@ -75,7 +75,7 @@ Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar? Du. De anvä
 
 ## Ytterligare resurser
 
-* [Experience League Communities](https://experienceleaguecommunities.adobe.com/)
+* [Experience League-communities](https://experienceleaguecommunities.adobe.com/)
 * [Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/)
 * [Experience Cloud Tutorials](https://experienceleague.adobe.com/docs/home-tutorials.html)
 * [business.adobe.com](https://business.adobe.com)

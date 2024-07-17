@@ -1,6 +1,6 @@
 ---
-title: Hur man granskar en ärvd [!DNL Marketo Engage] instance
-description: Ärva en [!DNL Marketo Engage] vi rekommenderar att du lägger tid på att förstå vad som finns i instansen och skapar en åtgärdsplan för att uppdatera konfigurationen. Den här självstudiekursen handlar om de viktigaste avsnitten i [!DNL Marketo Engage], som Admin, Marketing Activity, Design Studio och Database, och ger dig tips för granskning och optimering under resans gång.
+title: Granska en ärvd [!DNL Marketo Engage] instans
+description: Om du ärver en [!DNL Marketo Engage] instans rekommenderar vi att du ägnar tid åt att förstå vad som finns i instansen och skapar en åtgärdsplan för att uppdatera konfigurationen. Den här självstudiekursen omfattar de viktigaste avsnitten inom  [!DNL Marketo Engage], inklusive Admin, Marknadsföringsaktiviteter, Design Studio och Database, och ger dig tips för granskning och optimering längs vägen.
 feature-set: Marketo Engage
 feature: Audit Trail, Administration, Design Studio, Marketing, Database
 role: Admin
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 ---
 
-# Hur man granskar en ärvd [!DNL Marketo Engage] instance
+# Granskning av en ärvd [!DNL Marketo Engage]-instans
 
-Ärva en [!DNL Marketo Engage] -instans kan vara en stressig tidpunkt, oavsett om du är erfaren administratör eller om du är nyare administratör kan det vara svårt att veta var rensningen ska börja. För att börja rekommenderar vi att du ägnar tid åt att förstå vad som finns i den instans du just ärvde idag och skapar en åtgärdsplan för att uppdatera konfigurationen.
+Att ärva en [!DNL Marketo Engage]-instans kan vara stressigt, oavsett om du är en erfaren administratör eller om du är en nyare administratör kan vara svårt att veta var rensningen ska börja. För att börja rekommenderar vi att du ägnar tid åt att förstå vad som finns i den instans du just ärvde idag och skapar en åtgärdsplan för att uppdatera konfigurationen.
 
-I den här självstudiekursen går vi igenom de viktigaste avsnitten i [!DNL Marketo Engage], som Admin, Marketing Activity, Design Studio och Database, och ger dig tips för granskning och optimering under resans gång.
+I den här självstudiekursen vägleder vi dig genom de viktigaste avsnitten i [!DNL Marketo Engage], inklusive Admin, Marknadsföringsaktiviteter, Design Studio och Database, och ger dig tips för granskning och optimering längs vägen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3422473/?learn=on)

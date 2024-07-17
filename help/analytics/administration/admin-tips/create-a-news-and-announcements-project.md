@@ -1,6 +1,6 @@
 ---
 title: Skapa ett nytt projekt
-description: Skapa ett News & Announcements-projekt i Workspace, som i huvudsak består av text, och dela det med hela företaget.
+description: Skapa ett News & Announcements-projekt i Workspace, som huvudsakligen består av text, och dela det med hela företaget.
 solution: Analytics
 feature-set: Analytics
 feature: Implementation Basics
@@ -13,7 +13,7 @@ kt: 10535
 exl-id: 59944fab-11f8-4af5-92ed-00dcd4205eda
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 **VAD:** Skapa ett News &amp; Announcements-projekt i Workspace, som huvudsakligen består av text, och dela det med hela företaget. Du behöver inte tvinga era användare (även om ni kan) att göra detta som en landningssida eftersom den kommer att flyta upp till toppen av listan varje gång den uppdateras.
 
-**VARFÖR:** Dina användare vill förmodligen inte ha ännu ett e-postmeddelande varje gång något ändras inom [!DNL Adobe Analytics]. Dina användare förväntas regelbundet kontrollera din interna [!DNL Adobe Analytics] plats (Confluence eller annat - se [Skapa en intern [!DNL Adobe Analytics] webbplats](create-an-internal-adobe-analytics-site.md) dricks) är en sträcka. I stället kan du utnyttja Workspace så att de inte behöver tas bort från gränssnittet. Varje gång de loggar in visas instrumentpanelen för nyheter och meddelanden.
+**VARFÖR:** Dina användare vill förmodligen inte ha ännu ett e-postmeddelande varje gång något ändras i [!DNL Adobe Analytics]. Och dina användare förväntas regelbundet kontrollera din interna [!DNL Adobe Analytics]-plats (Confluence eller annan - se [Create an internal [!DNL Adobe Analytics] site](create-an-internal-adobe-analytics-site.md) tip) är utsträckt. Istället kan du utnyttja Workspace så att de inte behöver kliva ut från gränssnittet. Varje gång de loggar in visas instrumentpanelen för nyheter och meddelanden.
 
-**HUR:** Logga in på Workspace och skapa ett nytt projekt. Se till att det här projektet delas med alla i organisationen i projektinställningarna. Det översta (beskrivning) av det här projektet kan peka mot din interna [!DNL Adobe Analytics] och ta kontakt med den bästa kontakten eller DL. Jag föreslår sedan fyra avsnitt som alla är textbaserade:
+**HUR:** Logga in på Workspace och skapa ett nytt projekt. Se till att det här projektet delas med alla i organisationen i projektinställningarna. Det översta (beskrivningen) av det här projektet kan peka på den interna [!DNL Adobe Analytics]-webbplatsen och ringa ut den bästa kontakten eller DL. Jag föreslår sedan fyra avsnitt som alla är textbaserade:
 
 1. Nya releaser och funktioner:
 
    * Ordna punktlistor kronologiskt efter år (eller månad om du har ett stort tal), med det senaste överst
-   * De kan innehålla nya funktioner från [!DNL Adobe], nya variabler/händelser, nya webbplatser/appar, nya funktioner spåras osv.
+   * De kan innehålla nya funktioner från [!DNL Adobe], nya variabler/händelser, nya webbplatser/appar, nya funktioner som spåras osv.
    * Punktpunkterna ska ha datum, eventuell påverkad egenskap och minsta detalj
 
 1. Översiktspaneler:
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. Cool Reports for you to Check Out:
 
-   * Visa upp dina bästa instrumentpaneler och vad du tycker [!DNL Adobe Analytics] kan duga. Se till att dessa instrumentpaneler är allmänna och tillgängliga för en större publik.
+   * Få användarna att gilla det genom att visa upp dina bästa instrumentpaneler och vad [!DNL Adobe Analytics] kan göra. Se till att dessa instrumentpaneler är allmänna och tillgängliga för en större publik.
    * Visa en lista med punkter som länkar användare direkt till kontrollpanelen. En kort beskrivning av vad de är kommer också att hjälpa.
 
 1. Kända fel, fel och ändringar:
@@ -53,7 +53,7 @@ Det här dokumentet skrevs tillsammans av:
 
 ![Christel Guidon](assets/Christel-Headshot-150.png)
 
-Christel Guidon, digital [!DNL Analytics] Platform Manager på NortonLifeLock
+Christel Guidon, Digital [!DNL Analytics] Platform Manager på NortonLifeLock
 [!DNL Adobe Analytics] Champion
 
 ![Rachel Fenwick](assets/Rachel-Fenwick-150.png)

@@ -1,6 +1,6 @@
 ---
 title: AEM Champion - planerar att migrera till AEM as a Cloud Service
-description: Få expertråd om förberedelser och planering av migrering till AEM as a Cloud Service från AEM, Wilson Faure.
+description: Få expertråd om förberedelser och planering av migrering till AEM as a Cloud Service från AEM mästare Wilson Faure.
 version: Cloud Service
 topic: Migration
 role: Admin, Developer
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # AEM Champion Best Practices and Tips - Planera och förbereda en migrering till AEM as a Cloud Service
 
-Utforska expertråd och metodtips från din AEM kamrat Wilson Faure. I den här videon navigerar han i de knepiga rutinerna med planering och förberedelser för migrering till AEM as a Cloud Service. Upptäck ovärderliga bästa metoder för viktiga milstolpar i migreringsresan, inklusive att etablera prestandatester och övervinna hinder som kundkodkompatibilitet och hantera externa/interna API:er.
+Utforska expertråd och metodtips från din AEM kamrat Wilson Faure. I den här videon går han igenom allt krångligt med planering och förberedelser för migrering till AEM as a Cloud Service. Upptäck ovärderliga bästa metoder för viktiga milstolpar i migreringsresan, inklusive att etablera prestandatester och övervinna hinder som kundkodkompatibilitet och hantera externa/interna API:er.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427587/?learn=on)

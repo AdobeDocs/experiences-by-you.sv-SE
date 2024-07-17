@@ -1,6 +1,6 @@
 ---
 title: AEM Champion Tips and Tricks - [!DNL Cloud Manager] Miljötyper
-description: Kolla in dessa tips om [!DNL Cloud Manager]Det är miljötyper från AEM mästare och expert, Rakesh Pasupuleti.
+description: Tips om miljötyperna för  [!DNL Cloud Manager] från AEM och experten Rakesh Pasupuleti.
 version: Cloud Service
 feature-set: Marketo Engage, Experience Manager, Experience Manager Cloud Manager
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager Cloud Manager
@@ -14,18 +14,18 @@ jira: KT-13229
 exl-id: 682c97c0-d563-4cfa-be6b-0eb22c675d21
 source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '83'
 ht-degree: 2%
 
 ---
 
-# AEM Champion Tips and Tricks - [!DNL Cloud Manager] Miljötyper
+# AEM Champion Tips and Tricks - [!DNL Cloud Manager] miljötyper
 
-Ta en titt på de här tipsen från din tekniska chef, Rakesh Pasupuleti. Rakesh är en [!DNL Adobe] Experience Manager mästare, och han förklarar hur man förstår [!DNL Cloud Manager]Miljötyper.
+Ta en titt på de här tipsen från din tekniska chef, Rakesh Pasupuleti. Rakesh är [!DNL Adobe] Experience Manager-mästare och han förklarar hur man kan förstå [!DNL Cloud Manager]s miljötyper.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419297?quality=12&learn=on)
 
 ## Ytterligare resurser {#additional-resources}
 
 * [Hantera miljöer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/manage-environments.html) - Dokumentation om miljöhantering i AEM as a Cloud Service
-* [Snabba utvecklingsmiljöer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments.html) - Dokumentation om referensdataelement i AEM as a Cloud Service
+* [Snabba utvecklingsmiljöer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/rapid-development-environments.html) - Dokumentation om referensmiljöer i AEM as a Cloud Service

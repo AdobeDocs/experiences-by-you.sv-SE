@@ -10,16 +10,16 @@ duration: 312
 last-substantial-update: 2024-03-04T00:00:00Z
 jira: KT-15082
 thumbnail: 3427673.jpeg
-source-git-commit: ba46ad10c20184083076950883f169df09ca7778
+exl-id: 7aacef40-9f89-4a55-a840-8542cbf9b110
+source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
+# AEM Champion Best Practices and Tips - Hantera vanliga utmaningar när du migrerar till AEM as a Cloud Service
 
-# AEM Champion Best Practices and Tips - Hantera vanliga utmaningar när man migrerar till AEM as a Cloud Service
-
-Upptäck ovärderliga insikter och bästa metoder som delas av er AEM expert Wilson Faure. I den här videon tar han sig in i vanliga utmaningar som uppstår under övergången till AEM as a Cloud Service, med rekommendationer och experttips för att underlätta en smidig och framgångsrik övergång.
+Upptäck ovärderliga insikter och bästa metoder som delas av er AEM expert Wilson Faure. I den här videon tar han sig in i vanliga utmaningar som uppstår under övergången till AEM as a Cloud Service, med rekommendationer och experttips som underlättar en smidig och framgångsrik övergång.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427673/?learn=on)

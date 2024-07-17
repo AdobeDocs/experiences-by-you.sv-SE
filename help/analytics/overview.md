@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # [!DNL Analytics] av dig: Resurser per användare, för användare.
 
-Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De användare som tar produkterna, fördjupar sig i dem och använder dem på fantastiska, innovativa sätt för att skapa meningsfulla upplevelser och resultat. Experience by You har innehåll som skapats av vanliga användare som har uppnått en viss kunskapsnivå och som påverkar deras [!DNL Adobe Experience Cloud] lösningar. Denna peer-to-peer-kunskap uppmuntrar till samarbete och upptäckt - vilket gör att du - och andra användare - kan hitta inspiration som behövs för att höja nivån på din produktexpertis.
+Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De användare som tar produkterna, fördjupar sig i dem och använder dem på fantastiska, innovativa sätt för att skapa meningsfulla upplevelser och resultat. Experience by You innehåller innehåll som har skapats av vanliga användare som har uppnått en viss kunskapsnivå och som påverkar deras [!DNL Adobe Experience Cloud]-lösningar. Denna peer-to-peer-kunskap uppmuntrar till samarbete och upptäckt - vilket gör att du - och andra användare - kan hitta inspiration som behövs för att höja nivån på din produktexpertis.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -36,24 +36,24 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
     </a>
     <div>
       <a href="/help/analytics/analysis-workspace/tips-and-tricks/right-click-tips-and-tricks-for-more-efficient-workflows.md">
-    <strong>[!DNL Adobe Analytics] Tips och tricks</strong>
+    <strong>[!DNL Adobe Analytics] Tips och tricks </strong>
     </a>
     </div>
     <p>
-    <em>Tips som du kan använda i Analysis Workspace för att effektivisera arbetsflödena.</em>
+    <em>Tips du kan använda i Analysis Workspace för att effektivisera arbetsflödena.</em>
     <p>
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="Översätter [!DNL Adobe Analytics] tekniskt språk på ett icke-tekniskt sätt" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
+      <img alt="Översätter det tekniska språket [!DNL Adobe Analytics] på ett icke-tekniskt sätt" src="https://video.tv.adobe.com/v/342066?format=jpeg" />
     </a>
     <div>
       <a href="/help/analytics/administration/key-admin-skills/translating-adobe-analytics-technical-language.md">
-    <strong>Översätter [!DNL Adobe Analytics] tekniskt språk på ett icke-tekniskt sätt</strong>
+    <strong> Översätta [!DNL Adobe Analytics] tekniskt språk på ett icke-tekniskt sätt </strong>
     </a>
     </div>
     <p>
-    <em>Praktiska tips om hur man kommunicerar med intressenter för att förstå Adobe Analytics tekniska språk.</em>
+    <em>Praktiska tips om hur du kommunicerar med intressenter för att förstå Adobe Analytics tekniska språk.</em>
     <p>
   </td>
   <td>
@@ -62,7 +62,7 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-    <strong>Skapa standardiserade namnkonventioner</strong>
+    <strong> Skapa standardiserade namnkonventioner </strong>
     </a>
     </div>
     <p>
@@ -77,6 +77,6 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Experience League Adobe Analytics Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics.html)
+* [Adobe Analytics-dokumentation](https://experienceleague.adobe.com/docs/analytics.html)
 * [Adobe Analytics självstudiekurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)
 * [Adobe Analytics produktinformation](https://business.adobe.com/products/analytics/adobe-analytics.html)

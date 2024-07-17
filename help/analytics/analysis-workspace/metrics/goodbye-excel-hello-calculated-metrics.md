@@ -1,6 +1,6 @@
 ---
 title: Hej då Excel, hej till beräknade mätvärden
-description: Lär dig fördelarna med beräknade värden i [!DNL Adobe Analytics] och hur de kan ge dig en kontinuerlig, dynamisk vy av dina data i den här artikeln.
+description: Lär dig fördelarna med beräknade värden i [!DNL Adobe Analytics]  och hur de kan ge dig en kontinuerlig, dynamisk vy av dina data i den här artikeln.
 feature-set: Analytics
 feature: Calculated Metrics
 role: User
@@ -12,16 +12,16 @@ thumbnail: KT-13178.jpeg
 exl-id: b233d6d0-2e89-473e-b700-9977b402af39
 source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
 
 # Hej då Excel, hej till beräknade mätvärden
 
-Lär dig fördelarna med beräknade värden i [!DNL Adobe Analytics] och hur de kan ge dig en kontinuerlig, dynamisk vy av dina data i den här artikeln.
+Lär dig fördelarna med att använda beräknade värden i [!DNL Adobe Analytics] och hur de kan ge dig en kontinuerlig, dynamisk vy av dina data i den här artikeln.
 
-Hej! Varför är du i Excel just nu? Jag vet varför. Du har rapporter för att komma till rätt personer. Du är upptagen med att ange data från [!DNL Adobe Analytics] och beräkna konverteringsgraden, kartlägga dem och förbereda dem för att lägga dem i en PowerPoint som leder vidare till beslutsfattare. Jag hoppas verkligen att du åtminstone använder Report Builder för att göra det, men jag vet att vissa av er kopierar och klistrar in data manuellt från en arbetsyta till Excel.
+Hej! Varför är du i Excel just nu? Jag vet varför. Du har rapporter för att komma till rätt personer. Du är upptagen med att ange data från [!DNL Adobe Analytics] och beräkna konverteringsgrader, diagram över dem och förbereder att lägga in dem i en PowerPoint som leder vidare till beslutsfattare. Jag hoppas verkligen att du åtminstone använder Report Builder för att göra det, men jag vet att vissa av er kopierar och klistrar in data manuellt från en Workspace till Excel.
 
 Varför?
 
@@ -31,17 +31,17 @@ Varför gå igenom en manuell process varje månad? Varför visas en statisk vy 
 
 Beräknade mått är kraftfulla, men även de grundläggande matematiska funktionerna är mycket användbara och ger en avsevärd förbättring jämfört med att göra matematiska beräkningar i Excel. Låt oss titta på några av fördelarna och några exempel:
 
-1. **Beräknade mått är aktuella och dynamiska**
+1. **Beräknade värden är Aktuella och dynamiska**
 
-   När du exporterar tal från [!DNL Adobe Analytics]är de låsta om en stund. Du behöver veta hur er webbplats eller app fungerade månaden innan, men hur håller beslutsfattarna reda på hur saker och ting går i mitten av månaden? Om din konverteringsgrad sväller i en dag och sedan återgår till medelvärdet i slutet av månaden, vet du? Det blocket kan vara värdefull information som avslöjar ett viktigt telemetriproblem, eller ännu viktigare, en förändring av besökarnas beteende. Med ett beräknat mätresultat kan du diagramma detta och se det samma dag det inträffar, så att du kan börja svara.
+   När du exporterar nummer från [!DNL Adobe Analytics] är de låsta inom en viss tid. Du behöver veta hur er webbplats eller app fungerade månaden innan, men hur håller beslutsfattarna reda på hur saker och ting går i mitten av månaden? Om din konverteringsgrad sväller i en dag och sedan återgår till medelvärdet i slutet av månaden, vet du? Det blocket kan vara värdefull information som avslöjar ett viktigt telemetriproblem, eller ännu viktigare, en förändring av besökarnas beteende. Med ett beräknat mätresultat kan du diagramma detta och se det samma dag det inträffar, så att du kan börja svara.
 
 1. **Beräknade mått sparar tid**
 
    Jag har varit där. Kopiera/klistra in. Ange formeln eller dra cellen ovanför den nedåt. Klicka på diagrammet och ändra intervallet så att du har de senaste tolv eller tretton månaderna. Kopiera diagrammet. Gör det nu igen. Och igen. Och igen. Skicka ut PowerPoint. Det är tidsödande och tidsödande och det känns som om du måste göra det varje månad för alltid.
 
-   I stället kan du skapa en arbetsyta som använder dina beräknade värden, ha de tolv eller tretton senaste helmånaderna som datumintervall och få data och diagram automatiskt uppdaterade vid midnatt den första dagen i varje månad. Mottagarna kan ha direktåtkomst till arbetsytan. De kan få en PDF-kopia automatiskt via e-post den första dagen i månaden eller efter att du har använt textvisualiseringar för att lägga till kommentarer om data (du vet, den roliga delen av rapporteringen).
+   I stället kan du skapa en Workspace som använder dina beräknade värden, ha de tolv eller tretton senaste helmånaderna som datumintervall och automatiskt uppdatera data och diagram vid midnatt den första dagen i varje månad. Mottagarna kan ha direktåtkomst till Workspace. De kan få en PDF-kopia automatiskt via e-post den första dagen i månaden eller efter att du har använt textvisualiseringar för att lägga till kommentarer om data (du vet, den roliga delen av rapporteringen).
 
-1. **Beräknade mått kan användas på stora datamängder**
+1. **Beräknade mått kan användas för stora datamängder**
 
    Du kan exportera alla produktnamn till Excel och börja beräkna konverteringsgrader och intäkter per besökare, men det blir ett problem om du har 100 000 eller så. Inte ett problem med beräknade värden. Släpp dimensionen i en tabell som vanligt och använd sedan dina beräknade värden som mått. Nu har du en dynamisk sorterbar tabell som uppdateras automatiskt när produkter eller någon dimension som du använder läggs till i katalogen.
 
@@ -73,12 +73,12 @@ Hur kan du mäta om dessa nyckelsidor går att hitta via din navigering? Skapa e
 
 Jag hoppas att detta har visat dig några av möjligheterna att använda grundläggande matematiska funktioner i Beräknade mått och att du kommer att börja bygga lite själv. Detta börjar bara beskriva möjligheterna med matematiska beräkningar, även med fyra enkla funktioner. Beräknade mätvärden kan hjälpa er att förstå besökarnas beteende på en helt ny nivå, och när ni väl har använt det har ni öppnat dörren för mer komplexa funktioner som också är tillgängliga för er.
 
-## Författare
+## Upphovsman
 
 Det här dokumentet har skrivits av:
 
-![Gittai headshot](assets/gittai.png)
+![Gittai-huvudbild](assets/gittai.png)
 
-**Gitai Ben-Ammi**, rektor konsult på Concentrix Catalyst
+**Gitai Ben-Ammi**, rektor på Concentrix Catalyst
 
 [!DNL Adobe Analytics] Champion

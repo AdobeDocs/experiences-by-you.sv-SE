@@ -26,7 +26,7 @@ I den här självstudiekursen beskrivs tankeprocessen och de primära användnin
 
 Besökarna kan hitta en anledning till att de surfar på webbplatsen. De kanske söker innehåll på dina produkter eller tjänster eller söker efter kontaktinformation för att tala med dina säljare. De kan också vara era kunder som vill ha mer produktinformation. Med chatt kan era webbplatsbesökare själva serva och självkvalificera sig om de är redo att tala med ert säljteam.
 
-När Sara Barriuso implementerade Dynamic Chat blev hon utnyttjad av sin smidiga integrering med Marketo Engage och [fördefinierade aktivitetsutlösare](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} som aktiverar Marketo Engage-program och vice versa. Hon utvecklade sina samtalsstrategier med tre målgruppssegment i åtanke:
+När Sara Barriuso implementerade Dynamic Chat ritades hon av den sömlösa integrationen med Marketo Engage och de [fördefinierade aktivitetsutlösarna](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} som aktiverar Marketo Engage-program och vice versa. Hon utvecklade sina samtalsstrategier med tre målgruppssegment i åtanke:
 
 1. Okända prospects: erbjuder aktivt demonstrationssamtal för att generera nya leads.
 2. Kända leads/kunder: förläng besökarnas tid att surfa på innehåll och erbjuda demonstrationssamtal för att generera merförsäljning och korsförsäljningsmöjligheter.
@@ -65,7 +65,7 @@ Den här dialogrutan innehåller fem inledande alternativ där besökare kan vä
 
 1. I &quot;Målgrupp&quot; lägger du till en webbsidas-URL i &quot;Mål&quot; för att ange var dialogrutan ska visas.
 2. Lägg till kampanjnamnet, beskrivningen, prioriteten och språket i Inställningar.
-3. Klicka på Publicera
+3. Klicka på Publish
 
 >[!TAB Marketo Engage]
 
@@ -98,7 +98,7 @@ Du kan förbättra standarddialogen för att fånga upp alla genom att införliv
 4. Skapa en testlänk och dela den.
 5. I&quot;Målgrupp&quot; lägger du till en webbsideswebbadress där dialogrutan visas och uppdaterar målet till den bransch du vill använda.
 6. Lägg till kampanjnamnet, prioriteten för beskrivningen och språket i Inställningar.
-7. Klicka på Publicera.
+7. Klicka på Publish.
 
 >[!TAB Marketo Engage]
 
@@ -126,7 +126,7 @@ Händelser och webbinarier är populära marknadsföringstaktik som B2B-företag
 1. Klona mallen.
 2. Kopiera och klistra in text i dialogrutemeddelandet för en ny händelse
 3. Uppdatera UTM-parametrar som används i din händelselänk (t.ex. utm_medium=website&amp;utm_source=adobe).
-4. Skapa en testlänk, klicka på Publicera och dela den med den som gjorde begäran.
+4. Skapa en testlänk, klicka på&quot;Publish&quot; och dela den med den som gjorde begäran.
 5. Granska och ge feedback.
 
 
@@ -160,8 +160,8 @@ Du kan ge besökarna en ännu bättre upplevelse genom att registrera dem för d
 2. I Stream Designer lägger du till frågekortet&quot;Du har tidigare delat din e-postadress med oss när användaren har svarat&quot;Ja&quot;. Vill du behålla den här för information om evenemanget?&quot;
 3. Om de svarar &quot;Ja&quot; - lägg till ett meddelandekort &quot;Du får ett bekräftelsemeddelande via e-post med information om händelsen/webbinariet&quot;.
 4. Om de svarar &quot;Nej&quot; - lägg till ett meddelandekort &quot;Fyll i formuläret på registreringssidan&quot;.
-5. Skapa en testlänk, klicka på Publicera och dela den med den som gjorde begäran.
-6. Lägg till [e-postadressen är inte tom].
+5. Skapa en testlänk, klicka på&quot;Publish&quot; och dela den med den som gjorde begäran.
+6. Lägg till [e-post är inte tomt] på fliken Målgrupp.
 
 >[!TAB Marketo Engage]
 
@@ -193,7 +193,7 @@ Utökat engagemang för kampanjinnehåll - Konfiguration:
 
 ## Vad händer nu?
 
-* Kartlägg ert konversationsflöde i [Stream Designer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} eller ett flödesdiagram offline.
+* Kartlägg konversationsflödet i [Stream Designer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} eller ett flödesdiagram offline.
 * Skapa en standarddialogruta för&quot;catch-all&quot; i Dynamic Chat.
 * Aktivera konversationerna efter kampanjengagemang genom att använda automatiseringsutlösare i Marketo Engage.
 

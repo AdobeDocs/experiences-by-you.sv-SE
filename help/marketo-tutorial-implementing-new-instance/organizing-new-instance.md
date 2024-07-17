@@ -9,20 +9,21 @@ duration: 0
 last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-14813
 thumbnail: KT-14813.jpeg
-source-git-commit: 47ab8875bc4e41595cd40550330e43a88357b68d
+exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
+source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Organisera en ny instans och upprätta namnkonventioner
 
-Som administratör som implementerar en ny instans i Marketo Engage lägger du grunden så att framtida marknadsförare i organisationen enkelt kan navigera genom instansen. Om du bekantar dig med trädmappens struktur och namnkonventioner håller du instansen uppdaterad och kan förbereda dig för att lyckas på lång sikt. Den här självstudiekursen innehåller exempel som rekommenderas av Adobe och Marketo Engage Champion (2019-2020), Natalie Kremer, som kan hjälpa dig [ordna mapparna och namnge resurserna på ett konsekvent sätt](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
+Som administratör som implementerar en ny instans i Marketo Engage lägger du grunden så att framtida marknadsförare i organisationen enkelt kan navigera genom instansen. Om du bekantar dig med trädmappens struktur och namnkonventioner håller du instansen uppdaterad och kan förbereda dig för att lyckas på lång sikt. Den här självstudiekursen innehåller exempel som rekommenderas av Adobe och Marketo Engage Champion (2019-2020), Natalie Kremer, som hjälper dig att [ordna mappar och namnge resurser på ett konsekvent sätt](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
 
 ## Varför är det nödvändigt att strukturera mappar och tillämpa namnkonventioner?
 
-Genom att hålla ordning i instansen blir det enkelt för dig och dina kollegor att hålla reda på kampanjer, program och resurser samt rapportera programresultat. Om du vill ordna navigeringsträdet i instansen och bygga i skala bör du använda [mappar](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [standardnamnkonventioner](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"}och funktioner som [kloning](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
+Genom att hålla ordning i instansen blir det enkelt för dig och dina kollegor att hålla reda på kampanjer, program och resurser samt rapportera programresultat. Om du vill ordna navigeringsträdet i instansen och skapa i skala rekommenderar vi att du använder [mappar](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [standardnamnkonventioner](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} och funktioner som [kloning](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
 
 ## Organisera en Marketo Engage-instans
 
@@ -30,7 +31,7 @@ Genom att hålla ordning i instansen blir det enkelt för dig och dina kollegor 
 
 ### Steg 1 - Konfigurera en mappstruktur för att ordna dina program
 
-Det första steget för att ordna instansen är att [konfigurera en mappstruktur](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) lagra program och resurser på ett enkelt och ordnat sätt.
+Det första steget för att organisera din instans är att [konfigurera en mappstruktur](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) och lagra ditt program och dina resurser på ett enkelt och ordnat sätt.
 
 Här följer några snabba tips när du strukturerar mapparna i trädet:
 
@@ -41,7 +42,7 @@ Här följer några snabba tips när du strukturerar mapparna i trädet:
 
 Nedan finns mappexempel på hur man implementerar dessa tips.
 
-**Mappnamn i träd**
+**Mappnamn i trädet**
 
 >[!BEGINTABS]
 
@@ -63,14 +64,14 @@ Nedan finns mappexempel på hur man implementerar dessa tips.
 
 Nu ska vi använda mappstrukturen på programnivå. Det är en god vana att lagra de lokala resurserna i undermappar så att du kan hålla programmen uppdaterade och ge interna användare möjlighet att ändra eller rapportera om programmen på ett effektivt sätt. Vanliga undermappar är e-post, landningssidor, smarta kampanjer, listor, rapporter osv.
 
-**Mappnamn inuti program**
+**Mappnamn i program**
 * Kampanjer - *Mapp för alla kampanjer som hanterar interaktioner och statusspårning.*
-* Lokala resurser - *Mapp för alla resurser som är specifika för programmet.*
+* Lokal Assets - *Mapp för alla resurser som är specifika för det här programmet.*
    * E-post
    * Landningssidor
    * Smarta kampanjer
    * Listor - *Behövs endast när det finns programspecifika listor.*
-   * FORMS - *Krävs endast när det finns programspecifika Forms; de flesta Forms är Global Assets.*
+   * Forms - *Krävs endast när det finns programspecifika Forms. De flesta Forms är globala Assets.*
    * Rapporter - *Behövs endast när det finns programspecifika rapporter.*
 
 ### Steg 3 - Skapa namnkonventioner för program och resurser
@@ -86,7 +87,7 @@ Låt oss nu lägga in värdena i formeln och generera programnamnen för olika p
 
 #### Programnamnsformel
 
-| **Förkortning av programtyp** | **YYYY** | **\-** | **MM** | **\-** | **DD (valfritt)** | **Kategori** | **\-** | **Kort beskrivning av programmet** |
+| **Förkortning av programtyp** | **ÅÅÅ** | **\-** | **MM** | **\-** | **DD (valfritt)** | **Kategori** | **\-** | **Kort beskrivning av programmet** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EM - Skicka e-post (e-postprogram) | YYYY | \- | MM | \- | DD (valfritt) | Kategori | \- | Kort beskrivning av programmet |
 | NL - nyhetsbrev | YYYY | \- | MM | \- | DD (valfritt) | Kategori | \- | Kort beskrivning av programmet |
@@ -126,7 +127,7 @@ Med dessa tips kommer vi att använda för följande resurser och skapa formler 
 | 02 | \- | Beskrivning |
 | 03 | \- | Beskrivning |
 
-| **Exempel: Smart List** |
+| **Exempel: Smart lista** |
 | --- |
 | 01-Skicka e-post |
 | 02-Öppnad |
@@ -165,7 +166,7 @@ Med dessa tips kommer vi att använda för följande resurser och skapa formler 
 | CS - Fallstudie | Innehållsbeskrivning | \- | CS | . | PDF |
 | DS - Datablad | Innehållsbeskrivning | \- | DS | . | PDF |
 
-| **Exempel: hämtningsbara PDF-filer** |
+| **Exempel: Hämta PDF-filer** |
 | --- |
 | XYZ-Gadget-DS.pdf |
 | Acme-Company-CS.pdf |
@@ -177,9 +178,9 @@ Med dessa tips kommer vi att använda för följande resurser och skapa formler 
 
 ## Vad händer nu?
 
-* Hämta kalkylbladet: [Marketo Engage organisations- och namngivningskonventioner](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} som har stöd för att skapa mappstrukturen och namnkonventioner.
+* Hämta kalkylbladet [Organisations- och namnkonventioner för Marketo Engage](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} som stöder skapandet av mappstrukturen och namnkonventioner.
 * När du har hittat de nödvändiga komponenterna i den vanliga namnkonventionen bör du överväga att skapa formler i en Google-mall eller i Microsoft Excel. För framtida bruk behöver du bara ange dina värden i kalkylbladet för att generera programnamnen.
-* När ni väl har anpassat er efter en övergripande mappstruktur är det dags att fundera igenom de mallar ni behöver utifrån de vanligaste användningsfallen och de vanligaste förfrågningarna som teamet får. Börja sedan att skapa din första programmall. Läs vidare för att komma igång med [Adobe Marketo Engage programmallar](https://business.adobe.com/blog/how-to/get-started-with-marketo-engage-program-templates){target="_blank"}.
+* När ni väl har anpassat er efter en övergripande mappstruktur är det dags att fundera igenom de mallar ni behöver utifrån de vanligaste användningsfallen och de vanligaste förfrågningarna som teamet får. Börja sedan att skapa din första programmall. Läs vidare för att komma igång med [Adobe Marketo Engage-programmallar](https://business.adobe.com/blog/how-to/get-started-with-marketo-engage-program-templates){target="_blank"}.
 
 ### Författare
 

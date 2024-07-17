@@ -1,6 +1,6 @@
 ---
-title: AEM Champion Tips and Tricks - [!DNL Cloud Manager] Onboarding Playbook
-description: Här finns tips för [!DNL Cloud Manager] Inbarding och spelboken om internatintroduktion av AEM seger och expert, Rakesh Pasupuleti.
+title: Tips och tricks för AEM Champion - [!DNL Cloud Manager] Onboarding Playbook
+description: Kolla in de här tipsen för  [!DNL Cloud Manager] onbarding och onboarding playbook av AEM mästare och expert, Rakesh Pasupuleti.
 version: Cloud Service
 solution: Experience Manager Cloud Manager, Marketo Engage, Experience Manager
 feature-set: Marketo Engage, Experience Manager, Experience Manager Cloud Manager
@@ -14,23 +14,23 @@ jira: KT-13228
 exl-id: 3ee98846-35ff-4de1-af4b-b65376572dfe
 source-git-commit: 7bbe86435c683f41509a8cbe6b117b354309644a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '163'
 ht-degree: 1%
 
 ---
 
-# AEM Champion Tips and Tricks - [!DNL Cloud Manager] Onboarding Playbook
+# Tips och tricks för AEM Champion - [!DNL Cloud Manager] Playbook för introduktion
 
-Med spelboken för introduktion kan du ta ansvar som ny administratör och utvecklare för AEM as a Cloud Service. I det nedladdningsbara kalkylbladet går vi igenom de aktiviteter du ska utföra de första tre veckorna på jobbet när du påbörjar din introduktionsresa.
+Du kan använda introduktionspellistan som ny administratör och utvecklare för AEM as a Cloud Service. I det nedladdningsbara kalkylbladet går vi igenom de aktiviteter du ska utföra de första tre veckorna på jobbet när du påbörjar din introduktionsresa.
 
 >[!TIP]
 >
->Ladda ned [introducerar spelbok här.](./assets/Cloud-Manager-for-AEM-as-a-Cloud-Service.xlsx)
+>Hämta spelningsboken [för introduktion här.](./assets/Cloud-Manager-for-AEM-as-a-Cloud-Service.xlsx)
 
-Ta en titt på de här tipsen från din tekniska chef, Rakesh Pasupuleti. Rakesh är en [!DNL Adobe] Experience Manager är segrare, och han delar med sig av sina idéer om hur man använder spelboken för onboarding.
+Ta en titt på de här tipsen från din tekniska chef, Rakesh Pasupuleti. Rakesh är [!DNL Adobe] Experience Manager-mästare och han delar med sig av idéer om hur han kan använda spelboken för onboarding.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419299?quality=12&learn=on)
 
 ## Ytterligare resurser {#additional-resources}
 
-* [AEM as a Cloud Service onboarding Journey](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/overview.html) - En stegvis guide för en ny systemadministratör som till att börja med tillhandahåller molnresurser och tilldelar användare till roller baserat på deras arbetsuppgifter, så att alla teammedlemmar kan logga in och komma åt sina nya AEM as a Cloud Service resurser
+* [AEM as a Cloud Service Onboarding Journey](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/journey/overview.html) - En stegvis guide för en ny systemadministratör som initialt kan tillhandahålla molnresurser och tilldela användare till roller baserat på deras arbetsuppgifter, så att alla medlemmar i teamet kan logga in och komma åt sina nya AEM as a Cloud Service-resurser
