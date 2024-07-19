@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-04T00:00:00Z
 jira: KT-14811
 thumbnail: KT-14811.jpeg
 exl-id: 42b7ca3d-e445-4c11-ad3d-d4e70c101c8e
-source-git-commit: bed599454a75159492f13aab1f802c09d92bf7ed
+source-git-commit: 4ea2f60e2bfa658add920c947f5455fe0572ce04
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 0%
@@ -83,7 +83,7 @@ I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs 
 * Om det finns motsvarande fält i båda systemen inkluderar du dem på samma rad och anger att de måste mappas om i avsnittet &quot;Anteckningar&quot; längst till höger i ditt Data Dictionary-blad.
 
 >[!NOTE]
->Om du planerar att skapa ett synkroniseringsfilterfält ([Salesforce](https://nation.marketo.com/t5/product-blogs/instructions-for-creating-a-custom-sync-rule/ba-p/242758){target="_blank"}) | [ Microsoft Dynamics ](https://community.dynamics.com/blogs/post/?postid=8a91d93e-2181-45dd-a8fb-1092010bc8f1){target="_blank"}) måste du ta med det i det här steget, men lämna API-namnen tomma tills fältet skapas i CRM.
+>Om du planerar att skapa ett synkroniseringsfilterfält ([Salesforce](https://nation.marketo.com/t5/product-blogs/instructions-for-creating-a-custom-sync-rule/ba-p/242758){target="_blank"}) | [ Microsoft Dynamics ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/custom-dynamics-sync-filter-details/create-a-custom-dynamics-sync-filter){target="_blank"}) måste du ta med det i det här steget, men lämna API-namnen tomma tills fältet skapas i CRM.
 
 **Steg 5:** Granska datalexikonet med CRM-administratören
 
@@ -97,7 +97,7 @@ I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs 
 **Steg 6:** Utför den inledande synkroniseringen
 
 * Se till att alla fält som du vill synkronisera med Marketo Engage har lämplig behörighet i CRM enligt dataordlistan.
-* Se till att alla fält som du ***inte*** vill synkronisera med Marketo Engage är [dolda i Marketo Sync Profile](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/hide-a-salesforce-field-from-the-marketo-sync){target="_blank"}. Det är mycket enklare att lägga till nya fält i synkroniseringen senare än att ta bort fält som har synkroniserats oavsiktligt.
+* Se till att alla fält som du **inte** vill synkronisera med Marketo Engage är [dolda i Marketo Sync Profile](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/hide-a-salesforce-field-from-the-marketo-sync){target="_blank"}. Det är mycket enklare att lägga till nya fält i synkroniseringen senare än att ta bort fält som har synkroniserats oavsiktligt.
 * Ansluter du CRM till fältet Synkroniseringsfilter? Om du synkroniserar med Salesforce kontaktar du Adobe kundsupport för att se till att filterfunktionen är aktiverad innan du startar den första synkroniseringen.
 
 
@@ -133,21 +133,21 @@ Läs om hur Marketo Engage och Salesforce samarbetar för att synkronisera dina 
 
 +++**Länkar som används i videon:**
 
-* [Förstå Salesforce-synkroniseringen](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/understanding-the-salesforce-sync.html){target="_blank"}
+* [Förstå Salesforce-synkroniseringen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/understanding-the-salesforce-sync){target="_blank"}
 
-* [Lägg till Marketo-fält i Salesforce (Enterprise/Unlimited)](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-1-of-3-add-marketo-fields-to-salesforce-enterprise-unlimited.html){target="_blank"}
+* [Lägg till Marketo-fält i Salesforce (Enterprise/Unlimited)](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-1-of-3-add-marketo-fields-to-salesforce-enterprise-unlimited){target="_blank"}
 
-* [Skapa en Marketo-användare i Salesforce (Enterprise/Unlimited)](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-2-of-3-create-a-salesforce-user-for-marketo-enterprise-unlimited.html){target="_blank"}
+* [Skapa en Marketo-användare i Salesforce (Enterprise/Unlimited)](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-2-of-3-create-a-salesforce-user-for-marketo-enterprise-unlimited){target="_blank"}
 
-* [Anslut Marketo och Salesforce(Enterprise/Unlimited)](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-3-of-3-connect-marketo-and-salesforce-enterprise-unlimited.html){target="_blank"}
+* [Anslut Marketo och Salesforce(Enterprise/Unlimited)](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/setup/enterprise-unlimited-edition/step-3-of-3-connect-marketo-and-salesforce-enterprise-unlimited){target="_blank"}
 
-* [Användare måste konfigurera det anslutna programmet på Salesforce-sidan innan de kan fortsätta till Marketo- och Salesforce-synkronisering.](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0.html){target="_blank"}
+* [Användare måste konfigurera det anslutna programmet på Salesforce-sidan innan de kan fortsätta till Marketo- och Salesforce-synkronisering.](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0){target="_blank"}
 
-* [Salesforce-synkroniseringsstatus](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/salesforce-sync-status.html){target="_blank"}
+* [Salesforce-synkroniseringsstatus](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/salesforce-sync-status){target="_blank"}
 
-* [Dölj och visa ett fält](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/field-management/hide-and-unhide-a-field.html){target="_blank"}
+* [Dölj och visa ett fält](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/hide-and-unhide-a-field){target="_blank"}
 
-* [Självstudiekurs: Lär dig hur du synkroniserar Marketo med ditt CRM](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/lead-and-data-management/crm-sync-learn.html){target="_blank"}
+* [Självstudiekurs: Lär dig hur du synkroniserar Marketo med ditt CRM](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/crm-sync-learn){target="_blank"}
 
 +++
 
@@ -159,27 +159,27 @@ Lär dig hur synkroniseringen av Microsoft Dynamics 365 fungerar och konfigurera
 
 +++**Länkar som används i videon:**
 
-* [Förstå Microsoft Dynamics Sync](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync.html){target="_blank"}
+* [Förstå Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"}
 
-* [Hämta Marketo Lead Management Solution](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/download-the-marketo-lead-management-solution.html){target="_blank"}
+* [Hämta Marketo Lead Management Solution](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/download-the-marketo-lead-management-solution){target="_blank"}
 
-* [Uppdatera Marketo-lösningen för Microsoft Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/update-the-marketo-solution-for-microsoft-dynamics.html){target="_blank"}
+* [Uppdatera Marketo-lösningen för Microsoft Dynamics](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/update-the-marketo-solution-for-microsoft-dynamics){target="_blank"}
 
-* [Bevilja medgivande för klient-ID och appregistrering](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/grant-consent-for-client-id-and-app-registration.html)
+* [Bevilja medgivande för klient-ID och appregistrering](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/grant-consent-for-client-id-and-app-registration)
 
-* [Verifiera Microsoft Dynamics Sync](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/validate-microsoft-dynamics-sync.html){target="_blank"}
+* [Verifiera Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/validate-microsoft-dynamics-sync){target="_blank"}
 
-* [Synkroniseringsstatus](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/microsoft-dynamics-sync-details/sync-status.html){target="_blank"}
+* [Synkroniseringsstatus](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/microsoft-dynamics-sync-details/sync-status){target="_blank"}
 
-* [Åtgärda problem med synkronisering av Dynamics-validering](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/fix-dynamics-validation-sync-issues.html){target="_blank"}
+* [Åtgärda problem med synkronisering av Dynamics-validering](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/fix-dynamics-validation-sync-issues){target="_blank"}
 
-* [Skapa ett synkroniseringsfilter för anpassad Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/custom-dynmaics-sync-filter-details/create-a-custom-dynamics-sync-filter.html){target="_blank"}
+* [Skapa ett synkroniseringsfilter för anpassad Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/custom-dynamics-sync-filter-details/create-a-custom-dynamics-sync-filter.html){target="_blank"}
 
-* [Visa URL för organisationstjänsten](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/view-the-organization-service-url.html){target="_blank"}
+* [Visa URL för organisationstjänsten](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/sync-setup/view-the-organization-service-url){target="_blank"}
 
-* [Redigerar fält som ska synkroniseras innan de tas bort i Dynamics](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/microsoft-dynamics-sync-details/editing-fields-to-sync-before-deleting-them-in-dynamics.html){target="_blank"}
+* [Redigerar fält som ska synkroniseras innan de tas bort i Dynamics](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/microsoft-dynamics-sync-details/editing-fields-to-sync-before-deleting-them-in-dynamics){target="_blank"}
 
-* [Självstudiekurs: Lär dig hur du synkroniserar Marketo med ditt CRM](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/lead-and-data-management/crm-sync-learn.html){target="_blank"}
+* [Självstudiekurs: Lär dig hur du synkroniserar Marketo med ditt CRM](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/crm-sync-learn){target="_blank"}
 
 +++
 
@@ -190,4 +190,3 @@ Lär dig hur synkroniseringen av Microsoft Dynamics 365 fungerar och konfigurera
 {{peter-livadas}}
 
 {{amy-chiu}}
-
