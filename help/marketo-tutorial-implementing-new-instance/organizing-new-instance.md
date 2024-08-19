@@ -1,5 +1,5 @@
 ---
-title: Organisera en ny instans och upprätta namnkonventioner
+title: Ordna en ny instans och skapa namnkonventioner
 description: Lär dig hur du skapar en bra organisation i din Marketo Engage-instans så att framtida marknadsförare i din organisation enkelt kan navigera bland programmen, ändra resurserna och hämta rapporter.
 role: Admin
 level: Beginner
@@ -10,14 +10,14 @@ last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-14813
 thumbnail: KT-14813.jpeg
 exl-id: 19b3de9e-53f3-4308-b46e-7b8f756c30a0
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 1%
 
 ---
 
-# Organisera en ny instans och upprätta namnkonventioner
+# Ordna en ny instans och upprätta namnkonventioner
 
 Som administratör som implementerar en ny instans i Marketo Engage lägger du grunden så att framtida marknadsförare i organisationen enkelt kan navigera genom instansen. Om du bekantar dig med trädmappens struktur och namnkonventioner håller du instansen uppdaterad och kan förbereda dig för att lyckas på lång sikt. Den här självstudiekursen innehåller exempel som rekommenderas av Adobe och Marketo Engage Champion (2019-2020), Natalie Kremer, som hjälper dig att [ordna mappar och namnge resurser på ett konsekvent sätt](https://nation.marketo.com/t5/champion-program-blogs/keep-marketo-engage-organized-with-folders-and-naming/ba-p/245630){target="_blank"}.
 
@@ -176,7 +176,7 @@ Med dessa tips kommer vi att använda för följande resurser och skapa formler 
 >
 >När du namnger filer i exemplen ovan ska du inte använda blanksteg och undvika understreck &quot;\_&quot;
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 * Hämta kalkylbladet [Organisations- och namnkonventioner för Marketo Engage](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} som stöder skapandet av mappstrukturen och namnkonventioner.
 * När du har hittat de nödvändiga komponenterna i den vanliga namnkonventionen bör du överväga att skapa formler i en Google-mall eller i Microsoft Excel. För framtida bruk behöver du bara ange dina värden i kalkylbladet för att generera programnamnen.

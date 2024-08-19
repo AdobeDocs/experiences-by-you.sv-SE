@@ -11,7 +11,7 @@ jira: KT-13888
 thumbnail: KT-13888.jpeg
 hide: false
 exl-id: c377fe5f-2d77-4fd0-9ac4-5ad65506f582
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '4903'
 ht-degree: 2%
@@ -199,7 +199,7 @@ Det kan finnas objekt som saknas eller inte kan användas när ditt team kör de
 
 >[!ENDTABS]
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 Klicka [här](/help/marketo-tutorial-inherited-instance/_assets/downloads/[!DNL Adobe]_Marketo_Engage_Inherited_Instance_Program_Prelaunch_QA_Checklist.xlsx) för att hämta den redigerbara checklistan före programstart så att du kan anpassa den. Kom ihåg att detta bör anpassas efter organisationens arbetsflöde. Genom att utveckla en effektiv process för kvalitetssäkring kan ni hållas ansvariga och begränsa kundernas misstag.
 

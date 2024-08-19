@@ -1,6 +1,6 @@
 ---
-title: Tips och tricks för att implementera en ny [!DNL Marketo Engage] instans - självstudiekurs - översikt
-description: Lär dig hur du implementerar en ny [!DNL Marketo Engage] instans för att få ut så mycket som möjligt av dess kraft. Den här serien"Implementera ett nytt Marketo Engage" Tips and Tricks-serien innehåller bästa praxis som bevisas av Adobe [!DNL Marketo Engage] Champions. Områden som behandlas är bland annat hantering av intressenter, projektledning för implementering, intern utbildning, inbyggnad av bedömningsmodell för lead/person, inställning av inledande CRM-synkronisering med mera.
+title: Tips och tricks för att implementera en ny instans
+description: Lär dig hur du implementerar en ny [!DNL Marketo Engage] instans för att få ut så mycket som möjligt av dess kraft.
 solution: Marketo Engage
 role: Admin
 level: Beginner
@@ -10,20 +10,20 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
-# Tips och tricks för implementering av en ny [!DNL Marketo Engage]-instans - självstudiekursöversikt
+# Tips och tricks för implementering av en ny [!DNL Marketo Engage]-instans
 
 Välkommen till Adobe [!DNL Marketo Engage]! Att sätta upp en ny instans är det första steget mot att lyfta upp er digitala marknadsföringsstrategi med automatiserad marknadsföring. Nyckeln till en lyckad [!DNL Marketo Engage]-implementering är dokumentation.
 
-Den här serien Implementerar ett nytt instanstips och -tricks kommer från Adobe [!DNL Marketo Engage]-Champions som har erövrat implementeringen tidigare. Självstudiekursen ger stegvis vägledning för nya administratörer som kan hantera implementeringsprojektet på olika sätt och konfigurera tekniska inställningar oberoende av varandra. Selektiva ämnen medföljer även hämtningsbara checklistor och mallar så att du kan anpassa dem efter dina egna behov utan att börja om från början. Låt oss dyka i dina kollegers visdom!
+Den här _Implementeringen av nya instanstips och -tricks_-serien är Adobe [!DNL Marketo Engage]-testversioner som har erövrat implementeringen tidigare. Självstudiekursen ger stegvis vägledning för nya administratörer som kan hantera implementeringsprojektet på olika sätt och konfigurera tekniska inställningar oberoende av varandra. Selektiva ämnen medföljer även hämtningsbara checklistor och mallar så att du kan anpassa dem efter dina egna behov utan att börja om från början. Låt oss dyka i dina kollegers visdom!
 
-## Ämnen och vad du kommer att lära dig
+## Ämnen och vad du lär dig
 
 * [Hantera intressenter för att implementera Marketo Engage](/help/marketo-tutorial-implementing-new-instance/managing-stakeholder-communications.md)
   *Lär dig strategier för att hantera intressenter effektivt under implementeringen av din Marketo Engage-instans. Den här självstudiekursen ger användbara tips för att identifiera dina intressenters behov, få ledarskapsköp och kommunicera funktionellt för att söka implementeringsstöd.*

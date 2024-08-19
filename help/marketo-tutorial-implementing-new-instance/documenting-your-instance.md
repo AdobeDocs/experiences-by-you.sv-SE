@@ -1,5 +1,5 @@
 ---
-title: Komma igång med instansstyrning och dokumentation
+title: Kom igång med instansstyrning och dokumentation
 description: Lär dig viktiga strategier och bästa metoder för att komma igång med styrningen och dokumentationen av Marketo Engage. Upptäck hur du kan skapa skalbar dokumentation, effektivisera användarutbildningen och se till att du bygger upp en struktur i Marketo Engage.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-08T00:00:00Z
 jira: KT-14815
 thumbnail: KT-14815.jpeg
 exl-id: b3dd05e1-c522-4631-a6b4-c0c6309f25d3
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Ett annat viktigt sätt att styra instanser är att skapa en Ändra och använda
 1. Orsak till ändringen
 1. Vem gjorde ändringen
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 * Hämta [exempeldokumentationen och Changelog](/help/marketo-tutorial-implementing-new-instance/assets/template-adobe-marketo-engage-instance-documentation.xlsx) och anpassa dem baserat på organisationens behov.
 * Lagra dokumentationen på en tillgänglig plattform där organisationen föredrar att referera och uppdatera regelbundet. I vissa Marketo Engage Champions används till exempel Confluence (av Atlassian) eller Excel-kalkylblad.

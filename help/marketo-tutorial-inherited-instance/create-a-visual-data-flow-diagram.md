@@ -1,5 +1,5 @@
 ---
-title: Skapa ett visuellt dataflödesdiagram för att förstå er marknadsföringsteknologi
+title: Skapa ett dataflödesdiagram för att förstå er Marketing Tech Stack
 description: Lär dig hur du skapar ett diagram över"lead- och datakällor" för att förstå datauniversum, för att kunna granska och åtgärda instansen på ett effektivt sätt.
 feature-set: Marketo Engage
 feature: Administration
@@ -11,14 +11,14 @@ jira: KT-13877
 thumbnail: KT-13877.jpeg
 hide: false
 exl-id: 088bdcf1-4e49-44a7-ac78-a03742ff680b
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
-# Skapa ett visuellt dataflödesdiagram för att förstå er marknadsföringsteknologi
+# Skapa ett dataflödesdiagram för att förstå er marknadsföringsteknologi
 
 Som administratör som tar över en [!DNL Marketo Engage]-instans som har varit aktiv i flera år, är det som en uppgift som är omöjlig att granska och rensa instansen effektivt. När Kelly Jo Horton, [!DNL Adobe] [!DNL Marketo Champion] (2019) gick in i en väletablerad instans tog hon sig an den här utmaningen genom att [skapa ett diagram över&quot;Lead and data sources&quot; ](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} för att bekanta sig med datavohela. I den här självstudiekursen får du lära dig hur du skapar ett eget dataflödesdiagram genom att bygga vidare på de exempel som Kelly Jo Horton har delat. Lär känna ditt MarTech-ekosystem!
 
@@ -51,7 +51,7 @@ Skapa en teknisk version som visar detaljer som API-användarnamnet för varje i
 ![Teknisk version](/help/marketo-tutorial-inherited-instance/_assets/data-flow-diagram/Lead-Data-Source-Diagram-KellyJo-Horton.png){align="center"}
 
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 **Kom igång med exempel:**
 Ladda ned ett av exempeldiagrammen för dataflöde för att kartlägga det aktuella läget för er marknadsföringsteknologi, dataflöde, person och person, eller skapa ett diagram för hela datamängden från grunden när ni granskar instansen:

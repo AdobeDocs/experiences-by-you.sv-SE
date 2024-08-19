@@ -1,5 +1,5 @@
 ---
-title: Utveckling av interna introduktioner och utbildningsvägar
+title: Utveckla vårt interna introduktions- och utbildningsprogram
 description: Lär dig hur du skapar och underhåller dokumentation och ändringslogg för din [!DNL Marketo Engage] instans. Detta sparar inte bara tid för teamets kunskapsdelning utan förbättrar även hälsan och effektiviteten i instansen.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-14809
 thumbnail: KT-14809.jpeg
 exl-id: bd5d102b-0810-43e1-baac-fbef43817d50
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Här är ett exempel på en kursplan som Naomi Liu föreslår för anpassning f�
 | Rapportering och analys | <ul><li>Genomgång av rapportering</li><li>E-post, landningssida och programprestanda</li><li>Bygga egna rapporter</li><li>Insikter om e-post och prestanda</li></ul> | Pågående utbildning, inspelad video för viktiga sessioner, regelbundna granskningar | 2h |
 | Innehåll-AI | <ul><li>Granska innehålls-AI-funktioner</li><li>Granska resurser som är berättigade till innehåll-AI (dvs. landningssida, e-post och dialogruta)</li><li>Mappa ut processen (när/var) som ska användas</li></ul> | Live-session, genomgång för granskning och hur det fungerar | 1h |
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 * Hämta kalkylbladet [exempelkursplanen](assets/adobe-marketo-engage-internal-training-roadshows.xlsx){_target=&quot;blank&quot;} för att utveckla dina interna utbildningsmoduler.
 * Fyll i de team som är rätt för sessionsämnet.

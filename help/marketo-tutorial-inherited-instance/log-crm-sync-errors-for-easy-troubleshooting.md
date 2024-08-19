@@ -11,14 +11,14 @@ jira: KT-13875
 thumbnail: KT-13875.jpeg
 hide: false
 exl-id: 6a38f5dd-5d25-43d8-a1d3-e75ab396e555
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
-# Logga CRM-synkroniseringsfel för enkel felsökning
+# Logga CRM-synkroniseringsfel för felsökning
 
 Som [!DNL Marketo Engage]-administratör bör kontrollen av om din instans är synkroniserad med CRM vara en nyckeldel av din [dagliga rutin](https://nation.marketo.com/t5/champion-program-blogs/my-marketo-morning-routine-tips-for-driving-marketing-operation/ba-p/247508){target="_blank"}. Medan avsnittet [Meddelanden](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/notification-types.html){target="_blank"} (finns i det övre högra hörnet av [!DNL Marketo Engage] -gränssnittet) är där du börjar hitta och undersöka vanliga synkroniseringsproblem, finns det ett proffstips som kan hjälpa dig att hantera instansens hälsa på ett organiserat sätt. [!DNL Adobe] Marketo Champion (2019-2022), Amy Goldfine rekommenderar administratörsanvändare att föra en logg över CRM Sync-fel för att underlätta felsökning.
 
@@ -46,7 +46,7 @@ Innan du börjar hämtar du loggmallen [Synkroniseringsfel i CRM](/help/marketo-
 
 **Steg 7:** I den sista kolumnen klistrar du in den faktiska texten för felet.
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 **Identifiera felkoder:** Om du vill förstå felkoderna ska du leta upp beskrivningarna i utvecklardokumentationen [Svarsnivåtabellen för felkoder](https://developers.marketo.com/rest-api/error-codes/#response_level_error_codes){target="_blank"} och hitta de vanligaste stegen för att åtgärda felen.
 

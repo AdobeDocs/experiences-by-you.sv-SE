@@ -1,6 +1,6 @@
 ---
 title: Utveckla en instansstyrningsguide med dokumentation
-description: Lär dig hur du skapar och underhåller dokumentation och ändringslogg för din [!DNL Marketo Engage] instans. Detta sparar inte bara tid för teamets kunskapsdelning utan förbättrar även hälsan och effektiviteten i instansen.
+description: Lär dig hur du skapar och underhåller dokumentation och ändringslogg för din [!DNL Marketo Engage] instans.
 feature-set: Marketo Engage
 feature: Administration
 role: Admin
@@ -11,9 +11,9 @@ jira: KT-14103
 thumbnail: KT-14103.jpeg
 hide: false
 exl-id: e127b84d-ef92-4527-a0e6-a36af35b7ee0
-source-git-commit: b2e05ff39e065691dda530ed17762a55cf2e6778
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ När du går in i en äldre [!DNL Marketo Engage]-instans har den ofta en utmani
 
 Den här stegvisa självstudiekursen som kommer från [!DNL [!DNL Adobe] Marketo Champion] (2018), Nick Hajdin, vägleder dig genom den här processen för att skissera instanskonfigurationen, dokumentera dina primära operativa program och underhålla en [!DNL changelog] för att tillämpa en strikt styrningsprincip.
 
-## Varför utveckla en instansstyrningsguide och dokumentation för din ärvda instans?
+## Utveckla en instansstyrningsguide för din ärvda instans
 
-Detaljerad dokumentation och en [!DNL changelog] är avgörande för effektiv hantering och kunskapsöverföring i [!DNL Marketo Engage]-instansen. Genom att hålla reda på ändringar och beslut som du har fattat under instanskonfigurationen kan du:
+Detaljerad dokumentation och en [!UICONTROL Changelog] är avgörande för effektiv hantering och kunskapsöverföring i [!DNL Marketo Engage]-instansen. Genom att hålla reda på ändringar och beslut som du har fattat under instanskonfigurationen kan du:
 
 1. Utbilda interna användare enklare på ett skalbart sätt.
 2. Bygg mer effektivt i [!DNL Marketo Engage] på lång sikt.
@@ -78,21 +78,21 @@ Börja med att identifiera de viktigaste operativa programmen med påverkan på 
 
 För varje identifierat operativt program dokumentera dess nuvarande status. Detta innehåller information om programmets syfte, konfiguration, associerade smarta kampanjer och integrering med andra verktyg (om tillämpligt).
 
-### Steg 4: Tvinga underhåll av [!DNL Changelog]
+### Steg 4: Tvinga underhåll av [!UICONTROL Changelog]
 
-Nästa steg är att upprätta en strikt styrningsprincip för din [!DNL Marketo Engage]-instans som kräver [!DNL Changelog]-underhåll. Denna policy säkerställer att alla uppdateringar som görs av de operativa programmen i hela instansen dokumenteras noggrant.
+Nästa steg är att upprätta en strikt styrningsprincip för din [!DNL Marketo Engage]-instans som kräver [!UICONTROL Changelog]-underhåll. Denna policy säkerställer att alla uppdateringar som görs av de operativa programmen i hela instansen dokumenteras noggrant.
 
-Undervisa teamet om vikten av dessa dokument och hur man får tillgång till och uppdaterar dem på rätt sätt. Det kan vara praktiskt att tilldela ansvarsområden för att underhålla ändringsloggen, så att ett fåtal utsedda medlemmar i Marketing Operation-teamet eller administratörer konsekvent registrerar ändringar och tillhandahåller signaturer.
+Undervisa teamet om vikten av dessa dokument och hur man får tillgång till och uppdaterar dem på rätt sätt. Det kan vara praktiskt att tilldela ansvarsområden för att underhålla ändringsloggen, så att ett fåtal utsedda medlemmar i Marketing Operation-teamet eller administratörer konsekvent registrerar ändringar och tillhandahåller godkännanden.
 
 ### Steg 5: Centralisera dokumentation
 
 Skapa en central plats eller databas för lagring av all dokumentation som hör till din [!DNL Marketo Engage]-instans. Det kan vara en delad enhet, en dedikerad mapp eller ett molnbaserat system.
 
-### Steg 6: Regelbunden granskning och uppdatering
+### Steg 6: Granska och uppdatera
 
 Schemalägg regelbundna granskningar av din dokumentation för att säkerställa att den är korrekt och aktuell. Den kan lätt förbises under upptagna tider. Ställ in påminnelser i din kalender proaktivt för att säkerställa att ditt team regelbundet uppdaterar för att återspegla ändringar eller optimeringar i de operativa programmen.
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 Kom igång genom att hämta den här [enkla mallen](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Documentation-Changlog.xlsx).
 

@@ -1,5 +1,5 @@
 ---
-title: Hantera intressenter för att implementera Marketo Engage
+title: Hantera intressenter för implementering av Marketo Engage
 description: Lär dig strategier för att hantera intressenter effektivt under implementeringen av Marketo Engage-instansen. Den här självstudiekursen ger användbara tips för att identifiera era intressenter, få ledarskapsköp och kommunicera funktionellt för att söka implementeringsstöd.
 role: Admin
 level: Beginner
@@ -10,7 +10,7 @@ last-substantial-update: 2024-05-03T00:00:00Z
 jira: KT-13284
 thumbnail: KT-13284.jpeg
 exl-id: b5b8a5b6-83d4-48ae-ae83-32c9fbf64df8
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1712'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Effektivisera implementeringen genom att anpassa er efter era ledare och era mar
 
 Ta del av den information du presenterade i föregående övning och kommunicera specifikt om hur Marketo Engage kommer att öka avkastningen på investeringar och stödja strategiska mål för era intressenter. Använd följande mall för att ta fram övertygande budskap som framhäver Marketo Engage värdeförslag för er organisation.
 
-#### Mall - inledande utdatafil
+#### Mall - inledande utåtriktad
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Bästa,
 
 Visa upp snabba vinster eller pilotprojekt för att visa effekten av Marketo Engage. Detta kan vara en riktad e-postkampanj som skapar ett betydande engagemang eller ett automatiserat arbetsflöde som effektiviserar hanteringen av leads. Utbyt erfarenheter med intressenter för att förstärka deras stöd och entusiasm.
 
-#### Mall - tidig vinning
+#### Mall - tidiga vinster
 
 <table>
 <tr>
@@ -180,7 +180,7 @@ Bästa,
 
 Genom att följa dessa tips och hänvisa till mallarna blir ni bättre rustade att implementera Marketo Engage och få starkt stöd från era intressenter under introduktionsprocessen.
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 Hämta och använd [Onboarding Internal Communications Guide och Template](/help/marketo-tutorial-implementing-new-instance/assets/marketo-engage-new-instance-onboarding-internal-communications-guide-template.xlsx){target="_blank} för att skapa regelbundna uppdateringar och rapportera framsteg för intressenter. Inkludera nyckeltal, prestationer och kommande milstolpar för att hålla dem informerade och engagerade.
 

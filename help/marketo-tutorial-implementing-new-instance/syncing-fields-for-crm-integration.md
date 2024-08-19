@@ -10,14 +10,14 @@ last-substantial-update: 2024-05-04T00:00:00Z
 jira: KT-14811
 thumbnail: KT-14811.jpeg
 exl-id: 42b7ca3d-e445-4c11-ad3d-d4e70c101c8e
-source-git-commit: 195a1211b8b191032f4d37662b5beee9a0a54de4
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
-# Synkroniserar fält för ursprungliga CRM-anslutningar
+# Synkronisera fält för interna CRM-anslutningar
 
 Använder du Salesforce eller Microsoft Dynamics i din organisation? I så fall kan ni med Marketo Engage CRM-kontakter (t.ex. Salesforce, Microsoft Dynamics och Veeva) samordna marknadsförings- och säljaktiviteter genom att smidigt dela relevant information mellan Marketo Engage och CRM. Innan du konfigurerar den inledande CRM-synkroniseringen måste du identifiera de fält som du vill synkronisera mellan de två systemen för att din Marketo Engage-databas ska vara ren.
 
@@ -31,7 +31,7 @@ Den inledande synkroniseringen mellan Marketo Engage och CRM-systemet skapar aut
 
 Att identifiera och organisera de fält som du vill synkronisera från CRM innan du utför den första synkroniseringen är ett viktigt steg i konfigurationsprocessen för Native Connector. Vi hänvisar till detta som en dataordlisteövning, som hjälper dig att minimera antalet dubblettfält som skapas och som gör att efterföljande ommappningssteg går så smidigt som möjligt. Den här övningen omfattar vanligtvis indata från marknadsförings- och säljteam samt CRM-administratören för att säkerställa att endast relevanta fält synkroniseras med din Marketo Engage-instans.
 
-## Så här skapar du din datamordlista
+## Bygg din dataordlista
 
 I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs i marknadsföringssyfte. Börja med den här övningen för att ordna fälten från CRM som måste mappas till Marketo Engage och kör den första CRM-synkroniseringen korrekt första gången.
 
@@ -118,7 +118,7 @@ I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs 
    * Se exemplet [HERE](https://nation.marketo.com/t5/knowledgebase/re-mapping-sfdc-marketo-fields/ta-p/299284){target="_blank"}.
 * När ommappningen är klar granskar du API-namnen för de ommappade fälten i Marketo Engage och uppdaterar värdena i Data Dictionary-klassens &quot;API-namn&quot;-kolumn för att se till att den innehåller den mest korrekta informationen.
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 * Bygg din Data Dictionary för att ordna fälten för CRM-integrering.
 * Bekanta dig med den inledande synkroniseringsprocessen för CRM

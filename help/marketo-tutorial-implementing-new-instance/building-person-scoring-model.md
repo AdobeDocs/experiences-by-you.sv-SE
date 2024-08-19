@@ -1,6 +1,6 @@
 ---
-title: Skapa personbedömningsmodeller för program i Marketo Engage
-description: Med Adobe Marketo Engage kan du bygga upp din poängmodell(er) från grunden. Innan du går direkt i Marketo Engage för att bygga upp dina poängprogram måste du skapa viktiga poängfält som Demografisk poäng, Beteendepoäng och Total Person Score. Läs mer om de strategier som används av Marketo Engage Champions för att utveckla bedömningsmodeller som företaget behöver.
+title: Skapa personbedömningsmodeller för Marketo Engage-program
+description: Lär dig hur du bygger upp dina poängmodeller från grunden.
 role: Admin
 level: Beginner
 doc-type: Article
@@ -10,9 +10,9 @@ last-substantial-update: 2024-05-04T00:00:00Z
 jira: KT-14810
 thumbnail: KT-14810.jpeg
 exl-id: 73976144-f02b-4423-9b4b-410330117ba9
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2055'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Personpoäng hjälper er att identifiera de personer som är mest engagerade i ert företag och som är er idealiska kundprofil, så att ni kan dela dessa leads med säljteamet och göra avslut! Tillsammans med säljarna avgör du vilka leads du vill ge dem genom att använda ett lead/person-poängprogram i Adobe Marketo Engage. Detta kan antingen bestämmas genom ett minimum av beteendebedömning, demografiska poängsättning eller både och.
 
-I den här självstudiekursen ska vi gå igenom tre övningar som föreslås av Marketo Engage Champions Christina Zuniga och Katja Keesom. Följ vidare för att avgöra vilka aktiviteter och egenskaper som är viktiga indikatorer på att en potentiell kund är intresserad av att köpa (beteendebedömning) och att de är rätt för dig (demografiska poäng), och ta hänsyn till nyanserna på olika marknader.
+I den här självstudiekursen går vi igenom tre övningar som föreslås av Marketo Engage Champions Christina Zuniga och Katja Keesom. Följ vidare för att avgöra vilka aktiviteter och egenskaper som är viktiga indikatorer på att en potentiell kund är intresserad av att köpa (beteendebedömning) och att de är rätt för dig (demografiska poäng), och ta hänsyn till nyanserna på olika marknader.
 
 ## Varför utveckla och använda en personbedömningsmodell?
 
@@ -29,7 +29,7 @@ Du kanske har många leads i din databas, men hur vet du vilka som är redo att 
 
 Genom att poängsätta personer i din Marketo Engage-databas kan du mäta hur kvalificerade dina genererade leads är och ange kriterier för när de är redo för försäljning. På så sätt kan säljteamet fokusera på de leads som troligen kommer att stängas medan marknadsföringsteamet fortsätter att vårda de andra personerna i databasen via sina marknadsföringsprogram.
 
-## Utövning 1 - Bestämma köparens intresse med beteendepoäng
+## Visning 1 - Bestämma köparens intresse med beteendepoäng
 
 Beteendepoängen ger ett numeriskt värde till spårbara åtgärder som en potentiell kund vidtar som visar intresse för era produkter och tjänster och avsikter att köpa. Om du till exempel besöker webbplatsen kan det visa sig intressant att besöka prissidan. Om du däremot besöker yrkessidan kan det tyda på att personen inte kommer att köpa produkten.
 
@@ -79,7 +79,7 @@ Beteendepoängen ger ett numeriskt värde till spårbara åtgärder som en poten
 
 **Steg 5** - Kom ihåg att poängsättning är en iterativ process! Granska och justera poängvärden och tröskelvärden kontinuerligt när ni samlar in mer data för analys.
 
-## Utövning 2 - Identifiera rätt anpassning med demografiska resultat
+## Utövning 2 - Identifiera rätt anpassning med demografiska poäng
 
 Nu när du har definierat aktiviteterna som indikerar inköpsavsikt bör du slutföra poängmodellen med dina Idealiska profiler för potentiella kunder. För att identifiera om en potentiell kund är rätt lämpad för ytterligare säljsamtal är det viktigt att tilldela demografiska poäng utöver beteendepoängen så att modellen hjälper till att fastställa de bästa leads vad gäller anpassning och avsikt.
 
@@ -231,7 +231,7 @@ Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage
   </tr>
 </table>
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 * Hämta [personbedömningsformuläret](./assets/build-person-scoring-model-and-local-flexibility-in-adobe-marketo-engage.docx){target="_blank} om du vill utveckla din poängmodell offline.
 * Bygg upp din personpoäng i Marketo Engage. Kolla in den här [självstudiekursen](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-watch){target="_blank} och [demon](https://experienceleague.adobe.com/en/docs/events/marketo-and-mochas-recordings/2023/lead-scoring){target="_blank} för att komma igång. Du kan importera ett lead-/personbedömningsprogram [mall](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program){target="_blank} från referensbiblioteket i Marketo Engage för att snabba upp programbygget.

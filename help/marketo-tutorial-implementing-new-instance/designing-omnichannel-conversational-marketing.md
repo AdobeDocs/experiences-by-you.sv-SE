@@ -1,5 +1,5 @@
 ---
-title: Designa flerkanalsmarknadsföring med Dynamic Chat
+title: Design Conversational Marketing för flera kanaler med Dynamic Chat
 description: Kom snabbt igång med att utforma konversationsmarknadsföring med Adobe Dynamic Chat, den inbyggda konversationskanalen i Adobe Marketo Engage. I den här självstudiekursen finns användbara recept som kan användas för att implementera exempel på t.ex. bokning av försäljningsmöten, webbplatsinnehållsengagemang och event/webbinarier-marknadsföring.
 role: Admin
 level: Beginner
@@ -9,7 +9,7 @@ duration: 0
 last-substantial-update: 2024-05-23T00:00:00Z
 jira: KT-14814
 exl-id: 160dfb25-9f54-4dce-a08a-4a8d3c4c5368
-source-git-commit: 80553c5127afda315e97183e0d3b160871352183
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
@@ -33,7 +33,7 @@ När Sara Barriuso implementerade Dynamic Chat ritades hon av den sömlösa inte
 3. Prospekt/kunder: skapa personaliserade upplevelser genom att utöka arbetet med marknadsföringskampanjer.
 
 
-## Viktiga användningsexempel för att börja bygga upp dina dialogrutor
+## Viktiga användningsexempel för att börja skapa dialogrutor
 
 För att genomföra dessa strategier har Sara byggt upp sina Dynamic Chat-dialoger kring följande användningsfall:
 
@@ -191,7 +191,7 @@ Utökat engagemang för kampanjinnehåll - Konfiguration:
 
 >[!ENDTABS]
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 * Kartlägg konversationsflödet i [Stream Designer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} eller ett flödesdiagram offline.
 * Skapa en standarddialogruta för&quot;catch-all&quot; i Dynamic Chat.

@@ -1,5 +1,5 @@
 ---
-title: Planering för en ny implementering i Marketo Engage
+title: Plan för implementering av nya Marketo Engage
 description: Läs mer om den oumbärliga planeringen och det funktionella samarbetet i teamet för att implementera en ny instans i Marketo Engage. I den här självstudiekursen finns exempel på milstolpar, teamengagemang och resursallokeringar för en smidig implementering av Marketo Engage.
 role: Admin
 level: Beginner
@@ -10,14 +10,14 @@ last: substantial-update- 2024-05-01
 jira: KT-14808
 thumbnail: KT-14808.jpeg
 exl-id: 65119abd-6f13-4acc-9e99-09843369ad28
-source-git-commit: e0d0c47eec98b7259363350d331ba69bbcaaa64b
+source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 2%
 
 ---
 
-# Planering för en ny implementering i Marketo Engage
+# Planer för ett nytt genomförande av Marketo Engage
 
 Implementering av en ny instans i Marketo Engage innefattar noggrann planering, samarbete mellan olika team och kontinuerlig optimering. Även om det inte finns något perfekt sätt att implementera en ny instans kan de flesta Marketo Engage-administratörer som gått igenom den komma överens om att planeringen i förväg kommer att göra processen mycket smidigare.
 
@@ -130,7 +130,7 @@ Lyssna på Marketo Engage Champion (2019), Kyle McCormick, om hans introduktions
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428771/?quality=12&learn=on)
 
-## Vad händer nu?
+## Vad kommer härnäst?
 
 Skapa en ny projektplan och tidslinje för implementering. Nedan visas ett exempel på en projekttidslinje med avsnitt för exempel på milstolpar, uppgifter, ansvariga team, deadlines och beroenden. Använd det för att effektivisera implementeringen av Marketo Engage och säkerställa en lyckad utrullning i hela organisationen.
 
