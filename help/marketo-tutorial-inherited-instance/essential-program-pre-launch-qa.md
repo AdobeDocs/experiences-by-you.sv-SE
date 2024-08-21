@@ -11,9 +11,9 @@ jira: KT-13888
 thumbnail: KT-13888.jpeg
 hide: false
 exl-id: c377fe5f-2d77-4fd0-9ac4-5ad65506f582
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: 286b85beb92a2563d9ec57696834a4ba2a205c73
 workflow-type: tm+mt
-source-wordcount: '4903'
+source-wordcount: '4898'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ Det kan finnas objekt som saknas eller inte kan användas när ditt team kör de
 
 ## Vad kommer härnäst?
 
-Klicka [här](/help/marketo-tutorial-inherited-instance/_assets/downloads/[!DNL Adobe]_Marketo_Engage_Inherited_Instance_Program_Prelaunch_QA_Checklist.xlsx) för att hämta den redigerbara checklistan före programstart så att du kan anpassa den. Kom ihåg att detta bör anpassas efter organisationens arbetsflöde. Genom att utveckla en effektiv process för kvalitetssäkring kan ni hållas ansvariga och begränsa kundernas misstag.
+Klicka [här](/help/marketo-tutorial-inherited-instance/_assets/downloads/Adobe_Marketo_Engage_Inherited_Instance_Program_Prelaunch_QA_Checklist.xlsx) om du vill hämta checklistan för att anpassa det redigerbara programmet innan det startas. Kom ihåg att detta bör anpassas efter organisationens arbetsflöde. Genom att utveckla en effektiv process för kvalitetssäkring kan ni hållas ansvariga och begränsa kundernas misstag.
 
 ### Författare
 
