@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: 28036f785b1901088a9b5a04e88f43f031257161
+source-git-commit: b7e6c53ba2f2345e72f5028472d46596e6c41f58
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Välkommen till Adobe [!DNL Marketo Engage]! Att skapa en ny instans är det första steget mot att lyfta upp er digitala marknadsföringsstrategi med automatiserad marknadsföring. Nyckeln till en lyckad [!DNL Marketo Engage]-implementering är dokumentation.
 
-Den här serien&quot;Implementera ett nytt instanstips och -tricks&quot; kommer från Adobe [!DNL Marketo Engage]-Champions som erövrat implementeringen tidigare. Självstudiekursen innehåller stegvis vägledning för nya administratörer som kan hantera implementeringsprojektet på olika sätt och konfigurera tekniska inställningar oberoende av varandra. Selektiva ämnen medföljer även hämtningsbara checklistor och mallar så att du kan anpassa dem efter dina egna behov utan att börja om från början. Låt oss dyka i hur visdom är för dina kollegor!
+Serien Implementera ett nytt instanstips och -tricks kommer från Adobe [!DNL Marketo Engage]-Champions som erövrat implementeringen tidigare. Självstudiekursen innehåller stegvis vägledning för nya administratörer som kan hantera implementeringsprojektet på olika sätt och konfigurera tekniska inställningar oberoende av varandra. Selektiva ämnen medföljer även hämtningsbara checklistor och mallar så att du kan anpassa dem efter dina egna behov utan att börja om från början. Låt oss dyka i hur visdom är för dina kollegor!
 
 ## Ämnen och vad du lär dig
 
