@@ -10,18 +10,18 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: 1205848b1985a99b91f9d4d25e1a79f0df379589
+source-git-commit: dd6b3d2ea080de27e6955d1538a9b29d4fbb281a
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Tips och tricks för implementering av en ny [!DNL Marketo Engage]-instans
 
-Välkommen till Adobe [!DNL Marketo Engage]! Att sätta upp en ny instans är det första steget mot att lyfta upp er digitala marknadsföringsstrategi med automatiserad marknadsföring. Nyckeln till en lyckad [!DNL Marketo Engage]-implementering är dokumentation.
+Välkommen till Adobe [!DNL Marketo Engage]! Att skapa en ny instans är det första steget mot att lyfta upp er digitala marknadsföringsstrategi med automatiserad marknadsföring. Nyckeln till en lyckad [!DNL Marketo Engage]-implementering är dokumentation.
 
-Den här _Implementeringen av nya instanstips och -tricks_-serien är Adobe [!DNL Marketo Engage]-testversioner som har erövrat implementeringen tidigare. Självstudiekursen ger stegvis vägledning för nya administratörer som kan hantera implementeringsprojektet på olika sätt och konfigurera tekniska inställningar oberoende av varandra. Selektiva ämnen medföljer även hämtningsbara checklistor och mallar så att du kan anpassa dem efter dina egna behov utan att börja om från början. Låt oss dyka i dina kollegers visdom!
+Den här serien&quot;Implementera ett nytt instanstips och -tricks&quot; kommer från Adobe [!DNL Marketo Engage]-Champions som erövrat implementeringen tidigare. Självstudiekursen innehåller stegvis vägledning för nya administratörer som kan hantera implementeringsprojektet på olika sätt och konfigurera tekniska inställningar oberoende av varandra. Selektiva ämnen medföljer även hämtningsbara checklistor och mallar så att du kan anpassa dem efter dina egna behov utan att börja om från början. Låt oss dyka i hur visdom är för dina kollegor!
 
 ## Ämnen och vad du lär dig
 
