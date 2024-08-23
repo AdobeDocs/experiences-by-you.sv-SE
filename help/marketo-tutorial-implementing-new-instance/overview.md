@@ -10,7 +10,7 @@ last-substantial-update: 2024-03-01T00:00:00Z
 jira: KT-13204
 thumbnail: KT-13204.jpeg
 exl-id: 58816df0-03d2-4d2f-a11b-8809c51d6e4f
-source-git-commit: dd6b3d2ea080de27e6955d1538a9b29d4fbb281a
+source-git-commit: 28036f785b1901088a9b5a04e88f43f031257161
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -61,3 +61,4 @@ Den här serien&quot;Implementera ett nytt instanstips och -tricks&quot; kommer 
 
 * [Implementera en ny Marketo Engage-instans med checklistor för bästa praxis](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/implementing-a-new-marketo-engage-instance/where-to-start){target="_blank}
   *Varje checklista innehåller värdefulla steg som du kan använda för att hålla reda på konfigurationsförloppet. Använd de hämtningsbara checklistorna för att dokumentera ditt arbete på samma sätt som framtida förekomstgranskningar och användarintroduktioner.*
+
