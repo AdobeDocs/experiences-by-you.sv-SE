@@ -1,16 +1,15 @@
 ---
 user-guide-title: Självstudiekurs - tips och tricks för implementering av en ny [!DNL Marketo Engage] instans
 user-guide-description: Självstudiekurs - tips och tricks för implementering av en ny [!DNL Marketo Engage] instans
-breadcrumb-title: Tips och tricks för implementering av en ny [!DNL Marketo Engage] instans
-breadcrumb-url: /docs/experiences-by-you/experiences-by-you/implementing-new-instance/overview
+breadcrumb-title: Implementera en ny [!DNL Marketo Engage] instans
 index: true
 role: Admin
 level: Beginner
 solution: Marketo Engage
 auto-video-transcripts: true
-source-git-commit: e5e1b9a1b14c24c62fb492c79b8717edf1ba286a
+source-git-commit: 15e031893212a9c6258d1747f9d8d2c888ddfb54
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '93'
 ht-degree: 2%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 2%
 
 + [Översikt över självstudiekurser](./overview.md)
 + [Hantera intressenter för att implementera Marketo Engage](./managing-stakeholder-communications.md)
-+ [Planera för implementeringen av Marketo Engage](./planning-for-new-implementation.md)
++ [Planera er implementering av Marketo Engage](./planning-for-new-implementation.md)
 + [Utveckla interna introduktions- och utbildningsprogram](./internal-training-roadshow.md)
 + [Skapa bedömningsmodell för lead/person](./building-person-scoring-model.md)
 + [Synkronisera fält för interna CRM-anslutningar](./syncing-fields-for-crm-integration.md)
