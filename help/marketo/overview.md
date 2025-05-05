@@ -32,7 +32,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
 <tr>
   <td>
     <a href="/help/marketo/fundamentals/ui-navigation.md">
-      <img alt="Navigera i användargränssnittet för [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3419131?format=jpeg" />
+      <img alt="Navigera i användargränssnittet för [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3450677?format=jpeg&captions=swe" />
     </a>
     <div>
       <a href="/help/marketo/fundamentals/ui-navigation.md">
@@ -45,7 +45,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/marketo/reporting/reporting-and-analytics.md">
-      <img alt="Rapportering och analys" src="https://video.tv.adobe.com/v/3419295?format=jpeg" />
+      <img alt="Rapportering och analys" src="https://video.tv.adobe.com/v/3446424?format=jpeg&captions=swe" />
     </a>
     <div>
       <a href="/help/marketo/reporting/reporting-and-analytics.md">
@@ -58,7 +58,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="E-postprogram" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
+      <img alt="E-postprogram" src="https://video.tv.adobe.com/v/3453371?format=jpeg&captions=swe" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">

@@ -45,7 +45,7 @@ Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar (DX)? Du. De 
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="[!DNL Marketo Engage] E-postprogram" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
+      <img alt="[!DNL Marketo Engage] E-postprogram" src="https://video.tv.adobe.com/v/3453371?format=jpeg&captions=swe" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">

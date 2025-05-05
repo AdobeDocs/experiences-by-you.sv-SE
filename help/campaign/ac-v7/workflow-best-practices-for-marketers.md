@@ -24,4 +24,4 @@ ht-degree: 81%
 
 Arbetsflöden, som är en kraftfull [!DNL Adobe] [!DNL Campaign]-funktion, hjälper dig att hantera kampanjer och enklare nå kunder. Lär dig och tillämpa god praxis för fem viktiga arbetsflöden för marknadsförare från Adam Wilson, Associate Director of Marketing, hos LoyaltyOne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410837?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3448128?quality=12&learn=on&captions=swe){transcript=true}

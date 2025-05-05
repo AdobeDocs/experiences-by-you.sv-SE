@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Lär dig hur du navigerar i avsnittet [!DNL Analytics] och Databas för att hämta olika körklara rapporter i [!DNL Marketo Engage].
 
->[!VIDEO](https://video.tv.adobe.com/v/3419295/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3446424/?learn=on&captions=swe){transcript=true}
 
 ## Ytterligare resurser
 

@@ -27,7 +27,7 @@ Genom att hålla ordning i instansen blir det enkelt för dig och dina kollegor 
 
 ## Organisera en Marketo Engage-instans
 
->[!VIDEO](https://video.tv.adobe.com/v/3421577/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428940/?quality=12&learn=on&captions=swe)
 
 ### Steg 1 - Konfigurera en mappstruktur för att ordna dina program
 

@@ -130,7 +130,7 @@ I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs 
 
 Läs om hur Marketo Engage och Salesforce samarbetar för att synkronisera dina sälj- och marknadsföringsdata.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424719/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453800/?learn=on&captions=swe)
 
 +++**Länkar som används i videon:**
 
@@ -156,7 +156,7 @@ Läs om hur Marketo Engage och Salesforce samarbetar för att synkronisera dina 
 
 Lär dig hur synkroniseringen av Microsoft Dynamics 365 fungerar och konfigurera inställningarna på rätt sätt så att de två systemen kan kommunicera med varandra.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424737/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430212/?learn=on&captions=swe)
 
 +++**Länkar som används i videon:**
 

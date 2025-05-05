@@ -21,4 +21,4 @@ ht-degree: 0%
 
 Upptäck värdefulla insikter från AEM expert Wilson Faure. I den här videon tar han sig in i oumbärliga strategier och tips för att optimera övergången. Få klarhet i vad du ska fokusera på de dagar och veckor som följer efter migreringen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428309/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446603/?learn=on&captions=swe)

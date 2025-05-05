@@ -49,7 +49,7 @@ Låt oss se hur dessa användningsexempel fungerar när Sara visar sin process, 
 
 Den här dialogrutan innehåller fem inledande alternativ där besökare kan välja mellan, vilket skapar en självguidad upplevelse som hjälper dem att hitta den information de behöver utifrån sin personlighet. Till att börja med kanske du vill utforska din inkorg&quot;Kontakta oss&quot; för att identifiera vanliga teman och kategorisera dem i de dialogrutealternativ som gäller för dina webbplatsbesökare. Titta på filmen och följ stegen nedan för att skapa din standarddialogruta med allt-i-ett-innehåll:
 
->[!VIDEO](https://video.tv.adobe.com/v/3429194/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3454851/?learn=on&captions=swe)
 
 >[!BEGINTABS]
 

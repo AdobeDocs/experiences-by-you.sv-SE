@@ -121,7 +121,7 @@ Med de grundläggande beteendemodellerna och de demografiska poängmodellerna so
 
 Föredrar du en videomaterial för den här övningen? Tune in as Marketo Engage Champion Katja Keesom demonstrerar lokal flexibilitet i poängmodellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426914/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457443/?learn=on&captions=swe)
 
 **Steg 1** - Ta aktiviteter och egenskaper från övningar 1 och 2 och fastställ för varje objekt om de varierar beroende på plats eller produktlinje.
 

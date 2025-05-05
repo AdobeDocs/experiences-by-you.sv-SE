@@ -33,7 +33,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
 <tr>
   <td>
     <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">
-      <img alt="De fem populäraste arbetsflödena för marknadsförare" src="https://video.tv.adobe.com/v/3410837?format=jpeg" />
+      <img alt="De fem populäraste arbetsflödena för marknadsförare" src="https://video.tv.adobe.com/v/3448128?format=jpeg&captions=swe" />
     </a>
     <div>
       <a href="/help/campaign/ac-v7/workflow-best-practices-for-marketers.md">

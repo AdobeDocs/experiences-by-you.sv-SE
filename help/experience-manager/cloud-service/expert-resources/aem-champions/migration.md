@@ -22,4 +22,4 @@ ht-degree: 0%
 
 Utforska expertråd och metodtips från er andra AEM-mästare Wilson Faure. I den här videon går han igenom allt krångligt med planering och förberedelser för migrering till AEM as a Cloud Service. Upptäck ovärderliga bästa metoder för viktiga milstolpar i migreringsresan, inklusive att etablera prestandatester och övervinna hinder som kundkodkompatibilitet och hantera externa/interna API:er.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427587/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3445933/?learn=on&captions=swe)

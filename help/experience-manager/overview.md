@@ -58,7 +58,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">
-      <img alt="Tips och tricks" src="https://video.tv.adobe.com/v/3409427?format=jpeg" />
+      <img alt="Tips och tricks" src="https://video.tv.adobe.com/v/3439841?format=jpeg&captions=swe" />
     </a>
     <div>
       <a href="/help/experience-manager/sites/expert-resources/champion-tips-2.md">

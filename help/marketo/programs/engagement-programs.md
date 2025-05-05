@@ -22,7 +22,7 @@ ht-degree: 3%
 
 Följ den här stegvisa självstudiekursen för att skapa ditt första engagemangsprogram.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419374/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3452683/?learn=on&captions=swe){transcript=true}
 
 ## Ytterligare resurser:
 

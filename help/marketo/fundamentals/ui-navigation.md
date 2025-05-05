@@ -22,7 +22,7 @@ ht-degree: 3%
 
 Lär dig navigera i användargränssnittet och bekanta dig med din väg runt plattformen [!DNL Marketo Engage].
 
->[!VIDEO](https://video.tv.adobe.com/v/3419131/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3450677/?learn=on&captions=swe){transcript=true}
 
 ## Ytterligare resurser
 

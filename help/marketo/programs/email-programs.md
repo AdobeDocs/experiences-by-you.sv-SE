@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Titta på den här stegvisa självstudiekursen för att lära dig hur du skapar ett e-postprogram med ett A/B-test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419440/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453371/?learn=on&captions=swe){transcript=true}
 
 
 ## Ytterligare resurser:
