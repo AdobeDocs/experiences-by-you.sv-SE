@@ -60,7 +60,7 @@ Vid första anblicken låter båda de samma... och vid **hit**-nivåsegment/beh�
 
 ![Figur2-DnceVsExclude-Visit](assets/figure2-dnce-vs-exclude-visit.png)
 
-*Precis som ovan utvärderas varje träff i **besök**med samma sant/falskt. Datauppsättningen som returneras är dock den för hela besöket.*
+*Precis som ovan utvärderas varje träff i **besök**&#x200B;med samma sant/falskt. Datauppsättningen som returneras är dock den för hela besöket.*
 
 - För varje träff innehåller&quot;Värde&quot; inte&quot;Exempel&quot; (ja), därför returneras true. På samma sätt innehåller&quot;Exempel&quot; inte&quot;Exempel&quot; (nej, det innehåller det) och returnerar därför false.
    - Om **någon** träffar i besöket returnerar **true** returneras **hela besöket**.*
@@ -76,7 +76,7 @@ Vid första anblicken låter båda de samma... och vid **hit**-nivåsegment/beh�
 
 ![Figur3-DnceVsExclude-Visitor](assets/figure3-dnce-vs-exclude-visitor.png)
 
-*Precis som ovan utvärderas varje träff som görs av **besökaren**med samma sanna/falska logik. Men nu tittar vi på alla träffar som besökaren har gjort i alla besök (inom det valda datumintervallet).*
+*Precis som ovan utvärderas varje träff som görs av **besökaren**&#x200B;med samma sanna/falska logik. Men nu tittar vi på alla träffar som besökaren har gjort i alla besök (inom det valda datumintervallet).*
 
 - För varje träff innehåller&quot;Värde&quot; inte&quot;Exempel&quot; (ja), därför returneras true. På samma sätt innehåller&quot;Exempel&quot; inte&quot;Exempel&quot; (nej, det innehåller det) och returnerar därför false.
    - Om **någon**-träff som gjorts av besökaren returnerar **true** returneras **hela besöket**.

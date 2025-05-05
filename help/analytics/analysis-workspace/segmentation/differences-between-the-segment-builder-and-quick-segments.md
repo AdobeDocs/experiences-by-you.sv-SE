@@ -68,4 +68,4 @@ Adobe Analytics Champion
 
 ## Ladda ned
 
-[![Hämta snabbsegment](assets/quick-segments-download-small.jpg)](resurser/[!DNL Adobe]_[!DNL Analytics]_Segments_Vs_Segment_Builder_Reference_Guide.pdf)
+[![Hämta snabbsegment](assets/quick-segments-download-small.jpg)] (resurser/[!DNL Adobe]_[!DNL Analytics]_&#x200B;Segments_Vs_Segment_Builder_Reference_Guide.pdf)

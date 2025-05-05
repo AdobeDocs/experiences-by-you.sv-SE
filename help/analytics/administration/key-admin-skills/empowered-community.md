@@ -65,7 +65,7 @@ Du kan skapa en kraftfull community inom din organisation. Så här:
 
 ## 3. Använd verktygen för att börja bygga en community
 
-* [Skapa ett projektdiagram](assets/[!DNL Adobe]-[!DNL Analytics]-Empowered-Community-Project-Chart-Template.pptx) (mallhämtning):
+* [Skapa ett projektdiagram] (assets/[!DNL Adobe]-[!DNL Analytics]-Empowered-Community-Project-Chart-Template.pptx) (mallhämtning):
 
   En projektbeskrivning är ofta ett bra sätt att anpassa verksamheten efter möjligheten till en intern, stark community. Genom att svara på följande frågor får du det du behöver för att skriva din stadga:
 

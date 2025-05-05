@@ -60,6 +60,7 @@ I allmänhet är det bästa sättet att bara synkronisera CRM-fält som behövs 
    * Andra kolumnen: Marketo Engage API-namn
    * Tredje kolumnen: [Fälttyp för Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/custom-field-type-glossary){target="_blank"} (t.ex. Boolean, Valuta, Datum)
    * I efterföljande kolumner upprepar du CRM-objekttyperna (Lead, Contact, Account, Opportunity) med en extra kolumn för den åtkomstnivå som du vill att Marketo Engage ska ha (t.ex. Read, Write, Edit)
+
   <br>
 
   Här är ett exempel på hur det skulle se ut:
