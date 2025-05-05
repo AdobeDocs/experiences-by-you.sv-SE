@@ -77,6 +77,6 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Experience Manager-communities](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
-* [Experience Manager-dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
-* [Experience Manager Tutorials](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html)
+* [Experience Manager-dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=sv-SE)
+* [Experience Manager Tutorials](https://experienceleague.adobe.com/docs/experience-manager-learn/aem-tutorials/overview.html?lang=sv-SE)
 * [Experience Manager produktinformation](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)

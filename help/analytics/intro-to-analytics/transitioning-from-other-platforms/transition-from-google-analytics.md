@@ -268,7 +268,7 @@ Jag vill emellertid betona att jag skulle rekommendera att använda både [!DNL 
 
 Du har tillgång till många resurser utöver den här guiden som kan förbättra din strategi:
 
-* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/#home) - Innehåller självstudiekurser, videor, dokumentation och communityforum
+* [[!DNL Adobe] Experience League](https://experienceleague.adobe.com/sv#home) - Innehåller självstudiekurser, videor, dokumentation och communityforum
 * [[!DNL Adobe] Användargrupper](https://analytics-augs.adobe.com/) - Ett nav med communityaktiviteter som hjälper användare att ansluta till varandra och förbättra sina implementeringar.
 * [[!DNL Adobe Analytics] Användargrupper YouTube Channel](https://www.youtube.com/channel/UCQOHnCs7KZgsuFHVzwboQuA) - Kunde inte skapa en [!DNL Adobe Analytics] användargruppsession? Titta på sessioner med tidigare användargrupper över hela världen för att lära dig mer om hur andra använder verktyget.
 * [Mät Chat Slack channel](https://www.measure.chat/) - Anslut till [!DNL Adobe Analytics] användare över hela världen och dela branschinformation, ställ frågor till kollegor och delta i mät intressegrupper.

@@ -28,11 +28,11 @@ Titta på den här stegvisa självstudiekursen för att lära dig hur du skapar 
 ## Ytterligare resurser:
 
 Se produktguiderna för mer information:
-* [Dokumentation om e-postprogram ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/email-programs/creating-an-email-program/understanding-email-programs.html?lang=en)
+* [Dokumentation om e-postprogram ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/email-programs/creating-an-email-program/understanding-email-programs.html?lang=sv-SE)
 
 Titta på ytterligare videofilmer om du vill ha mer hjälp om den här funktionen:
-* [Schemalagd e-postgenomgång](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/scheduled-email-watch.html?lang=en)
-* [AB-testning går igenom](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/ab-testing-watch.html?lang=en)
+* [Schemalagd e-postgenomgång](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/scheduled-email-watch.html?lang=sv-SE)
+* [AB-testning går igenom](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/email-marketing/ab-testing-watch.html?lang=sv-SE)
 
 Lär dig av andra om hur du använder e-postprogram:
 * [Expert customer blog post: Email Programs](https://nation.marketo.com/t5/product-blogs/marketo-success-series-email-programs/ba-p/304968)

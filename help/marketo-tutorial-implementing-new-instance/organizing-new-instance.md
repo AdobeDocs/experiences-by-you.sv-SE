@@ -23,7 +23,7 @@ Som administratör som implementerar en ny instans i Marketo Engage lägger du g
 
 ## Varför är det nödvändigt att strukturera mappar och tillämpa namnkonventioner?
 
-Genom att hålla ordning i instansen blir det enkelt för dig och dina kollegor att hålla reda på kampanjer, program och resurser samt rapportera programresultat. Om du vill ordna navigeringsträdet i instansen och skapa i skala rekommenderar vi att du använder [mappar](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [standardnamnkonventioner](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} och funktioner som [kloning](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
+Genom att hålla ordning i instansen blir det enkelt för dig och dina kollegor att hålla reda på kampanjer, program och resurser samt rapportera programresultat. Om du vill ordna navigeringsträdet i instansen och skapa i skala rekommenderar vi att du använder [mappar](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/understanding-folders){target="_blank"}, [standardnamnkonventioner](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#naming-schemes){target="_blank"} och funktioner som [kloning](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/best-practice-how-to-organize-your-programs#cloning){target="_blank"}.
 
 ## Organisera en Marketo Engage-instans
 
@@ -31,7 +31,7 @@ Genom att hålla ordning i instansen blir det enkelt för dig och dina kollegor 
 
 ### Steg 1 - Konfigurera en mappstruktur för att ordna dina program
 
-Det första steget för att organisera din instans är att [konfigurera en mappstruktur](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html) och lagra ditt program och dina resurser på ett enkelt och ordnat sätt.
+Det första steget för att organisera din instans är att [konfigurera en mappstruktur](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/create-new-campaign-folder.html?lang=sv-SE) och lagra ditt program och dina resurser på ett enkelt och ordnat sätt.
 
 Här följer några snabba tips när du strukturerar mapparna i trädet:
 

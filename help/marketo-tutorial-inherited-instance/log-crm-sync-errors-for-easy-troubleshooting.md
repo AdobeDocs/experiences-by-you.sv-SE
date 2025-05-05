@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Logga CRM-synkroniseringsfel för felsökning
 
-Som [!DNL Marketo Engage]-administratör bör kontrollen av om din instans är synkroniserad med CRM vara en nyckeldel av din [dagliga rutin](https://nation.marketo.com/t5/champion-program-blogs/my-marketo-morning-routine-tips-for-driving-marketing-operation/ba-p/247508){target="_blank"}. Medan avsnittet [Meddelanden](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/notification-types.html){target="_blank"} (finns i det övre högra hörnet av [!DNL Marketo Engage] -gränssnittet) är där du börjar hitta och undersöka vanliga synkroniseringsproblem, finns det ett proffstips som kan hjälpa dig att hantera instansens hälsa på ett organiserat sätt. [!DNL Adobe] Marketo Champion (2019-2022), Amy Goldfine rekommenderar administratörsanvändare att föra en logg över CRM Sync-fel för att underlätta felsökning.
+Som [!DNL Marketo Engage]-administratör bör kontrollen av om din instans är synkroniserad med CRM vara en nyckeldel av din [dagliga rutin](https://nation.marketo.com/t5/champion-program-blogs/my-marketo-morning-routine-tips-for-driving-marketing-operation/ba-p/247508){target="_blank"}. Medan avsnittet [Meddelanden](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/miscellaneous/notification-types.html?lang=sv-SE){target="_blank"} (finns i det övre högra hörnet av [!DNL Marketo Engage] -gränssnittet) är där du börjar hitta och undersöka vanliga synkroniseringsproblem, finns det ett proffstips som kan hjälpa dig att hantera instansens hälsa på ett organiserat sätt. [!DNL Adobe] Marketo Champion (2019-2022), Amy Goldfine rekommenderar administratörsanvändare att föra en logg över CRM Sync-fel för att underlätta felsökning.
 
 ![Skärmbild på fliken Synkroniseringsfel](/help/marketo-tutorial-inherited-instance/_assets/Marketo_Engage_Admin_Salesforce_Sync_Errors_Tab.png)
 
@@ -34,7 +34,7 @@ Innan du börjar hämtar du loggmallen [Synkroniseringsfel i CRM](/help/marketo-
 
 **Steg 1:** Gå till avsnittet *[!UICONTROL Admin]* i [!DNL Marketo Engage]. Under *[!UICONTROL Integration]* klickar du på *[!DNL Salesforce]*, *[!DNL Microsoft Dynamics]* eller *[!DNL Veeva]*, beroende på vilken [!DNL CRM] du använder, och sedan på fliken *[!UICONTROL Sync Errors]*.
 
-**Steg 2:** Du kan välja att [exportera poster med fel som en [!DNL CSV] fil via [!UICONTROL Filter]-panelen](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/salesforce-sync-errors.html#filter-sync-errors){target="_blank"}. Om du bara har några timmar på dig kan du kopiera och klistra in direkt från fliken *[!UICONTROL Sync Errors]*.
+**Steg 2:** Du kan välja att [exportera poster med fel som en [!DNL CSV] fil via [!UICONTROL Filter]-panelen](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/salesforce-sync-errors.html?lang=sv-SE#filter-sync-errors){target="_blank"}. Om du bara har några timmar på dig kan du kopiera och klistra in direkt från fliken *[!UICONTROL Sync Errors]*.
 
 **Steg 3:** Observera datumet då felet inträffade.
 

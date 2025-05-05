@@ -26,7 +26,7 @@ I den här självstudiekursen beskrivs tankeprocessen och de primära användnin
 
 Besökarna kan hitta en anledning till att de surfar på webbplatsen. De kanske söker innehåll på dina produkter eller tjänster eller söker efter kontaktinformation för att tala med dina säljare. De kan också vara era kunder som vill ha mer produktinformation. Med chatt kan era webbplatsbesökare själva serva och självkvalificera sig om de är redo att tala med ert säljteam.
 
-När Sara Barriuso implementerade Dynamic Chat ritades hon av den sömlösa integrationen med Marketo Engage och de [fördefinierade aktivitetsutlösarna](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} som aktiverar Marketo Engage-program och vice versa. Hon utvecklade sina samtalsstrategier med tre målgruppssegment i åtanke:
+När Sara Barriuso implementerade Dynamic Chat ritades hon av den sömlösa integrationen med Marketo Engage och de [fördefinierade aktivitetsutlösarna](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-activities){target="_blank"} som aktiverar Marketo Engage-program och vice versa. Hon utvecklade sina samtalsstrategier med tre målgruppssegment i åtanke:
 
 1. Okända prospects: erbjuder aktivt demonstrationssamtal för att generera nya leads.
 2. Kända leads/kunder: förläng besökarnas tid att surfa på innehåll och erbjuda demonstrationssamtal för att generera merförsäljning och korsförsäljningsmöjligheter.
@@ -193,7 +193,7 @@ Utökat engagemang för kampanjinnehåll - Konfiguration:
 
 ## Vad kommer härnäst?
 
-* Kartlägg konversationsflödet i [Stream Designer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} eller ett flödesdiagram offline.
+* Kartlägg konversationsflödet i [Stream Designer](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/demand-generation/dynamic-chat/automated-chat/stream-designer){target="_blank"} eller ett flödesdiagram offline.
 * Skapa en standarddialogruta för&quot;catch-all&quot; i Dynamic Chat.
 * Aktivera konversationerna efter kampanjengagemang genom att använda automatiseringsutlösare i Marketo Engage.
 

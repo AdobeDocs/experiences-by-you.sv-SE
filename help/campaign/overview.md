@@ -46,7 +46,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
-      <img alt="Felsökning för marknadsförare" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+      <img alt="Felsökning för marknadsförare" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=sv-SE" />
     </a>
     <div>
       <a href="/help/campaign/acs/troubleshooting-for-marketers.md">
@@ -59,7 +59,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/campaign/10-best-practices-for-marketers.md">
-      <img alt="De tio bästa metoderna för att marknadsförare ska lyckas med Adobe Campaign" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png" />
+      <img alt="De tio bästa metoderna för att marknadsförare ska lyckas med Adobe Campaign" src="https://cdn.experienceleague.adobe.com/thumb/docs-campaign.png?lang=sv-SE" />
     </a>
     <div>
       <a href="/help/campaign/10-best-practices-for-marketers.md">
@@ -78,7 +78,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Experience League Adobe Campaign Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* Adobe Campaign v8 - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html)
-* Adobe Campaign Classic v7 - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic.html) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=sv)
-* Adobe Campaign Standard - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard.html) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv)
+* Adobe Campaign v8 - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=sv-SE)
+* Adobe Campaign Classic v7 - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=sv-SE) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=sv)
+* Adobe Campaign Standard - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=sv-SE) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv)
 * [Adobe Campaign produktinformation](https://business.adobe.com/products/campaign/adobe-campaign.html)

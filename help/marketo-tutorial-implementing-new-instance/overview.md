@@ -42,8 +42,8 @@ Serien Implementera ett nytt instanstips och -tricks kommer från Adobe [!DNL Ma
 
 * [Synkroniserar fält för ursprungliga CRM-anslutningar](/help/marketo-tutorial-implementing-new-instance/syncing-fields-for-crm-integration.md)
   *Lär dig hur du kan effektivisera den ursprungliga CRM-integrationen genom att strategiskt välja de nödvändiga CRM-fälten som Marketo Engage ska använda. Utför datamordlisteövningen för att identifiera de fält du behöver för en smidig CRM-synkronisering som hjälper sälj- och marknadsföringsteam att hålla sig uppdaterade.*
-   * [Komma igång med Salesforce-synkronisering](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/salesforce-sync-setup){target="_blank}
-   * [Komma igång med Microsoft Dynamics-synkronisering](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/microsoft-dynamics-sync-setup){target="_blank}
+   * [Komma igång med Salesforce-synkronisering](https://experienceleague.adobe.com/sv/docs/marketo-learn/tutorials/lead-and-data-management/salesforce-sync-setup){target="_blank}
+   * [Komma igång med Microsoft Dynamics-synkronisering](https://experienceleague.adobe.com/sv/docs/marketo-learn/tutorials/lead-and-data-management/microsoft-dynamics-sync-setup){target="_blank}
 <br>
 
 * [Organisera en ny instans och upprätta namnkonventioner](/help/marketo-tutorial-implementing-new-instance/organizing-new-instance.md)
@@ -59,6 +59,6 @@ Serien Implementera ett nytt instanstips och -tricks kommer från Adobe [!DNL Ma
 
 ## Ytterligare resurser
 
-* [Implementera en ny Marketo Engage-instans med checklistor för bästa praxis](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/implementing-a-new-marketo-engage-instance/where-to-start){target="_blank}
+* [Implementera en ny Marketo Engage-instans med checklistor för bästa praxis](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/implementing-a-new-marketo-engage-instance/where-to-start){target="_blank}
   *Varje checklista innehåller värdefulla steg som du kan använda för att hålla reda på konfigurationsförloppet. Använd de hämtningsbara checklistorna för att dokumentera ditt arbete på samma sätt som framtida förekomstgranskningar och användarintroduktioner.*
 

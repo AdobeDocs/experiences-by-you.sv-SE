@@ -27,7 +27,7 @@ Följ den här stegvisa självstudiekursen för att skapa ditt första engageman
 ## Ytterligare resurser:
 
 Se produktguiderna för mer information:
-* [Dokumentation om engagemangsprogram ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/drip-nurturing/creating-an-engagement-program/understanding-engagement-programs.html?lang=en)
+* [Dokumentation om engagemangsprogram ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/drip-nurturing/creating-an-engagement-program/understanding-engagement-programs.html?lang=sv-SE)
 
 Lär er av andra om hur ni använder engagemangsprogram:
 * [Expert Customer Blog post: Engagement Programs](https://nation.marketo.com/t5/product-blogs/marketo-success-series-engagement-programs/ba-p/301712)

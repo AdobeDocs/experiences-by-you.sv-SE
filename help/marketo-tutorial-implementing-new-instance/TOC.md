@@ -26,5 +26,5 @@ ht-degree: 2%
 + [Organisera en ny instans och upprätta namnkonventioner](./organizing-new-instance.md)
 + [Designa flerkanalsmarknadsföring med Dynamic Chat](./designing-omnichannel-conversational-marketing.md)
 + [Kom igång med instansstyrning och dokumentation](./documenting-your-instance.md)
-+ [[!DNL Marketo Engage] självstudiekurser](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=en)
-+ [Tillbaka till perspektiv](https://experienceleague.adobe.com/en/perspectives#f-el_product=Marketo%20Engage&amp;aq=((%40el_contenttype%20NOT%20%22Community%7CUser%22)%20AND%20(%40el_contenttype%3D%22perspective%22)))
++ [[!DNL Marketo Engage] självstudiekurser](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=sv-SE)
++ [Tillbaka till perspektiv](https://experienceleague.adobe.com/sv/perspectives#f-el_product=Marketo%20Engage&amp;aq=((%40el_contenttype%20NOT%20%22Community%7CUser%22)%20AND%20(%40el_contenttype%3D%22perspective%22)))

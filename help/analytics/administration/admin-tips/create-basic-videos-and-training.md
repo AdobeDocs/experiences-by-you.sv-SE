@@ -33,9 +33,9 @@ ht-degree: 0%
 * De fem vanligaste tipsen i [!DNL Adobe Analytics] (t.ex. hur du skapar nedrullningsbara listor)
 * Så här använder du Attribution IQ
 
-Sedan kan ni enkelt hänvisa användarna till dessa istället för att skriva långa e-postmeddelanden eller ha ytterligare ett möte. Fler tips och råd om utbildning av användare finns i artikeln [[!DNL Adobe] Champion Thomas Edward Buckleys](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/key-admin-skills/simplify-training-users.html?lang=en){target="_blank"} om hur man förenklar och spenderar mindre tid på att utbilda användare.
+Sedan kan ni enkelt hänvisa användarna till dessa istället för att skriva långa e-postmeddelanden eller ha ytterligare ett möte. Fler tips och råd om utbildning av användare finns i artikeln [[!DNL Adobe] Champion Thomas Edward Buckleys](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/key-admin-skills/simplify-training-users.html?lang=sv-SE){target="_blank"} om hur man förenklar och spenderar mindre tid på att utbilda användare.
 
-Dessutom finns det en uppsjö (ja, en uppsjö) av [videokurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html){target="_blank"} på [!DNL Adobe] Experience League samt [kostnadsfria kurser](https://experienceleague.adobe.com/?lang=en#dashboard/learning){target="_blank"}. Om ni behöver en video som är specifik för företagets data och nyckeltal för verksamheten, spelar ni in era egna videor på alla sätt. Men om det räcker med en allmän instruktionsvideo finns det ingen anledning att uppfinna hjulet på nytt.
+Dessutom finns det en uppsjö (ja, en uppsjö) av [videokurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=sv-SE){target="_blank"} på [!DNL Adobe] Experience League samt [kostnadsfria kurser](https://experienceleague.adobe.com/sv?lang=en#dashboard/learning){target="_blank"}. Om ni behöver en video som är specifik för företagets data och nyckeltal för verksamheten, spelar ni in era egna videor på alla sätt. Men om det räcker med en allmän instruktionsvideo finns det ingen anledning att uppfinna hjulet på nytt.
 
 ## Författare
 

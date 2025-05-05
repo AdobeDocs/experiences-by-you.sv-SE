@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Om du ärver en aktiv [!DNL Marketo Engage]-instans som har hanterats av flera personer kan du göra mentala anteckningar av allt som verkar vara på fel plats. Det är viktigt att organisera rensnings- och optimeringsarbetet genom att kategorisera uppgifterna och sedan prioritera de uppgifter som går långt.
 
-Den här självstudiekursen Inherited Instance Audit Tips and Tricks, som kommer från [!DNL Adobe] Marketo Champions, ger stegvis vägledning för nya administratörer. Självstudiekursen medföljer [granskningschecklistor](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/inheriting-a-marketo-engage-instance/where-to-start.html) och mallar som du kan använda för att snabbt komma igång med en ärvd instans. Följ med i självstudiekurserna och få inspiration av andras lärande!
+Den här självstudiekursen Inherited Instance Audit Tips and Tricks, som kommer från [!DNL Adobe] Marketo Champions, ger stegvis vägledning för nya administratörer. Självstudiekursen medföljer [granskningschecklistor](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/inheriting-a-marketo-engage-instance/where-to-start.html?lang=sv-SE) och mallar som du kan använda för att snabbt komma igång med en ärvd instans. Följ med i självstudiekurserna och få inspiration av andras lärande!
 
 ## Ämnen och vad du kommer att lära dig
 

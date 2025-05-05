@@ -30,7 +30,7 @@ Detaljerad dokumentation och en [!UICONTROL Changelog] är avgörande för effek
 
 1. Utbilda interna användare enklare på ett skalbart sätt.
 2. Bygg mer effektivt i [!DNL Marketo Engage] på lång sikt.
-3. Behåll hälsa och hygien i instansen genom att gå framåt så att du slipper lägga timmar på att gräva i e-postmeddelanden, [granskningsspår](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html) och [aktivitetsloggar](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html) för att få kontext.
+3. Behåll hälsa och hygien i instansen genom att gå framåt så att du slipper lägga timmar på att gräva i e-postmeddelanden, [granskningsspår](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/audit-trail/audit-trail-overview.html?lang=sv-SE) och [aktivitetsloggar](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person.html?lang=sv-SE) för att få kontext.
 4. Spara tid när du överför [!DNL Marketo Engage]-kunskaper till en ny [!DNL Marketo Engage]-administratör om ditt team upplever någon omsättning.
 
 ## [!DNL Marketo Engage] styrningsguide 101

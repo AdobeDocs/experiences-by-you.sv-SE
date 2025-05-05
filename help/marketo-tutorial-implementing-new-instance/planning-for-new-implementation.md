@@ -38,7 +38,7 @@ I den här självstudiekursen kommer vi att dyka upp i de specifika milstolparna
 
 ### Fas 3 - Skapa programbibliotek och konfigurera kampanjer
 
-- Utveckla e-postmallar och landningssidor. Börja med [att importera startprogram](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) från [Program Import Library](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
+- Utveckla e-postmallar och landningssidor. Börja med [att importera startprogram](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/import-a-program) från [Program Import Library](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/programs/program-library/program-import-library-overview).
 - Konfigurera segmentering och Personalization-regler
 - Skapa initiala kampanjer för leadgenerering och vårdar
 

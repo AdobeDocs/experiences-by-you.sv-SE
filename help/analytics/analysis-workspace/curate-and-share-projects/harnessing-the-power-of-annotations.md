@@ -44,7 +44,7 @@ Att skapa och redigera anteckningar är intuitivt och nästan självförklarande
 ![2ndimage](assets/2ndimage.png){width="70%"}![3rdimage](assets/3rdimage.png){width="30%"}
 
 
-Se [videosjälvstudien på Experience League](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/annotations-in-analysis-workspace) för all information om hur anteckningar fungerar.
+Se [videosjälvstudien på Experience League](https://experienceleague.adobe.com/sv/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/annotations-in-analysis-workspace) för all information om hur anteckningar fungerar.
 
 ## Tips och tricks för att komma igång
 
@@ -75,7 +75,7 @@ Här är slutligen några användbara tips som hjälper dig att börja använda 
 
 ![9thimage](assets/9thimage.png)
 
-Detaljerad dokumentation finns på [Översikt över anteckningar](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/annotations/overview) och omgivande artiklar.
+Detaljerad dokumentation finns på [Översikt över anteckningar](https://experienceleague.adobe.com/sv/docs/analytics/analyze/analysis-workspace/components/annotations/overview) och omgivande artiklar.
 
 ## Upphovsman
 

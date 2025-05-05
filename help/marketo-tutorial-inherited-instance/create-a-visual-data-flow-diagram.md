@@ -26,7 +26,7 @@ Som administratör som tar över en [!DNL Marketo Engage]-instans som har varit 
 
 1. **Bekanta dig med den marknadsföringsteknologi du ärvt från en Live-instans.** Alla marknadsföringsoperationsansvariga/plattformsOperations-hanterare uppmuntras att göra den här övningen när de börjar på ett nytt företag. Med den här processen kan administratörsanvändare se hela bilden av data och aktiviteter som skickas från externa integreringar till [!DNL Marketo Engage] och enkelt felsöka API-felen.
 2. **Bekanta dig med viktiga intressenter som hanterar externa integreringar.** Ett tips som Kelly Jo Horton använder för att snabbt identifiera intressenter är att referera till listan med API-användare.
-   1. **Navigera till fliken Integration>LaunchPoint i avsnittet Admin.** Läs mer om hur du navigerar till fliken LaunchPoint: [Skapa en anpassad tjänst för användning med REST API](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api.html){target="_blank"}.
+   1. **Navigera till fliken Integration>LaunchPoint i avsnittet Admin.** Läs mer om hur du navigerar till fliken LaunchPoint: [Skapa en anpassad tjänst för användning med REST API](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api.html?lang=sv-SE){target="_blank"}.
    2. Sök efter API-användningsstatistik efter API-användare på fliken Integrering > Webbtjänster i API Call Information. Genom att klicka på API-anropsnumret kan du visa de specifika enskilda anrop som görs av varje användare.
 
 ## Hur man gör detta visuella dataflödesdiagram
