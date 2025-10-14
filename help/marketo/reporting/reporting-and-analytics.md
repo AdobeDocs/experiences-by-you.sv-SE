@@ -27,7 +27,7 @@ Lär dig hur du navigerar i avsnittet [!DNL Analytics] och Databas för att häm
 ## Ytterligare resurser
 
 * **Produktdokumentation**
-Läs mer om de olika rapporter du kan hämta - [Rapporteringsöversikt](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=sv-SE&amp;sdid=M7K4SLTS&amp;mv=email&amp;mv2=instreml)
+Läs mer om de olika rapporter du kan hämta - [Rapporteringsöversikt](https://experienceleague.adobe.com/docs/marketo/using/product-docs/reporting/reporting-overview.html?lang=sv-SE&sdid=M7K4SLTS&mv=email&mv2=instreml)
 
 * **Expert customer blog post**
 Lär dig av Champion Chelsea Kiko om hur du skapar olika rapporter - [Rapporter i olika  [!DNL Marketo Engage] Spaces](https://nation.marketo.com/t5/product-blogs/how-marketo-champion-chelsea-kiko-reports-in-various-marketo/ba-p/242627)

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Skapa ett dataflödesdiagram för att förstå er marknadsföringsteknologi
 
-Som administratör som tar över en [!DNL Marketo Engage]-instans som har varit aktiv i flera år, är det som en uppgift som är omöjlig att granska och rensa instansen effektivt. När Kelly Jo Horton, [!DNL Adobe] [!DNL Marketo Champion] (2019) gick in i en väletablerad instans tog hon sig an den här utmaningen genom att [skapa ett diagram över&quot;Lead and data sources&quot; ](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} för att bekanta sig med datavohela. I den här självstudiekursen får du lära dig hur du skapar ett eget dataflödesdiagram genom att bygga vidare på de exempel som Kelly Jo Horton har delat. Lär känna ditt MarTech-ekosystem!
+Som administratör som tar över en [!DNL Marketo Engage]-instans som har varit aktiv i flera år, är det som en uppgift som är omöjlig att granska och rensa instansen effektivt. När Kelly Jo Horton, [!DNL Adobe] [!DNL Marketo Champion] (2019) gick in i en väletablerad instans tog hon sig an den här utmaningen genom att [skapa ett diagram över&quot;Lead and data sources&quot; &#x200B;](https://nation.marketo.com/t5/employee-blogs/understand-your-marketing-technology-and-data-create-this/ba-p/296774){target="_blank"} för att bekanta sig med datavohela. I den här självstudiekursen får du lära dig hur du skapar ett eget dataflödesdiagram genom att bygga vidare på de exempel som Kelly Jo Horton har delat. Lär känna ditt MarTech-ekosystem!
 
 ## Varför skapa ett arkitekturdiagram för den ärvda instansen?
 
