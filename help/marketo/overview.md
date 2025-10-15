@@ -79,4 +79,4 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
 * [Marketo Nation (communities)](https://nation.marketo.com/)
 * [Adobe Marketo Engage-dokumentation](https://experienceleague.adobe.com/docs/marketo-engage.html?lang=sv-SE)
 * [Adobe Marketo Engage Tutorials](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=sv-SE)
-* [Adobe Marketo Engage produktinformation](https://business.adobe.com/products/marketo/adobe-marketo.html)
+* [Adobe Marketo Engage produktinformation](https://business.adobe.com/se/products/marketo/adobe-marketo.html)

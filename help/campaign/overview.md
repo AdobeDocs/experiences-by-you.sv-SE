@@ -81,4 +81,4 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
 * Adobe Campaign v8 - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=sv) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=sv-SE)
 * Adobe Campaign Classic v7 - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=sv-SE) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=sv)
 * Adobe Campaign Standard - [Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=sv-SE) / [Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=sv)
-* [Adobe Campaign produktinformation](https://business.adobe.com/products/campaign/adobe-campaign.html)
+* [Adobe Campaign produktinformation](https://business.adobe.com/se/products/campaign/adobe-campaign.html)

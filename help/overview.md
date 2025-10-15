@@ -78,5 +78,5 @@ Det mest kraftfulla med [!DNL Adobe] digitala upplevelselösningar (DX)? Du. De 
 * [Experience League-communities](https://experienceleaguecommunities.adobe.com/)
 * [Experience Cloud-dokumentation](https://experienceleague.adobe.com/docs/?lang=sv-SE)
 * [Experience Cloud Tutorials](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=sv-SE)
-* [business.adobe.com](https://business.adobe.com)
+* [business.adobe.com](https://business.adobe.com/se)
 

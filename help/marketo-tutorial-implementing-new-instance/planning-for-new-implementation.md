@@ -294,7 +294,7 @@ Du kan också hämta exemplet för redigering och spårning av specifika milstol
 >[!NOTE]
 >De exempel som anges är inte baserade på en riktig implementeringstidslinje. Förlita dig inte på dessa som en standardtidslinje för att komma igång med Marketo Engage, eftersom varje implementering är unik med olika milstolpar och krav beroende på organisationens behov.
 
-Om du behöver handhjälp med att implementera och anpassa Marketo Engage för din instans kontaktar du kontogruppen på Adobe eller kontaktar [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}.
+Om du behöver handhjälp med att implementera och anpassa Marketo Engage för din instans kontaktar du kontogruppen på Adobe eller kontaktar [Adobe Professional Services](https://business.adobe.com/se/customers/consulting-services/main.html){target="_blank"}.
 
 ### Upphovsman
 
