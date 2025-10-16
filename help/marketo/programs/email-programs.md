@@ -29,7 +29,7 @@ Titta på den här stegvisa självstudiekursen för att lära dig hur du skapar 
 
 Se produktguiderna för mer information:
 
-* [Dokumentation om e-postprogram ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/email-programs/creating-an-email-program/understanding-email-programs.html?lang=en)
+* [Dokumentation om e-postprogram &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/email-programs/creating-an-email-program/understanding-email-programs.html?lang=en)
 
 Titta på ytterligare videofilmer om du vill ha mer hjälp om den här funktionen:
 

@@ -83,7 +83,7 @@ Det finns två sätt att lösa det här felet:
 
 2. Använd exkluderingsmetoden JOINS för att välja det fält som du vill exkludera posterna från.
 
-![Allmänt fel i fältdatauppsättning - Lösning ](/help/_assets/kt-13256/dataset-error-solution.png)
+![Allmänt fel i fältdatauppsättning - Lösning &#x200B;](/help/_assets/kt-13256/dataset-error-solution.png)
 
 ## Ignorerat fältnamn
 
@@ -116,7 +116,7 @@ Du kan lösa det här felet på tre sätt:
 **Orsak:**
 Detta är ett vanligt fel i komplicerade arbetsflöden som innefattar anrikning eller annan aktivitet. Det betyder antagligen att vissa aktivitetsarbetsflöden inte sparas korrekt vid flera ändringar av arbetsflödet.
 
-![Temporärt tabellsläppt fel ](/help/_assets/kt-13256/temp-table-dropped-error.png)
+![Temporärt tabellsläppt fel &#x200B;](/help/_assets/kt-13256/temp-table-dropped-error.png)
 
 **Lösning:**
 Det finns många sätt att åtgärda det här felet, så det finns ingen enkel korrigering. Om det är ett enkelt arbetsflöde är det bättre att konfigurera om aktiviteten. I ett komplicerat arbetsflöde är det bättre att kopiera arbetsflödesaktiviteterna till ett nytt arbetsflöde, spara och köra om dem.
