@@ -58,7 +58,7 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Skapa standardiserade namnkonventioner" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
+      <img alt="Skapa standardiserade namnkonventioner" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg?lang=sv-SE" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
@@ -77,6 +77,6 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Experience League Adobe Analytics Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Adobe Analytics-dokumentation](https://experienceleague.adobe.com/docs/analytics.html)
-* [Adobe Analytics självstudiekurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)
-* [Adobe Analytics produktinformation](https://business.adobe.com/products/analytics/adobe-analytics.html)
+* [Adobe Analytics-dokumentation](https://experienceleague.adobe.com/docs/analytics.html?lang=sv-SE)
+* [Adobe Analytics självstudiekurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=sv-SE)
+* [Adobe Analytics produktinformation](https://business.adobe.com/se/products/analytics/adobe-analytics.html)

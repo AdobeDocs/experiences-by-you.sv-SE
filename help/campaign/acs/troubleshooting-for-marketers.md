@@ -59,7 +59,7 @@ Se skärmbilden för avstämningsaktiviteten som visas nedan.
 
 ![arbetsflöde med avstämningsdetaljer](/help/_assets/kt-13256/del-persn-error-wf-solution.png)
 
-Läs mer om [avstämning](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=en).
+Läs mer om [avstämning](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=sv-SE).
 
 ## Fel i datamängd för gemensamt fält
 
