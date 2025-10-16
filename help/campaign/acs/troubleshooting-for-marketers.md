@@ -11,7 +11,7 @@ last-substantial-update: 2023-05-18T00:00:00Z
 jira: KT-13256
 thumbnail: KT-13256.jpeg
 exl-id: 1f27e284-73e3-4f28-988e-51163775eec8
-source-git-commit: 02e3a6dfa59df45113242bd8e874e18e9e1efd58
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Av: [Suraj Patra](https://www.linkedin.com/in/suraj-p-51612053/){target="_blank"}, Senior Consultant, Meijer
 
-Som Senior Engineer och Customer Expert på [!DNL Adobe] Experience Cloud-produkter de senaste fem åren ger jag företagsanvändare på [Meijer](https://www.meijer.com/){target="_blank"}, en amerikansk supercenter som grundades 1934, möjlighet att köra komplexa marknadsförings- och transaktionskampanjer med ACS. Några projekt som jag har arbetat med är anpassade kampanjer för att lagra erbjudanden och beställningsinformation för personalisering, integrerade med [!DNL Adobe] Audience Manager, och kundinsikter för segmentförtäring.
+Som Senior Engineer och Customer Expert på [!DNL Adobe] Experience Cloud-produkter de senaste fem åren ger jag företagsanvändare på [Meijer](https://www.meijer.com/){target="_blank"}, en amerikansk supercenterkedja som grundades 1934, möjlighet att köra komplexa marknadsförings- och transaktionskampanjer med ACS. Några projekt som jag har arbetat med är anpassade kampanjer för att lagra erbjudanden och beställningsinformation för personalisering, integrerade med [!DNL Adobe] Audience Manager, och kundinsikter för segmentförtäring.
 
 Under min tid med ACS har jag råkat ut för fel som kan vara tidskrävande och frustrerande att lösa. Att veta de vanligaste felen kan bidra till snabbare problemlösning och öka produktiviteten. Här nedan hittar jag felsökningstips som hjälper dig att effektivt åtgärda liknande fel som de inträffar.
 
@@ -59,16 +59,17 @@ Se skärmbilden för avstämningsaktiviteten som visas nedan.
 
 ![arbetsflöde med avstämningsdetaljer](/help/_assets/kt-13256/del-persn-error-wf-solution.png)
 
-Läs mer om [avstämning](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=sv-SE).
+Läs mer om [avstämning](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/data-management-activities/reconciliation.html?lang=en).
 
 ## Fel i datamängd för gemensamt fält
 
 **Felkod:**
-`The document types of inbound events (''and'') are incompatible (step 'Exclusion'). Unable to perform the operation. `
+
+`The document types of inbound events (''and'') are incompatible (step 'Exclusion'). Unable to perform the operation.`
 
 **Orsak:**
-Problemet inträffar när **exkluderingsaktiviteten** används i ACS-arbetsflöden, när en exkludering baserat på ID:t utförs, när den primära uppsättningen och den exkluderade uppsättningen inte har samma fältnamn.
 
+Det här problemet inträffar när **exkluderingsaktiviteten** används i ACS-arbetsflöden, när en exkludering baserat på ID:t utförs, när den primära uppsättningen och den exkluderade uppsättningen inte har samma fältnamn.
 
 ![Fel i datauppsättning för vanligt fält](/help/_assets/kt-13256/dataset-error.png)
 
@@ -82,7 +83,7 @@ Det finns två sätt att lösa det här felet:
 
 2. Använd exkluderingsmetoden JOINS för att välja det fält som du vill exkludera posterna från.
 
-![Allmänt fel i fältdatauppsättning - Lösning &#x200B;](/help/_assets/kt-13256/dataset-error-solution.png)
+![Allmänt fel i fältdatauppsättning - Lösning ](/help/_assets/kt-13256/dataset-error-solution.png)
 
 ## Ignorerat fältnamn
 
@@ -95,7 +96,7 @@ Felpunkter kan förekomma i en **anrikningsaktivitet**. En av de vanligaste visa
 
 ![Fältnamn utelämnade fel](/help/_assets/kt-13256/field-name-dropped-error.png)
 
-Det här händer när du redigerar ett uttrycksnamn i aktiviteten manuellt. Bilden visar att uttrycket har ändrats från `name ` till `i__name`.
+Det här händer när du redigerar ett uttrycksnamn i aktiviteten manuellt. Bilden visar att uttrycket har ändrats från `name` till `i__name`.
 
 **Lösning:**
 
@@ -115,7 +116,7 @@ Du kan lösa det här felet på tre sätt:
 **Orsak:**
 Detta är ett vanligt fel i komplicerade arbetsflöden som innefattar anrikning eller annan aktivitet. Det betyder antagligen att vissa aktivitetsarbetsflöden inte sparas korrekt vid flera ändringar av arbetsflödet.
 
-![Temporärt tabellsläppt fel &#x200B;](/help/_assets/kt-13256/temp-table-dropped-error.png)
+![Temporärt tabellsläppt fel ](/help/_assets/kt-13256/temp-table-dropped-error.png)
 
 **Lösning:**
 Det finns många sätt att åtgärda det här felet, så det finns ingen enkel korrigering. Om det är ett enkelt arbetsflöde är det bättre att konfigurera om aktiviteten. I ett komplicerat arbetsflöde är det bättre att kopiera arbetsflödesaktiviteterna till ett nytt arbetsflöde, spara och köra om dem.

@@ -1,12 +1,12 @@
 ---
 title: Marketo av dig
 description: Marketo by You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar med sina kunskaper om Adobe Marketo.
-role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
+role: User, Developer, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Marketo Engage
 exl-id: 5145c189-cc92-4472-bf99-981b43c2c5ba
-source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 16%
@@ -32,7 +32,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
 <tr>
   <td>
     <a href="/help/marketo/fundamentals/ui-navigation.md">
-      <img alt="Navigera i användargränssnittet för [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3450677?format=jpeg&captions=swe" />
+      <img alt="Navigera i användargränssnittet för [!DNL Marketo Engage]" src="https://video.tv.adobe.com/v/3419131?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/fundamentals/ui-navigation.md">
@@ -45,7 +45,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/marketo/reporting/reporting-and-analytics.md">
-      <img alt="Rapportering och analys" src="https://video.tv.adobe.com/v/3446424?format=jpeg&captions=swe" />
+      <img alt="Rapportering och analys" src="https://video.tv.adobe.com/v/3419295?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/reporting/reporting-and-analytics.md">
@@ -58,7 +58,7 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/marketo/programs/email-programs.md">
-      <img alt="E-postprogram" src="https://video.tv.adobe.com/v/3453371?format=jpeg&captions=swe" />
+      <img alt="E-postprogram" src="https://video.tv.adobe.com/v/3419440?format=jpeg" />
     </a>
     <div>
       <a href="/help/marketo/programs/email-programs.md">
@@ -77,6 +77,6 @@ Det mest kraftfulla med [!DNL Adobe] Experience Cloud-lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Marketo Nation (communities)](https://nation.marketo.com/)
-* [Adobe Marketo Engage-dokumentation](https://experienceleague.adobe.com/docs/marketo-engage.html?lang=sv-SE)
-* [Adobe Marketo Engage Tutorials](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=sv-SE)
-* [Adobe Marketo Engage produktinformation](https://business.adobe.com/se/products/marketo/adobe-marketo.html)
+* [Adobe Marketo Engage-dokumentation](https://experienceleague.adobe.com/docs/marketo-engage.html)
+* [Adobe Marketo Engage-självstudiekurser](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)
+* [Adobe Marketo Engage produktinformation](https://business.adobe.com/products/marketo/adobe-marketo.html)

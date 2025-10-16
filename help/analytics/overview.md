@@ -1,12 +1,12 @@
 ---
 title: Analytics av dig
 description: Analytics by You innehåller användargenererat innehåll som skapats av användare som har uppnått en viss kunskapsnivå och som påverkar med sina kunskaper om Adobe Analytics.
-role: User, Developer, Data Engineer, Architect, Data Architect, Admin, Leader
+role: User, Developer, Admin, Leader
 level: Beginner
 doc-type: overview
 solution: Analytics
 exl-id: a8dd4631-950b-4504-9af7-7953165ef175
-source-git-commit: d8dff20274341594e7b00ee36671e3d5dd6a67ba
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 18%
@@ -58,7 +58,7 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
   </td>
   <td>
     <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
-      <img alt="Skapa standardiserade namnkonventioner" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg?lang=sv-SE" />
+      <img alt="Skapa standardiserade namnkonventioner" src="https://cdn.experienceleague.adobe.com/thumb/10531.jpg" />
     </a>
     <div>
       <a href="/help/analytics/administration/admin-tips/create-standardized-naming-conventions.md">
@@ -77,6 +77,6 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
 ## Ytterligare resurser
 
 * [Experience League Adobe Analytics Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Adobe Analytics-dokumentation](https://experienceleague.adobe.com/docs/analytics.html?lang=sv-SE)
-* [Adobe Analytics självstudiekurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=sv-SE)
-* [Adobe Analytics produktinformation](https://business.adobe.com/se/products/analytics/adobe-analytics.html)
+* [Adobe Analytics-dokumentation](https://experienceleague.adobe.com/docs/analytics.html)
+* [Adobe Analytics självstudiekurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)
+* [Adobe Analytics produktinformation](https://business.adobe.com/products/analytics/adobe-analytics.html)

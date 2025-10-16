@@ -11,7 +11,7 @@ doc-type: article
 thumbnail: 10530.jpg
 kt: 10530
 exl-id: 42679c86-e08f-4dda-8e47-f9880409bad6
-source-git-commit: 058d26bd99ab060df3633fb32f1232f534881ca4
+source-git-commit: cae626cb3958ebcda16ac30b0a487ebfe06d50f4
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **VAD:** Ett dokument med affärskrav (kallas ofta BRD) är en mycket viktig dokumentation som viktiga intressenter, affärsanvändare och teknikanvändare kommer att vilja samarbeta med. Här kan du dokumentera alla dina önskade KPI:er, rapporteringskrav och alla datapunkter som du vill se när implementeringen av [!DNL Adobe Analytics] (AA) är klar.
 
-**VARFÖR:** Detta fungerar som en brytpunkt för den dokumentation som följer (SDR, teknisk specifikation osv.) och är en gemensam sanningskälla för en överenskommen slutstat i AA. I det här dokumentet ordnas tankar mellan olika team i organisationen i en och samma riktning för att komma vidare med att bygga ut eller förbättra implementeringen.
+**VARFÖR:** Detta fungerar som en brytpunkt för den dokumentation som följer (SDR, teknisk specifikation osv.) och är en gemensam sanningskälla för ett överenskommet sluttillstånd för AA. I det här dokumentet ordnas tankar mellan olika team i organisationen i en och samma riktning för att komma vidare med att bygga ut eller förbättra implementeringen.
 
 **HUR:** Att dokumentera affärskraven görs vanligtvis av AAA:s slutanvändare, men det är viktigt att få feedback från teknikanvändare eftersom det kan finnas tekniska problem att notera, och vissa datapunkter kan kräva mer arbete än andra, vilket prioriterar.
 
@@ -34,7 +34,7 @@ Fråga dig själv:&quot;vad det är vi vill spåra på vår webbplats&quot;,&quo
 
 Börja med att fylla i kolumn C i skärmbilden nedan (affärskrav). Det ska vara som&quot;Hur många interna sökningar som görs på vår webbplats&quot; eller&quot;Vilken intern kampanjplats är mest effektiv när det gäller visningar&quot;. När du har fyllt i den här detaljnivån kan du gå tillbaka och fylla i kolumn B (Kategori) och gruppera kraven i kategorier som &quot;Sök&quot; eller &quot;Intern kampanj&quot;, som passar bra ihop med tekniska specifikationer.
 
-Du kan även ange om du tänker använda en eVar, händelse, prop eller kombination för att uppnå det du vill spåra.
+Du kan också ange om du tänker använda en eVar, event, prop eller kombination för att uppnå det du vill spåra.
 
 Slutligen fungerar kolumnen Implementeringsstatus som en statuskontroll när du börjar lägga till saker på webbplatsen.
 
@@ -46,11 +46,12 @@ Slutligen fungerar kolumnen Implementeringsstatus som en statuskontroll när du 
 
 **VARFÖR:** Det här dokumentet har många syften, men det viktigaste är följande:
 
-* För alla som är nyanställda i er implementering (nyanställd, företagsägare som vill få en bättre förståelse för tillgängliga rapporter osv.) det här dokumentet ger den bästa bilden av alla variabler som implementerats och vad de är avsedda för så att individer kan vara självbetjänade när det gäller att lära sig din AA-konfiguration.
+* För alla som är nyanställda i er implementering (nyanställd, företagsägare som vill förstå tillgängliga rapporter osv.) ger det här dokumentet den bästa bilden av alla variabler som implementerats och vad de är avsedda för så att individer kan vara självbetjänade när det gäller att lära sig din AA-konfiguration.
 * För produktägaren/teknikanvändaren fungerar det här dokumentet som en påminnelse om hur andra variabler ställs in och vilka variabler som är tillgängliga för användning när en ny dimension läggs till.
 
 **HUR:** Börja med att lista alla [!DNL Adobe] variabler som inte finns med i kartongen (sida, produkt, geo osv.) samt eVars-, props-, events- och listvariabler i ett Excel-dokument. Detta bör ha en flik per webbplats/rapportserie.
 För var och en av dessa dimensioner lägger jag till följande kolumner:
+
 * **Namn:** Ange ett enkelt och kort namn som kan förstås av de flesta. Detta bör vara tillräckligt intuitivt så att en ny användare kan hämta det och förstå vad variabeln är avsedd att fånga.
 * **Beskrivning:** Mer information om vad variabeln används för och vilka data den spårar. Jag håller det här kort och enkelt och ser till att det matchar beskrivningen som används i gränssnittet. Helst vill jag inte att mina användare någonsin ska behöva läsa taggningsdokumentet. När en ny dimension har ställts in på administratörens serverdel lägger jag till samma beskrivning där. På så sätt kan användaren klicka på informationsikonen direkt i Workspace för att förstå vad en dimension är - du behöver inte ta fram ett Excel-dokument!
 
@@ -70,7 +71,7 @@ Vi rekommenderar även att du använder det här taggningsdokumentet för att h�
    * Om dimensionen har skräppostvärden de senaste 90 dagarna tas den bort
    * Om dimensionen är fri och tydlig under åtminstone de senaste 90 dagarna är den &#39;fri&#39;
    * Markera dem som så under Namn i taggningsdokumentet, så att du enkelt kan filtrera efter dem. Jag håller dessa omarkerade i taggningsdokumentet (Excel-datafilter) så att användarna inte kan se dem
-   * Markera dessa som eVar-namn i gränssnittet så att användare inte hittar dem i en sökning (d.v.s. &#39;(v6)&#39;) och ta bort beskrivningen i gränssnittet
+   * Markera dessa som eVar-namn i gränssnittet så att användarna inte hittar dem i en sökning (d.v.s. &#39;(v6)&#39;) och ta bort beskrivningen i gränssnittet
 * När en ny dimension behövs kan du enkelt filtrera efter &quot;gratis&quot; i kolumnen &quot;Namn&quot; för att hitta en ren dimension att använda
 * För de dimensioner och händelser som tas bort rekommenderar jag att du håller reda på dem med Workspace:
    * Skapa ett projekt som bara är synligt för administratörer med tre tabeller: eVars, props och events. Jag använder &#39;instanser&#39; för de specifika eVars, och för props skapar jag HIT-segment med &#39;prop5 exists&#39;.
@@ -90,10 +91,11 @@ På det här sättet är era data alltid rena och ni har en tydlig uppfattning o
 
 **HUR:** Identifiera en ägare av dokumentet för att tillhandahålla styrning och en enda ansvarskälla för att hantera uppdateringar.
 Visa följande på fliken Egenskaper:
+
 * **Egenskapsnamn:** Det kan vara en domän, underdomän, appnamn osv. Även inom samma domän, om vissa delar av den hanteras separat (som av ett annat team eller en annan teknik), bör dessa delar separeras.
 * **Länk (URL)** till egenskap där den är tillgänglig
 * **Ägare och kontakter:** Ange huvudägare eller huvudkontakter för egenskapen
-* **Taggmetod:** Många av oss har olika kodmetoder och implementeringar (Launch, JS-filer, AEP, osv.). Du kan dela upp detta ytterligare om det behövs (t.ex. via kodversion eller tagghanteringssystem), men det är avsett att hålla reda på alla olika kodmetoder och -versioner, där koden behöver uppdateras och hur den behöver underhållas. Om du använder [!DNL Adobe] Launch anger du namnet på Launch-egenskapen.
+* **Taggmetod:** Många av oss har olika kodmetoder och implementeringar (Launch, JS-filer, AEP osv.). Du kan dela upp detta ytterligare om det behövs (t.ex. via kodversion eller tagghanteringssystem), men det är avsett att hålla reda på alla olika kodmetoder och -versioner, där koden behöver uppdateras och hur den behöver underhållas. Om du använder [!DNL Adobe] Launch anger du namnet på Launch-egenskapen.
 
 Kom ihåg att ta med alla digitala egenskaper, även om de inte är taggade med [!DNL Adobe Analytics]. Detta hjälper er att förstå det digitala landskapet och hur era användare interagerar med alla era resurser.
 
@@ -103,7 +105,7 @@ Vi rekommenderar att du håller det här dokumentet så enkelt som möjligt och 
 >
 >Skapa en webbplatsnamn/egenskapsdimension i [!DNL Adobe Analytics]. Om du har en dedikerad dimension (vanligtvis en eVar) i [!DNL Adobe Analytics] som identifierar platsnamnet/appnamnet kan du segmentera, felsöka, skapa virtuella rapportsviter osv. Fördelarna är oändliga, särskilt när du kombinerar flera webbplatser i en (global) rapportserie. Nyckeln är att se till att utvecklingsgruppen alltid anger det här värdet i egenskapsdimensionen, inklusive alla sidinläsningar (s.t-anrop/trackState) och alla anpassade händelser (s.tl-anrop/trackAction). Bearbetningsregler kan vara ett värdefullt verktyg som hjälper dig att ange dessa värden på ett korrekt och konsekvent sätt.
 
-[Titta på den här videon av Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=sv-SE){target="_blank"} om du vill ha mer information om hur du fyller i implementeringens spelningsbok.
+[Titta på den här videon av Doug Moore](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html){target="_blank"} om du vill ha mer information om hur du fyller i implementeringens spelningsbok.
 
 ## Författare
 
