@@ -76,7 +76,7 @@ Det mest kraftfulla med [!DNL Adobe Experience Cloud] lösningar? Du. De använd
 
 ## Ytterligare resurser
 
-* [Experience League Adobe Analytics Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Experience League Adobe Analytics Community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=sv)
 * [Adobe Analytics-dokumentation](https://experienceleague.adobe.com/docs/analytics.html?lang=sv-SE)
 * [Adobe Analytics självstudiekurser](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=sv-SE)
 * [Adobe Analytics produktinformation](https://business.adobe.com/se/products/analytics/adobe-analytics.html)
