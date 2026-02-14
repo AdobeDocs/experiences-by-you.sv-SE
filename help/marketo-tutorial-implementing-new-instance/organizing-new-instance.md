@@ -182,7 +182,7 @@ Med dessa tips kommer vi att använda för följande resurser och skapa formler 
 
 * Hämta kalkylbladet: [Marketo Engage organisations- och namnkonventioner](./assets/adobe-marketo-engage-organization-and-naming-conventions.xlsx){target="_blank"} som stöder skapandet av mappstrukturen och namnkonventioner.
 * När du har hittat de nödvändiga komponenterna i den vanliga namnkonventionen bör du överväga att skapa formler i en Google-mall eller i Microsoft Excel. För framtida bruk behöver du bara ange dina värden i kalkylbladet för att generera programnamnen.
-* När ni väl har anpassat er efter en övergripande mappstruktur är det dags att fundera igenom de mallar ni behöver utifrån de vanligaste användningsfallen och de vanligaste förfrågningarna som teamet får. Börja sedan att skapa din första programmall. Läs vidare för att komma igång med [Adobe Marketo Engage-programmallar](https://business.adobe.com/blog/how-to/get-started-with-marketo-engage-program-templates){target="_blank"}.
+* När ni väl har anpassat er efter en övergripande mappstruktur är det dags att fundera igenom de mallar ni behöver utifrån de vanligaste användningsfallen och de vanligaste förfrågningarna som teamet får. Börja sedan att skapa din första programmall. Läs vidare för att komma igång med [Adobe Marketo Engage-programmallar](https://business.adobe.com/se/blog/how-to/get-started-with-marketo-engage-program-templates){target="_blank"}.
 
 ### Författare
 

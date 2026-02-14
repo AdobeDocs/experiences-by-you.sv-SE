@@ -68,7 +68,7 @@ Vägled din styrnings- och dokumentationsplan genom att börja med exempelbilden
    * Personens livscykel
    * Datahantering
 1. Bygger i instansen Marketo Engage
-   * [Center of Excellence (COE)](https://business.adobe.com/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target="_blank}
+   * [Center of Excellence (COE)](https://business.adobe.com/se/blog/perspectives/center-of-excellence-top-10-questions-to-ask-yourself){target="_blank}
    * Mappstruktur
    * Namnkonventioner
    * Programorganisation
